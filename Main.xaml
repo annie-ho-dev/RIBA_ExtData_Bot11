@@ -8,7 +8,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>792.8,1656</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>819.2,1656</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="36">
@@ -51,7 +51,7 @@
     </scg:List>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
-    <scg:List x:TypeArguments="AssemblyReference" Capacity="26">
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="52">
       <AssemblyReference>System.Activities</AssemblyReference>
       <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
       <AssemblyReference>mscorlib</AssemblyReference>
@@ -78,6 +78,7 @@
       <AssemblyReference>UiPath.Azure.Activities</AssemblyReference>
       <AssemblyReference>System.Memory</AssemblyReference>
       <AssemblyReference>System.Data.Entity</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
   <sap:WorkflowViewStateService.ViewState>
@@ -615,7 +616,7 @@
                       <av:PointCollection x:Key="ConnectorLocation">130,444.4 130,465.6</av:PointCollection>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <Sequence DisplayName="Table 1" sap:VirtualizedContainerService.HintSize="561.6,2728" sap2010:WorkflowViewState.IdRef="Sequence_104">
+                  <Sequence DisplayName="Table 1" sap:VirtualizedContainerService.HintSize="200,68.8" sap2010:WorkflowViewState.IdRef="Sequence_104">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -738,10 +739,10 @@
                             </Catch>
                           </TryCatch.Catches>
                         </TryCatch>
-                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="436.8,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_37" Level="Info" Message="[&quot;Completed Transformation of data.&quot;]" />
+                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="436.8,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_37" Level="Info" Message="[&quot;Completed Transformation of Table 1&quot;]" />
                       </Sequence>
                     </Sequence>
-                    <Sequence sap2010:Annotation.AnnotationText="The isequence exports the transformed datatable and saves it in the relevant location. " DisplayName="Save Output File- Table 1" sap:VirtualizedContainerService.HintSize="520,144.8" sap2010:WorkflowViewState.IdRef="Sequence_112">
+                    <Sequence sap2010:Annotation.AnnotationText="The isequence exports the transformed datatable and saves it in the relevant location. " DisplayName="Save Output File- Table 1" sap:VirtualizedContainerService.HintSize="478.4,1156" sap2010:WorkflowViewState.IdRef="Sequence_112">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -779,7 +780,7 @@
                           </Catch>
                         </TryCatch.Catches>
                       </TryCatch>
-                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="436.8,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_39" Level="Info" Message="[&quot;Completed export of Transformed datatable to Transformed .csv (&quot; + str_FilePath_TransformedData.ToString.Trim + &quot;).&quot;]" />
+                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="436.8,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_39" Level="Info" Message="[&quot;Completed export of Table 1 Transformed to Transformed .csv (&quot; + str_FilePath_TransformedData.ToString.Trim + &quot;).&quot;]" />
                     </Sequence>
                   </Sequence>
                   <FlowStep.Next>
@@ -798,7 +799,7 @@
                             <x:Boolean x:Key="IsPinned">False</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <Sequence DisplayName="Import &amp; Transform- Table 4 " sap:VirtualizedContainerService.HintSize="520,2544.8" sap2010:WorkflowViewState.IdRef="Sequence_121">
+                        <Sequence DisplayName="Import &amp; Transform- Table 4 " sap:VirtualizedContainerService.HintSize="520,1524" sap2010:WorkflowViewState.IdRef="Sequence_121">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -897,7 +898,7 @@
                             </TryCatch>
                             <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="436.8,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_43" Level="Info" Message="[&quot;Completed import of Raw File into UiPath.&quot;]" />
                           </Sequence>
-                          <Sequence sap2010:Annotation.AnnotationText="This sequence INVOKEs the Transformation Sequence that performs all the transformations to unpivot &amp;/or flatten the datatables. " DisplayName="Transform Data- Table 4" sap:VirtualizedContainerService.HintSize="478.4,1181.6" sap2010:WorkflowViewState.IdRef="Sequence_120">
+                          <Sequence sap2010:Annotation.AnnotationText="This sequence INVOKEs the Transformation Sequence that performs all the transformations to unpivot &amp;/or flatten the datatables. " DisplayName="Transform Data- Table 4" sap:VirtualizedContainerService.HintSize="478.4,160.8" sap2010:WorkflowViewState.IdRef="Sequence_120">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -954,10 +955,10 @@
                                 </Catch>
                               </TryCatch.Catches>
                             </TryCatch>
-                            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="436.8,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_45" Level="Info" Message="[&quot;Completed Transformation of data.&quot;]" />
+                            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="436.8,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_45" Level="Info" Message="[&quot;Completed Transformation of Table 4&quot;]" />
                           </Sequence>
                         </Sequence>
-                        <Sequence sap2010:Annotation.AnnotationText="The isequence exports the transformed datatable and saves it in the relevant location. " DisplayName="Save Output File- Table 4" sap:VirtualizedContainerService.HintSize="520,144.8" sap2010:WorkflowViewState.IdRef="Sequence_114">
+                        <Sequence sap2010:Annotation.AnnotationText="The isequence exports the transformed datatable and saves it in the relevant location. " DisplayName="Save Output File- Table 4" sap:VirtualizedContainerService.HintSize="478.4,1156" sap2010:WorkflowViewState.IdRef="Sequence_114">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -995,7 +996,7 @@
                               </Catch>
                             </TryCatch.Catches>
                           </TryCatch>
-                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="436.8,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_41" Level="Info" Message="[&quot;Completed export of Transformed datatable to Transformed .csv (&quot; + str_FilePath_TransformedData.ToString.Trim + &quot;).&quot;]" />
+                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="436.8,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_41" Level="Info" Message="[&quot;Completed export of Table 4 Transformed to Transformed .csv (&quot; + str_FilePath_TransformedData.ToString.Trim + &quot;).&quot;]" />
                         </Sequence>
                       </Sequence>
                       <FlowStep.Next>
@@ -1004,7 +1005,7 @@
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <av:Point x:Key="ShapeLocation">30,575.6</av:Point>
                               <av:Size x:Key="ShapeSize">200,68.8</av:Size>
-                              <av:PointCollection x:Key="ConnectorLocation">130,644.4 110,644.4 110,655.6</av:PointCollection>
+                              <av:PointCollection x:Key="ConnectorLocation">130,644.4 130,685.6</av:PointCollection>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
                           <Sequence DisplayName="Table 8" sap:VirtualizedContainerService.HintSize="200,68.8" sap2010:WorkflowViewState.IdRef="Sequence_156">
@@ -1014,7 +1015,7 @@
                                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
-                            <Sequence DisplayName="Import &amp; Transform- Table 8" sap:VirtualizedContainerService.HintSize="553.6,2452" sap2010:WorkflowViewState.IdRef="Sequence_153">
+                            <Sequence DisplayName="Import &amp; Transform- Table 8" sap:VirtualizedContainerService.HintSize="520,2452" sap2010:WorkflowViewState.IdRef="Sequence_153">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1130,10 +1131,10 @@
                                     </Catch>
                                   </TryCatch.Catches>
                                 </TryCatch>
-                                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="436.8,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_63" Level="Info" Message="[&quot;Completed Transformation of data.&quot;]" />
+                                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="436.8,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_63" Level="Info" Message="[&quot;Completed Transformation of Table 8&quot;]" />
                               </Sequence>
                             </Sequence>
-                            <Sequence sap2010:Annotation.AnnotationText="The isequence exports the transformed datatable and saves it in the relevant location. " DisplayName="Save Output File- Table 8" sap:VirtualizedContainerService.HintSize="553.6,144.8" sap2010:WorkflowViewState.IdRef="Sequence_155">
+                            <Sequence sap2010:Annotation.AnnotationText="The isequence exports the transformed datatable and saves it in the relevant location. " DisplayName="Save Output File- Table 8" sap:VirtualizedContainerService.HintSize="478.4,1156" sap2010:WorkflowViewState.IdRef="Sequence_155">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                   <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -1171,16 +1172,16 @@
                                   </Catch>
                                 </TryCatch.Catches>
                               </TryCatch>
-                              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="436.8,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_65" Level="Info" Message="[&quot;Completed export of Transformed datatable to Transformed .csv (&quot; + str_FilePath_TransformedData.ToString.Trim + &quot;).&quot;]" />
+                              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="436.8,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_65" Level="Info" Message="[&quot;Completed export of Table 8 Transformed to Transformed .csv (&quot; + str_FilePath_TransformedData.ToString.Trim + &quot;).&quot;]" />
                             </Sequence>
                           </Sequence>
                           <FlowStep.Next>
                             <FlowStep x:Name="__ReferenceID9">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                  <av:Point x:Key="ShapeLocation">10,655.6</av:Point>
+                                  <av:Point x:Key="ShapeLocation">30,685.6</av:Point>
                                   <av:Size x:Key="ShapeSize">200,68.8</av:Size>
-                                  <av:PointCollection x:Key="ConnectorLocation">110,724.4 110,754.4 120,754.4 120,755.6</av:PointCollection>
+                                  <av:PointCollection x:Key="ConnectorLocation">130,754.4 130,785.6</av:PointCollection>
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
                               <Sequence DisplayName="Table 9" sap:VirtualizedContainerService.HintSize="200,68.8" sap2010:WorkflowViewState.IdRef="Sequence_174">
@@ -1190,7 +1191,7 @@
                                     <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <Sequence DisplayName="Import &amp; Transform- Table 9" sap:VirtualizedContainerService.HintSize="553.6,2452" sap2010:WorkflowViewState.IdRef="Sequence_171">
+                                <Sequence DisplayName="Import &amp; Transform- Table 9" sap:VirtualizedContainerService.HintSize="520,2452" sap2010:WorkflowViewState.IdRef="Sequence_171">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1306,10 +1307,10 @@
                                         </Catch>
                                       </TryCatch.Catches>
                                     </TryCatch>
-                                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="436.8,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_73" Level="Info" Message="[&quot;Completed Transformation of data.&quot;]" />
+                                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="436.8,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_73" Level="Info" Message="[&quot;Completed Transformation of Table 9&quot;]" />
                                   </Sequence>
                                 </Sequence>
-                                <Sequence sap2010:Annotation.AnnotationText="The isequence exports the transformed datatable and saves it in the relevant location. " DisplayName="Save Output File- Table 9" sap:VirtualizedContainerService.HintSize="553.6,144.8" sap2010:WorkflowViewState.IdRef="Sequence_173">
+                                <Sequence sap2010:Annotation.AnnotationText="The isequence exports the transformed datatable and saves it in the relevant location. " DisplayName="Save Output File- Table 9" sap:VirtualizedContainerService.HintSize="478.4,1156" sap2010:WorkflowViewState.IdRef="Sequence_173">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -1347,16 +1348,16 @@
                                       </Catch>
                                     </TryCatch.Catches>
                                   </TryCatch>
-                                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="436.8,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_75" Level="Info" Message="[&quot;Completed export of Transformed datatable to Transformed .csv (&quot; + str_FilePath_TransformedData.ToString.Trim + &quot;).&quot;]" />
+                                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="436.8,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_75" Level="Info" Message="[&quot;Completed export of Table 9 Transformed datatable to Transformed .csv (&quot; + str_FilePath_TransformedData.ToString.Trim + &quot;).&quot;]" />
                                 </Sequence>
                               </Sequence>
                               <FlowStep.Next>
                                 <FlowStep x:Name="__ReferenceID10">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                      <av:Point x:Key="ShapeLocation">20,755.6</av:Point>
+                                      <av:Point x:Key="ShapeLocation">30,785.6</av:Point>
                                       <av:Size x:Key="ShapeSize">200,68.8</av:Size>
-                                      <av:PointCollection x:Key="ConnectorLocation">220,790 250,790 250,535.6 530,535.6 530,565.6</av:PointCollection>
+                                      <av:PointCollection x:Key="ConnectorLocation">230,820 260,820 260,535.6 530,535.6 530,565.6</av:PointCollection>
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                   <Sequence DisplayName="Table 11" sap:VirtualizedContainerService.HintSize="200,68.8" sap2010:WorkflowViewState.IdRef="Sequence_185">
@@ -1366,7 +1367,7 @@
                                         <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                       </scg:Dictionary>
                                     </sap:WorkflowViewStateService.ViewState>
-                                    <Sequence DisplayName="Import &amp; Transform- Table 11" sap:VirtualizedContainerService.HintSize="553.6,2452" sap2010:WorkflowViewState.IdRef="Sequence_182">
+                                    <Sequence DisplayName="Import &amp; Transform- Table 11" sap:VirtualizedContainerService.HintSize="520,2452" sap2010:WorkflowViewState.IdRef="Sequence_182">
                                       <sap:WorkflowViewStateService.ViewState>
                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1482,10 +1483,10 @@
                                             </Catch>
                                           </TryCatch.Catches>
                                         </TryCatch>
-                                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="436.8,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_79" Level="Info" Message="[&quot;Completed Transformation of data.&quot;]" />
+                                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="436.8,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_79" Level="Info" Message="[&quot;Completed Transformation of Table 11&quot;]" />
                                       </Sequence>
                                     </Sequence>
-                                    <Sequence sap2010:Annotation.AnnotationText="The isequence exports the transformed datatable and saves it in the relevant location. " DisplayName="Save Output File- Table 11" sap:VirtualizedContainerService.HintSize="553.6,144.8" sap2010:WorkflowViewState.IdRef="Sequence_184">
+                                    <Sequence sap2010:Annotation.AnnotationText="The isequence exports the transformed datatable and saves it in the relevant location. " DisplayName="Save Output File- Table 11" sap:VirtualizedContainerService.HintSize="478.4,1156" sap2010:WorkflowViewState.IdRef="Sequence_184">
                                       <sap:WorkflowViewStateService.ViewState>
                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -1523,7 +1524,7 @@
                                           </Catch>
                                         </TryCatch.Catches>
                                       </TryCatch>
-                                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="436.8,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_81" Level="Info" Message="[&quot;Completed export of Transformed datatable to Transformed .csv (&quot; + str_FilePath_TransformedData.ToString.Trim + &quot;).&quot;]" />
+                                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="436.8,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_81" Level="Info" Message="[&quot;Completed export of Table 11 Transformed  to Transformed .csv (&quot; + str_FilePath_TransformedData.ToString.Trim + &quot;).&quot;]" />
                                     </Sequence>
                                   </Sequence>
                                   <FlowStep.Next>
@@ -1532,7 +1533,7 @@
                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                           <av:Point x:Key="ShapeLocation">430,565.6</av:Point>
                                           <av:Size x:Key="ShapeSize">200,68.8</av:Size>
-                                          <av:PointCollection x:Key="ConnectorLocation">530,634.4 530,645.6</av:PointCollection>
+                                          <av:PointCollection x:Key="ConnectorLocation">530,634.4 530,675.6</av:PointCollection>
                                         </scg:Dictionary>
                                       </sap:WorkflowViewStateService.ViewState>
                                       <Sequence DisplayName="Table 13 UK" sap:VirtualizedContainerService.HintSize="200,68.8" sap2010:WorkflowViewState.IdRef="Sequence_134">
@@ -1658,10 +1659,10 @@
                                                 </Catch>
                                               </TryCatch.Catches>
                                             </TryCatch>
-                                            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="456,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_53" Level="Info" Message="[&quot;Completed Transformation of data.&quot;]" />
+                                            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="456,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_53" Level="Info" Message="[&quot;Completed Transformation of Table 13 UK&quot;]" />
                                           </Sequence>
                                         </Sequence>
-                                        <Sequence sap2010:Annotation.AnnotationText="The isequence exports the transformed datatable and saves it in the relevant location. " DisplayName="Save Output File- Table 13 UK" sap:VirtualizedContainerService.HintSize="539.2,144.8" sap2010:WorkflowViewState.IdRef="Sequence_126">
+                                        <Sequence sap2010:Annotation.AnnotationText="The isequence exports the transformed datatable and saves it in the relevant location. " DisplayName="Save Output File- Table 13 UK" sap:VirtualizedContainerService.HintSize="478.4,1156" sap2010:WorkflowViewState.IdRef="Sequence_126">
                                           <sap:WorkflowViewStateService.ViewState>
                                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                               <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -1706,16 +1707,16 @@
                                               </Catch>
                                             </TryCatch.Catches>
                                           </TryCatch>
-                                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="436.8,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_49" Level="Info" Message="[&quot;Completed export of Transformed datatable to Transformed .csv (&quot; + str_FilePath_TransformedData3.ToString.Trim + &quot;).&quot;]" />
+                                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="436.8,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_49" Level="Info" Message="[&quot;Completed export of Table 13 UK Transformed  to Transformed .csv (&quot; + str_FilePath_TransformedData3.ToString.Trim + &quot;).&quot;]" />
                                         </Sequence>
                                       </Sequence>
                                       <FlowStep.Next>
                                         <FlowStep x:Name="__ReferenceID7">
                                           <sap:WorkflowViewStateService.ViewState>
                                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                              <av:Point x:Key="ShapeLocation">430,645.6</av:Point>
+                                              <av:Point x:Key="ShapeLocation">430,675.6</av:Point>
                                               <av:Size x:Key="ShapeSize">200,68.8</av:Size>
-                                              <av:PointCollection x:Key="ConnectorLocation">530,714.4 530,744.4 520,744.4 520,745.6</av:PointCollection>
+                                              <av:PointCollection x:Key="ConnectorLocation">530,744.4 530,785.6</av:PointCollection>
                                             </scg:Dictionary>
                                           </sap:WorkflowViewStateService.ViewState>
                                           <Sequence DisplayName="Table 13 GB" sap:VirtualizedContainerService.HintSize="200,68.8" sap2010:WorkflowViewState.IdRef="Sequence_144">
@@ -1791,7 +1792,7 @@
                                                 </TryCatch>
                                                 <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="436.8,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_55" Level="Info" Message="[&quot;Completed import of Raw File into UiPath.&quot;]" />
                                               </Sequence>
-                                              <Sequence sap2010:Annotation.AnnotationText="This sequence INVOKEs the Transformation Sequence that performs all the transformations to unpivot &amp;/or flatten the datatables. " DisplayName="Transform Data- Table 13" sap:VirtualizedContainerService.HintSize="497.6,1181.6" sap2010:WorkflowViewState.IdRef="Sequence_140">
+                                              <Sequence sap2010:Annotation.AnnotationText="This sequence INVOKEs the Transformation Sequence that performs all the transformations to unpivot &amp;/or flatten the datatables. " DisplayName="Transform Data- Table 13" sap:VirtualizedContainerService.HintSize="478.4,160.8" sap2010:WorkflowViewState.IdRef="Sequence_140">
                                                 <sap:WorkflowViewStateService.ViewState>
                                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                     <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -1848,10 +1849,10 @@
                                                     </Catch>
                                                   </TryCatch.Catches>
                                                 </TryCatch>
-                                                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="454.4,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_57" Level="Info" Message="[&quot;Completed Transformation of data.&quot;]" />
+                                                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="456,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_57" Level="Info" Message="[&quot;Completed Transformation of Table 13 GB&quot;]" />
                                               </Sequence>
                                             </Sequence>
-                                            <Sequence sap2010:Annotation.AnnotationText="The isequence exports the transformed datatable and saves it in the relevant location. " DisplayName="Save Output File- Table 13 GB" sap:VirtualizedContainerService.HintSize="520,144.8" sap2010:WorkflowViewState.IdRef="Sequence_143">
+                                            <Sequence sap2010:Annotation.AnnotationText="The isequence exports the transformed datatable and saves it in the relevant location. " DisplayName="Save Output File- Table 13 GB" sap:VirtualizedContainerService.HintSize="478.4,1156" sap2010:WorkflowViewState.IdRef="Sequence_143">
                                               <sap:WorkflowViewStateService.ViewState>
                                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                   <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -1896,19 +1897,19 @@
                                                   </Catch>
                                                 </TryCatch.Catches>
                                               </TryCatch>
-                                              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="436.8,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_59" Level="Info" Message="[&quot;Completed export of Transformed datatable to Transformed .csv (&quot; + str_FilePath_TransformedData3.ToString.Trim + &quot;).&quot;]" />
+                                              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="436.8,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_59" Level="Info" Message="[&quot;Completed export of Table 13 GB Transformed to Transformed .csv (&quot; + str_FilePath_TransformedData3.ToString.Trim + &quot;).&quot;]" />
                                             </Sequence>
                                           </Sequence>
                                           <FlowStep.Next>
                                             <FlowStep x:Name="__ReferenceID11">
                                               <sap:WorkflowViewStateService.ViewState>
                                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                  <av:Point x:Key="ShapeLocation">420,745.6</av:Point>
+                                                  <av:Point x:Key="ShapeLocation">430,785.6</av:Point>
                                                   <av:Size x:Key="ShapeSize">200,68.8</av:Size>
-                                                  <av:PointCollection x:Key="ConnectorLocation">520,814.4 520,927.6</av:PointCollection>
+                                                  <av:PointCollection x:Key="ConnectorLocation">530,854.4 530,884.4 520,884.4 520,927.6</av:PointCollection>
                                                 </scg:Dictionary>
                                               </sap:WorkflowViewStateService.ViewState>
-                                              <Sequence DisplayName="Table 14" sap:VirtualizedContainerService.HintSize="200,68.8" sap2010:WorkflowViewState.IdRef="Sequence_196">
+                                              <Sequence DisplayName="Table 14" sap:VirtualizedContainerService.HintSize="561.6,3740.8" sap2010:WorkflowViewState.IdRef="Sequence_196">
                                                 <sap:WorkflowViewStateService.ViewState>
                                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -2031,7 +2032,7 @@
                                                         </Catch>
                                                       </TryCatch.Catches>
                                                     </TryCatch>
-                                                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="436.8,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_85" Level="Info" Message="[&quot;Completed Transformation of data.&quot;]" />
+                                                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="436.8,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_85" Level="Info" Message="[&quot;Completed Transformation of Table 14.&quot;]" />
                                                   </Sequence>
                                                 </Sequence>
                                                 <Sequence sap2010:Annotation.AnnotationText="The isequence exports the transformed datatable and saves it in the relevant location. " DisplayName="Save Output File- Table 14" sap:VirtualizedContainerService.HintSize="520,1156" sap2010:WorkflowViewState.IdRef="Sequence_195">
@@ -2072,7 +2073,7 @@
                                                       </Catch>
                                                     </TryCatch.Catches>
                                                   </TryCatch>
-                                                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="436.8,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_87" Level="Info" Message="[&quot;Completed export of Transformed datatable to Transformed .csv (&quot; + str_FilePath_TransformedData.ToString.Trim + &quot;).&quot;]" />
+                                                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="436.8,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_87" Level="Info" Message="[&quot;Completed export of Table 14 Transformed  to Transformed .csv (&quot; + str_FilePath_TransformedData.ToString.Trim + &quot;).&quot;]" />
                                                 </Sequence>
                                               </Sequence>
                                               <FlowStep.Next>
@@ -2081,7 +2082,7 @@
                                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                       <av:Point x:Key="ShapeLocation">420,927.6</av:Point>
                                                       <av:Size x:Key="ShapeSize">200,144.8</av:Size>
-                                                      <av:PointCollection x:Key="ConnectorLocation">420,1000 390,1000 390,886.5 219.7,886.5 219.7,916.5</av:PointCollection>
+                                                      <av:PointCollection x:Key="ConnectorLocation">420,1000 390,1000 390,886.5 220.1,886.5 220.1,916.5</av:PointCollection>
                                                     </scg:Dictionary>
                                                   </sap:WorkflowViewStateService.ViewState>
                                                   <Sequence sap2010:Annotation.AnnotationText="This activity uploads the raw and curated files to relevant folders int the Azure Datalake." DisplayName="Upload File to Azure" sap:VirtualizedContainerService.HintSize="200,144.8" sap2010:WorkflowViewState.IdRef="Sequence_39">
