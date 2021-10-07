@@ -1,0 +1,225 @@
+﻿Month,Work Type,Year," Weighted averages of Construction Producer Price Indices",month Int,Date,Geographical Region,Unique_Key
+January,New Housing,2017,102.8,01,01/01/2017,United Kingdom,JanuaryNew Housing2017102.80101/01/2017United Kingdom
+January,New Housing,2018,107.7,01,01/01/2018,United Kingdom,JanuaryNew Housing2018107.70101/01/2018United Kingdom
+January,New Housing,2019,111.7,01,01/01/2019,United Kingdom,JanuaryNew Housing2019111.70101/01/2019United Kingdom
+January,New Housing,2020,110.9,01,01/01/2020,United Kingdom,JanuaryNew Housing2020110.90101/01/2020United Kingdom
+January,New Housing,2021,116.7,01,01/01/2021,United Kingdom,JanuaryNew Housing2021116.70101/01/2021United Kingdom
+February,New Housing,2017,103.9,02,01/02/2017,United Kingdom,FebruaryNew Housing2017103.90201/02/2017United Kingdom
+February,New Housing,2018,109.3,02,01/02/2018,United Kingdom,FebruaryNew Housing2018109.30201/02/2018United Kingdom
+February,New Housing,2019,112.4,02,01/02/2019,United Kingdom,FebruaryNew Housing2019112.40201/02/2019United Kingdom
+February,New Housing,2020,111.4,02,01/02/2020,United Kingdom,FebruaryNew Housing2020111.40201/02/2020United Kingdom
+February,New Housing,2021,118.9,02,01/02/2021,United Kingdom,FebruaryNew Housing2021118.90201/02/2021United Kingdom
+March,New Housing,2017,104.3,03,01/03/2017,United Kingdom,MarchNew Housing2017104.30301/03/2017United Kingdom
+March,New Housing,2018,109.3,03,01/03/2018,United Kingdom,MarchNew Housing2018109.30301/03/2018United Kingdom
+March,New Housing,2019,113.4,03,01/03/2019,United Kingdom,MarchNew Housing2019113.40301/03/2019United Kingdom
+March,New Housing,2020,111.7,03,01/03/2020,United Kingdom,MarchNew Housing2020111.70301/03/2020United Kingdom
+March,New Housing,2021,120,03,01/03/2021,United Kingdom,MarchNew Housing20211200301/03/2021United Kingdom
+April,New Housing,2017,104.8,04,01/04/2017,United Kingdom,AprilNew Housing2017104.80401/04/2017United Kingdom
+April,New Housing,2018,109.7,04,01/04/2018,United Kingdom,AprilNew Housing2018109.70401/04/2018United Kingdom
+April,New Housing,2019,113.1,04,01/04/2019,United Kingdom,AprilNew Housing2019113.10401/04/2019United Kingdom
+April,New Housing,2020,111.7,04,01/04/2020,United Kingdom,AprilNew Housing2020111.70401/04/2020United Kingdom
+April,New Housing,2021,121,04,01/04/2021,United Kingdom,AprilNew Housing20211210401/04/2021United Kingdom
+May,New Housing,2017,105.2,05,01/05/2017,United Kingdom,MayNew Housing2017105.20501/05/2017United Kingdom
+May,New Housing,2018,110.1,05,01/05/2018,United Kingdom,MayNew Housing2018110.10501/05/2018United Kingdom
+May,New Housing,2019,112.8,05,01/05/2019,United Kingdom,MayNew Housing2019112.80501/05/2019United Kingdom
+May,New Housing,2020,112.5,05,01/05/2020,United Kingdom,MayNew Housing2020112.50501/05/2020United Kingdom
+May,New Housing,2021,123,05,01/05/2021,United Kingdom,MayNew Housing20211230501/05/2021United Kingdom
+June,New Housing,2017,105.3,06,01/06/2017,United Kingdom,JuneNew Housing2017105.30601/06/2017United Kingdom
+June,New Housing,2018,110.5,06,01/06/2018,United Kingdom,JuneNew Housing2018110.50601/06/2018United Kingdom
+June,New Housing,2019,113.3,06,01/06/2019,United Kingdom,JuneNew Housing2019113.30601/06/2019United Kingdom
+June,New Housing,2020,111.9,06,01/06/2020,United Kingdom,JuneNew Housing2020111.90601/06/2020United Kingdom
+June,New Housing,2021,127,06,01/06/2021,United Kingdom,JuneNew Housing20211270601/06/2021United Kingdom
+July,New Housing,2017,105.4,07,01/07/2017,United Kingdom,JulyNew Housing2017105.40701/07/2017United Kingdom
+July,New Housing,2018,111,07,01/07/2018,United Kingdom,JulyNew Housing20181110701/07/2018United Kingdom
+July,New Housing,2019,113.3,07,01/07/2019,United Kingdom,JulyNew Housing2019113.30701/07/2019United Kingdom
+July,New Housing,2020,112.2,07,01/07/2020,United Kingdom,JulyNew Housing2020112.20701/07/2020United Kingdom
+July,New Housing,2021,134.4,07,01/07/2021,United Kingdom,JulyNew Housing2021134.40701/07/2021United Kingdom
+August,New Housing,2017,105.6,08,01/08/2017,United Kingdom,AugustNew Housing2017105.60801/08/2017United Kingdom
+August,New Housing,2018,111.1,08,01/08/2018,United Kingdom,AugustNew Housing2018111.10801/08/2018United Kingdom
+August,New Housing,2019,112.8,08,01/08/2019,United Kingdom,AugustNew Housing2019112.80801/08/2019United Kingdom
+August,New Housing,2020,112.3,08,01/08/2020,United Kingdom,AugustNew Housing2020112.30801/08/2020United Kingdom
+August,New Housing,2021,137.5,08,01/08/2021,United Kingdom,AugustNew Housing2021137.50801/08/2021United Kingdom
+September,New Housing,2017,106.4,09,01/09/2017,United Kingdom,SeptemberNew Housing2017106.40901/09/2017United Kingdom
+September,New Housing,2018,111.6,09,01/09/2018,United Kingdom,SeptemberNew Housing2018111.60901/09/2018United Kingdom
+September,New Housing,2019,112.5,09,01/09/2019,United Kingdom,SeptemberNew Housing2019112.50901/09/2019United Kingdom
+September,New Housing,2020,112.9,09,01/09/2020,United Kingdom,SeptemberNew Housing2020112.90901/09/2020United Kingdom
+October,New Housing,2017,106.9,10,01/10/2017,United Kingdom,OctoberNew Housing2017106.91001/10/2017United Kingdom
+October,New Housing,2018,111.3,10,01/10/2018,United Kingdom,OctoberNew Housing2018111.31001/10/2018United Kingdom
+October,New Housing,2019,112.8,10,01/10/2019,United Kingdom,OctoberNew Housing2019112.81001/10/2019United Kingdom
+October,New Housing,2020,113.5,10,01/10/2020,United Kingdom,OctoberNew Housing2020113.51001/10/2020United Kingdom
+November,New Housing,2017,107.1,11,01/11/2017,United Kingdom,NovemberNew Housing2017107.11101/11/2017United Kingdom
+November,New Housing,2018,111.7,11,01/11/2018,United Kingdom,NovemberNew Housing2018111.71101/11/2018United Kingdom
+November,New Housing,2019,112,11,01/11/2019,United Kingdom,NovemberNew Housing20191121101/11/2019United Kingdom
+November,New Housing,2020,114.5,11,01/11/2020,United Kingdom,NovemberNew Housing2020114.51101/11/2020United Kingdom
+December,New Housing,2017,108.1,12,01/12/2017,United Kingdom,DecemberNew Housing2017108.11201/12/2017United Kingdom
+December,New Housing,2018,111.8,12,01/12/2018,United Kingdom,DecemberNew Housing2018111.81201/12/2018United Kingdom
+December,New Housing,2019,111.5,12,01/12/2019,United Kingdom,DecemberNew Housing2019111.51201/12/2019United Kingdom
+December,New Housing,2020,116.3,12,01/12/2020,United Kingdom,DecemberNew Housing2020116.31201/12/2020United Kingdom
+January,Other New Work,2017,102.4,01,01/01/2017,United Kingdom,JanuaryOther New Work2017102.40101/01/2017United Kingdom
+January,Other New Work,2018,107,01,01/01/2018,United Kingdom,JanuaryOther New Work20181070101/01/2018United Kingdom
+January,Other New Work,2019,111.8,01,01/01/2019,United Kingdom,JanuaryOther New Work2019111.80101/01/2019United Kingdom
+January,Other New Work,2020,110.6,01,01/01/2020,United Kingdom,JanuaryOther New Work2020110.60101/01/2020United Kingdom
+January,Other New Work,2021,116.7,01,01/01/2021,United Kingdom,JanuaryOther New Work2021116.70101/01/2021United Kingdom
+February,Other New Work,2017,103,02,01/02/2017,United Kingdom,FebruaryOther New Work20171030201/02/2017United Kingdom
+February,Other New Work,2018,107.5,02,01/02/2018,United Kingdom,FebruaryOther New Work2018107.50201/02/2018United Kingdom
+February,Other New Work,2019,113,02,01/02/2019,United Kingdom,FebruaryOther New Work20191130201/02/2019United Kingdom
+February,Other New Work,2020,110.7,02,01/02/2020,United Kingdom,FebruaryOther New Work2020110.70201/02/2020United Kingdom
+February,Other New Work,2021,118.9,02,01/02/2021,United Kingdom,FebruaryOther New Work2021118.90201/02/2021United Kingdom
+March,Other New Work,2017,103.4,03,01/03/2017,United Kingdom,MarchOther New Work2017103.40301/03/2017United Kingdom
+March,Other New Work,2018,108.4,03,01/03/2018,United Kingdom,MarchOther New Work2018108.40301/03/2018United Kingdom
+March,Other New Work,2019,113.4,03,01/03/2019,United Kingdom,MarchOther New Work2019113.40301/03/2019United Kingdom
+March,Other New Work,2020,111.1,03,01/03/2020,United Kingdom,MarchOther New Work2020111.10301/03/2020United Kingdom
+March,Other New Work,2021,121.5,03,01/03/2021,United Kingdom,MarchOther New Work2021121.50301/03/2021United Kingdom
+April,Other New Work,2017,103.5,04,01/04/2017,United Kingdom,AprilOther New Work2017103.50401/04/2017United Kingdom
+April,Other New Work,2018,108.5,04,01/04/2018,United Kingdom,AprilOther New Work2018108.50401/04/2018United Kingdom
+April,Other New Work,2019,113.1,04,01/04/2019,United Kingdom,AprilOther New Work2019113.10401/04/2019United Kingdom
+April,Other New Work,2020,112.4,04,01/04/2020,United Kingdom,AprilOther New Work2020112.40401/04/2020United Kingdom
+April,Other New Work,2021,123.7,04,01/04/2021,United Kingdom,AprilOther New Work2021123.70401/04/2021United Kingdom
+May,Other New Work,2017,103.5,05,01/05/2017,United Kingdom,MayOther New Work2017103.50501/05/2017United Kingdom
+May,Other New Work,2018,109.1,05,01/05/2018,United Kingdom,MayOther New Work2018109.10501/05/2018United Kingdom
+May,Other New Work,2019,113.3,05,01/05/2019,United Kingdom,MayOther New Work2019113.30501/05/2019United Kingdom
+May,Other New Work,2020,112.8,05,01/05/2020,United Kingdom,MayOther New Work2020112.80501/05/2020United Kingdom
+May,Other New Work,2021,126.5,05,01/05/2021,United Kingdom,MayOther New Work2021126.50501/05/2021United Kingdom
+June,Other New Work,2017,103.5,06,01/06/2017,United Kingdom,JuneOther New Work2017103.50601/06/2017United Kingdom
+June,Other New Work,2018,109.6,06,01/06/2018,United Kingdom,JuneOther New Work2018109.60601/06/2018United Kingdom
+June,Other New Work,2019,112,06,01/06/2019,United Kingdom,JuneOther New Work20191120601/06/2019United Kingdom
+June,Other New Work,2020,111.5,06,01/06/2020,United Kingdom,JuneOther New Work2020111.50601/06/2020United Kingdom
+June,Other New Work,2021,129.2,06,01/06/2021,United Kingdom,JuneOther New Work2021129.20601/06/2021United Kingdom
+July,Other New Work,2017,103.5,07,01/07/2017,United Kingdom,JulyOther New Work2017103.50701/07/2017United Kingdom
+July,Other New Work,2018,109.7,07,01/07/2018,United Kingdom,JulyOther New Work2018109.70701/07/2018United Kingdom
+July,Other New Work,2019,112.4,07,01/07/2019,United Kingdom,JulyOther New Work2019112.40701/07/2019United Kingdom
+July,Other New Work,2020,111.4,07,01/07/2020,United Kingdom,JulyOther New Work2020111.40701/07/2020United Kingdom
+July,Other New Work,2021,133.2,07,01/07/2021,United Kingdom,JulyOther New Work2021133.20701/07/2021United Kingdom
+August,Other New Work,2017,103.6,08,01/08/2017,United Kingdom,AugustOther New Work2017103.60801/08/2017United Kingdom
+August,Other New Work,2018,110,08,01/08/2018,United Kingdom,AugustOther New Work20181100801/08/2018United Kingdom
+August,Other New Work,2019,111.7,08,01/08/2019,United Kingdom,AugustOther New Work2019111.70801/08/2019United Kingdom
+August,Other New Work,2020,111.5,08,01/08/2020,United Kingdom,AugustOther New Work2020111.50801/08/2020United Kingdom
+August,Other New Work,2021,136.9,08,01/08/2021,United Kingdom,AugustOther New Work2021136.90801/08/2021United Kingdom
+September,Other New Work,2017,104.6,09,01/09/2017,United Kingdom,SeptemberOther New Work2017104.60901/09/2017United Kingdom
+September,Other New Work,2018,110.8,09,01/09/2018,United Kingdom,SeptemberOther New Work2018110.80901/09/2018United Kingdom
+September,Other New Work,2019,112.2,09,01/09/2019,United Kingdom,SeptemberOther New Work2019112.20901/09/2019United Kingdom
+September,Other New Work,2020,111.4,09,01/09/2020,United Kingdom,SeptemberOther New Work2020111.40901/09/2020United Kingdom
+October,Other New Work,2017,105.7,10,01/10/2017,United Kingdom,OctoberOther New Work2017105.71001/10/2017United Kingdom
+October,Other New Work,2018,111,10,01/10/2018,United Kingdom,OctoberOther New Work20181111001/10/2018United Kingdom
+October,Other New Work,2019,111.7,10,01/10/2019,United Kingdom,OctoberOther New Work2019111.71001/10/2019United Kingdom
+October,Other New Work,2020,111.7,10,01/10/2020,United Kingdom,OctoberOther New Work2020111.71001/10/2020United Kingdom
+November,Other New Work,2017,106.5,11,01/11/2017,United Kingdom,NovemberOther New Work2017106.51101/11/2017United Kingdom
+November,Other New Work,2018,111,11,01/11/2018,United Kingdom,NovemberOther New Work20181111101/11/2018United Kingdom
+November,Other New Work,2019,110.2,11,01/11/2019,United Kingdom,NovemberOther New Work2019110.21101/11/2019United Kingdom
+November,Other New Work,2020,113.6,11,01/11/2020,United Kingdom,NovemberOther New Work2020113.61101/11/2020United Kingdom
+December,Other New Work,2017,106.8,12,01/12/2017,United Kingdom,DecemberOther New Work2017106.81201/12/2017United Kingdom
+December,Other New Work,2018,110.8,12,01/12/2018,United Kingdom,DecemberOther New Work2018110.81201/12/2018United Kingdom
+December,Other New Work,2019,109.4,12,01/12/2019,United Kingdom,DecemberOther New Work2019109.41201/12/2019United Kingdom
+December,Other New Work,2020,115.2,12,01/12/2020,United Kingdom,DecemberOther New Work2020115.21201/12/2020United Kingdom
+January,Repair and Maintenance,2017,103,01,01/01/2017,United Kingdom,JanuaryRepair and Maintenance20171030101/01/2017United Kingdom
+January,Repair and Maintenance,2018,108,01,01/01/2018,United Kingdom,JanuaryRepair and Maintenance20181080101/01/2018United Kingdom
+January,Repair and Maintenance,2019,113,01,01/01/2019,United Kingdom,JanuaryRepair and Maintenance20191130101/01/2019United Kingdom
+January,Repair and Maintenance,2020,111.3,01,01/01/2020,United Kingdom,JanuaryRepair and Maintenance2020111.30101/01/2020United Kingdom
+January,Repair and Maintenance,2021,117.1,01,01/01/2021,United Kingdom,JanuaryRepair and Maintenance2021117.10101/01/2021United Kingdom
+February,Repair and Maintenance,2017,104.2,02,01/02/2017,United Kingdom,FebruaryRepair and Maintenance2017104.20201/02/2017United Kingdom
+February,Repair and Maintenance,2018,109.4,02,01/02/2018,United Kingdom,FebruaryRepair and Maintenance2018109.40201/02/2018United Kingdom
+February,Repair and Maintenance,2019,113.5,02,01/02/2019,United Kingdom,FebruaryRepair and Maintenance2019113.50201/02/2019United Kingdom
+February,Repair and Maintenance,2020,111.7,02,01/02/2020,United Kingdom,FebruaryRepair and Maintenance2020111.70201/02/2020United Kingdom
+February,Repair and Maintenance,2021,119.4,02,01/02/2021,United Kingdom,FebruaryRepair and Maintenance2021119.40201/02/2021United Kingdom
+March,Repair and Maintenance,2017,104.5,03,01/03/2017,United Kingdom,MarchRepair and Maintenance2017104.50301/03/2017United Kingdom
+March,Repair and Maintenance,2018,109.6,03,01/03/2018,United Kingdom,MarchRepair and Maintenance2018109.60301/03/2018United Kingdom
+March,Repair and Maintenance,2019,114.2,03,01/03/2019,United Kingdom,MarchRepair and Maintenance2019114.20301/03/2019United Kingdom
+March,Repair and Maintenance,2020,111.7,03,01/03/2020,United Kingdom,MarchRepair and Maintenance2020111.70301/03/2020United Kingdom
+March,Repair and Maintenance,2021,120.8,03,01/03/2021,United Kingdom,MarchRepair and Maintenance2021120.80301/03/2021United Kingdom
+April,Repair and Maintenance,2017,104.9,04,01/04/2017,United Kingdom,AprilRepair and Maintenance2017104.90401/04/2017United Kingdom
+April,Repair and Maintenance,2018,110.2,04,01/04/2018,United Kingdom,AprilRepair and Maintenance2018110.20401/04/2018United Kingdom
+April,Repair and Maintenance,2019,114.3,04,01/04/2019,United Kingdom,AprilRepair and Maintenance2019114.30401/04/2019United Kingdom
+April,Repair and Maintenance,2020,111.7,04,01/04/2020,United Kingdom,AprilRepair and Maintenance2020111.70401/04/2020United Kingdom
+April,Repair and Maintenance,2021,122.4,04,01/04/2021,United Kingdom,AprilRepair and Maintenance2021122.40401/04/2021United Kingdom
+May,Repair and Maintenance,2017,105.4,05,01/05/2017,United Kingdom,MayRepair and Maintenance2017105.40501/05/2017United Kingdom
+May,Repair and Maintenance,2018,110.6,05,01/05/2018,United Kingdom,MayRepair and Maintenance2018110.60501/05/2018United Kingdom
+May,Repair and Maintenance,2019,114,05,01/05/2019,United Kingdom,MayRepair and Maintenance20191140501/05/2019United Kingdom
+May,Repair and Maintenance,2020,112.2,05,01/05/2020,United Kingdom,MayRepair and Maintenance2020112.20501/05/2020United Kingdom
+May,Repair and Maintenance,2021,124.6,05,01/05/2021,United Kingdom,MayRepair and Maintenance2021124.60501/05/2021United Kingdom
+June,Repair and Maintenance,2017,105.4,06,01/06/2017,United Kingdom,JuneRepair and Maintenance2017105.40601/06/2017United Kingdom
+June,Repair and Maintenance,2018,111.5,06,01/06/2018,United Kingdom,JuneRepair and Maintenance2018111.50601/06/2018United Kingdom
+June,Repair and Maintenance,2019,114.2,06,01/06/2019,United Kingdom,JuneRepair and Maintenance2019114.20601/06/2019United Kingdom
+June,Repair and Maintenance,2020,111.8,06,01/06/2020,United Kingdom,JuneRepair and Maintenance2020111.80601/06/2020United Kingdom
+June,Repair and Maintenance,2021,129.2,06,01/06/2021,United Kingdom,JuneRepair and Maintenance2021129.20601/06/2021United Kingdom
+July,Repair and Maintenance,2017,105.5,07,01/07/2017,United Kingdom,JulyRepair and Maintenance2017105.50701/07/2017United Kingdom
+July,Repair and Maintenance,2018,112,07,01/07/2018,United Kingdom,JulyRepair and Maintenance20181120701/07/2018United Kingdom
+July,Repair and Maintenance,2019,114,07,01/07/2019,United Kingdom,JulyRepair and Maintenance20191140701/07/2019United Kingdom
+July,Repair and Maintenance,2020,112,07,01/07/2020,United Kingdom,JulyRepair and Maintenance20201120701/07/2020United Kingdom
+July,Repair and Maintenance,2021,137.8,07,01/07/2021,United Kingdom,JulyRepair and Maintenance2021137.80701/07/2021United Kingdom
+August,Repair and Maintenance,2017,105.8,08,01/08/2017,United Kingdom,AugustRepair and Maintenance2017105.80801/08/2017United Kingdom
+August,Repair and Maintenance,2018,112.3,08,01/08/2018,United Kingdom,AugustRepair and Maintenance2018112.30801/08/2018United Kingdom
+August,Repair and Maintenance,2019,113.7,08,01/08/2019,United Kingdom,AugustRepair and Maintenance2019113.70801/08/2019United Kingdom
+August,Repair and Maintenance,2020,112.3,08,01/08/2020,United Kingdom,AugustRepair and Maintenance2020112.30801/08/2020United Kingdom
+August,Repair and Maintenance,2021,141.4,08,01/08/2021,United Kingdom,AugustRepair and Maintenance2021141.40801/08/2021United Kingdom
+September,Repair and Maintenance,2017,106.5,09,01/09/2017,United Kingdom,SeptemberRepair and Maintenance2017106.50901/09/2017United Kingdom
+September,Repair and Maintenance,2018,112.9,09,01/09/2018,United Kingdom,SeptemberRepair and Maintenance2018112.90901/09/2018United Kingdom
+September,Repair and Maintenance,2019,113.4,09,01/09/2019,United Kingdom,SeptemberRepair and Maintenance2019113.40901/09/2019United Kingdom
+September,Repair and Maintenance,2020,112.9,09,01/09/2020,United Kingdom,SeptemberRepair and Maintenance2020112.90901/09/2020United Kingdom
+October,Repair and Maintenance,2017,107,10,01/10/2017,United Kingdom,OctoberRepair and Maintenance20171071001/10/2017United Kingdom
+October,Repair and Maintenance,2018,112.9,10,01/10/2018,United Kingdom,OctoberRepair and Maintenance2018112.91001/10/2018United Kingdom
+October,Repair and Maintenance,2019,113.4,10,01/10/2019,United Kingdom,OctoberRepair and Maintenance2019113.41001/10/2019United Kingdom
+October,Repair and Maintenance,2020,113.4,10,01/10/2020,United Kingdom,OctoberRepair and Maintenance2020113.41001/10/2020United Kingdom
+November,Repair and Maintenance,2017,107.5,11,01/11/2017,United Kingdom,NovemberRepair and Maintenance2017107.51101/11/2017United Kingdom
+November,Repair and Maintenance,2018,113.3,11,01/11/2018,United Kingdom,NovemberRepair and Maintenance2018113.31101/11/2018United Kingdom
+November,Repair and Maintenance,2019,112.6,11,01/11/2019,United Kingdom,NovemberRepair and Maintenance2019112.61101/11/2019United Kingdom
+November,Repair and Maintenance,2020,114.6,11,01/11/2020,United Kingdom,NovemberRepair and Maintenance2020114.61101/11/2020United Kingdom
+December,Repair and Maintenance,2017,108.2,12,01/12/2017,United Kingdom,DecemberRepair and Maintenance2017108.21201/12/2017United Kingdom
+December,Repair and Maintenance,2018,113.3,12,01/12/2018,United Kingdom,DecemberRepair and Maintenance2018113.31201/12/2018United Kingdom
+December,Repair and Maintenance,2019,111.8,12,01/12/2019,United Kingdom,DecemberRepair and Maintenance2019111.81201/12/2019United Kingdom
+December,Repair and Maintenance,2020,116,12,01/12/2020,United Kingdom,DecemberRepair and Maintenance20201161201/12/2020United Kingdom
+January,All Work,2017,102.6,01,01/01/2017,United Kingdom,JanuaryAll Work2017102.60101/01/2017United Kingdom
+January,All Work,2018,107.1,01,01/01/2018,United Kingdom,JanuaryAll Work2018107.10101/01/2018United Kingdom
+January,All Work,2019,111.8,01,01/01/2019,United Kingdom,JanuaryAll Work2019111.80101/01/2019United Kingdom
+January,All Work,2020,110.7,01,01/01/2020,United Kingdom,JanuaryAll Work2020110.70101/01/2020United Kingdom
+January,All Work,2021,116.5,01,01/01/2021,United Kingdom,JanuaryAll Work2021116.50101/01/2021United Kingdom
+February,All Work,2017,103.3,02,01/02/2017,United Kingdom,FebruaryAll Work2017103.30201/02/2017United Kingdom
+February,All Work,2018,108,02,01/02/2018,United Kingdom,FebruaryAll Work20181080201/02/2018United Kingdom
+February,All Work,2019,112.6,02,01/02/2019,United Kingdom,FebruaryAll Work2019112.60201/02/2019United Kingdom
+February,All Work,2020,111,02,01/02/2020,United Kingdom,FebruaryAll Work20201110201/02/2020United Kingdom
+February,All Work,2021,118.7,02,01/02/2021,United Kingdom,FebruaryAll Work2021118.70201/02/2021United Kingdom
+March,All Work,2017,103.6,03,01/03/2017,United Kingdom,MarchAll Work2017103.60301/03/2017United Kingdom
+March,All Work,2018,108.5,03,01/03/2018,United Kingdom,MarchAll Work2018108.50301/03/2018United Kingdom
+March,All Work,2019,113.1,03,01/03/2019,United Kingdom,MarchAll Work2019113.10301/03/2019United Kingdom
+March,All Work,2020,111.2,03,01/03/2020,United Kingdom,MarchAll Work2020111.20301/03/2020United Kingdom
+March,All Work,2021,120.3,03,01/03/2021,United Kingdom,MarchAll Work2021120.30301/03/2021United Kingdom
+April,All Work,2017,103.9,04,01/04/2017,United Kingdom,AprilAll Work2017103.90401/04/2017United Kingdom
+April,All Work,2018,108.7,04,01/04/2018,United Kingdom,AprilAll Work2018108.70401/04/2018United Kingdom
+April,All Work,2019,112.9,04,01/04/2019,United Kingdom,AprilAll Work2019112.90401/04/2019United Kingdom
+April,All Work,2020,113.5,04,01/04/2020,United Kingdom,AprilAll Work2020113.50401/04/2020United Kingdom
+April,All Work,2021,122.4,04,01/04/2021,United Kingdom,AprilAll Work2021122.40401/04/2021United Kingdom
+May,All Work,2017,104,05,01/05/2017,United Kingdom,MayAll Work20171040501/05/2017United Kingdom
+May,All Work,2018,109.3,05,01/05/2018,United Kingdom,MayAll Work2018109.30501/05/2018United Kingdom
+May,All Work,2019,112.9,05,01/05/2019,United Kingdom,MayAll Work2019112.90501/05/2019United Kingdom
+May,All Work,2020,113.9,05,01/05/2020,United Kingdom,MayAll Work2020113.90501/05/2020United Kingdom
+May,All Work,2021,124.8,05,01/05/2021,United Kingdom,MayAll Work2021124.80501/05/2021United Kingdom
+June,All Work,2017,103.9,06,01/06/2017,United Kingdom,JuneAll Work2017103.90601/06/2017United Kingdom
+June,All Work,2018,109.7,06,01/06/2018,United Kingdom,JuneAll Work2018109.70601/06/2018United Kingdom
+June,All Work,2019,112.3,06,01/06/2019,United Kingdom,JuneAll Work2019112.30601/06/2019United Kingdom
+June,All Work,2020,111.8,06,01/06/2020,United Kingdom,JuneAll Work2020111.80601/06/2020United Kingdom
+June,All Work,2021,128.2,06,01/06/2021,United Kingdom,JuneAll Work2021128.20601/06/2021United Kingdom
+July,All Work,2017,104.1,07,01/07/2017,United Kingdom,JulyAll Work2017104.10701/07/2017United Kingdom
+July,All Work,2018,110.1,07,01/07/2018,United Kingdom,JulyAll Work2018110.10701/07/2018United Kingdom
+July,All Work,2019,112.7,07,01/07/2019,United Kingdom,JulyAll Work2019112.70701/07/2019United Kingdom
+July,All Work,2020,111.6,07,01/07/2020,United Kingdom,JulyAll Work2020111.60701/07/2020United Kingdom
+July,All Work,2021,134,07,01/07/2021,United Kingdom,JulyAll Work20211340701/07/2021United Kingdom
+August,All Work,2017,104.4,08,01/08/2017,United Kingdom,AugustAll Work2017104.40801/08/2017United Kingdom
+August,All Work,2018,110.4,08,01/08/2018,United Kingdom,AugustAll Work2018110.40801/08/2018United Kingdom
+August,All Work,2019,112.2,08,01/08/2019,United Kingdom,AugustAll Work2019112.20801/08/2019United Kingdom
+August,All Work,2020,111.6,08,01/08/2020,United Kingdom,AugustAll Work2020111.60801/08/2020United Kingdom
+August,All Work,2021,137.8,08,01/08/2021,United Kingdom,AugustAll Work2021137.80801/08/2021United Kingdom
+September,All Work,2017,105.1,09,01/09/2017,United Kingdom,SeptemberAll Work2017105.10901/09/2017United Kingdom
+September,All Work,2018,111,09,01/09/2018,United Kingdom,SeptemberAll Work20181110901/09/2018United Kingdom
+September,All Work,2019,112.3,09,01/09/2019,United Kingdom,SeptemberAll Work2019112.30901/09/2019United Kingdom
+September,All Work,2020,111.6,09,01/09/2020,United Kingdom,SeptemberAll Work2020111.60901/09/2020United Kingdom
+October,All Work,2017,106,10,01/10/2017,United Kingdom,OctoberAll Work20171061001/10/2017United Kingdom
+October,All Work,2018,111,10,01/10/2018,United Kingdom,OctoberAll Work20181111001/10/2018United Kingdom
+October,All Work,2019,111.9,10,01/10/2019,United Kingdom,OctoberAll Work2019111.91001/10/2019United Kingdom
+October,All Work,2020,111.9,10,01/10/2020,United Kingdom,OctoberAll Work2020111.91001/10/2020United Kingdom
+November,All Work,2017,106.3,11,01/11/2017,United Kingdom,NovemberAll Work2017106.31101/11/2017United Kingdom
+November,All Work,2018,111.1,11,01/11/2018,United Kingdom,NovemberAll Work2018111.11101/11/2018United Kingdom
+November,All Work,2019,110.8,11,01/11/2019,United Kingdom,NovemberAll Work2019110.81101/11/2019United Kingdom
+November,All Work,2020,113.5,11,01/11/2020,United Kingdom,NovemberAll Work2020113.51101/11/2020United Kingdom
+December,All Work,2017,107,12,01/12/2017,United Kingdom,DecemberAll Work20171071201/12/2017United Kingdom
+December,All Work,2018,111.2,12,01/12/2018,United Kingdom,DecemberAll Work2018111.21201/12/2018United Kingdom
+December,All Work,2019,110.1,12,01/12/2019,United Kingdom,DecemberAll Work2019110.11201/12/2019United Kingdom
+December,All Work,2020,115.1,12,01/12/2020,United Kingdom,DecemberAll Work2020115.11201/12/2020United Kingdom

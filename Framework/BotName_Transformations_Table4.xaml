@@ -13,7 +13,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>944,953.6</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>623.2,953.6</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ONSConstructionByRegion_Transformations_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="72">
@@ -82,7 +82,6 @@
       <AssemblyReference>UiPath.Azure</AssemblyReference>
       <AssemblyReference>UiPath.Azure.Activities</AssemblyReference>
       <AssemblyReference>System.Data.Entity</AssemblyReference>
-      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
   <Flowchart sap2010:Annotation.AnnotationText="------- AUTOMATION SUBPROCESS-----------------------------------------------------------------------&#xA;&#xA;Name: &#xA;Bot Reference: RIBA Bot ##&#xA;&#xA;Description: Transformation of imported datatable. &#xA;&#xA;Input: &#xA;- dt_WorkingImport&#xA;&#xA;Output:&#xA;- dt_TransformedOutput&#xA;&#xA;Developer: &#xA;Date: " DisplayName="Transformation Flow" sap:VirtualizedContainerService.HintSize="633.6,888.8" sap2010:WorkflowViewState.IdRef="Flowchart_1">
@@ -105,7 +104,7 @@
           <av:Size x:Key="ShapeSize">200,68.8</av:Size>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Sequence DisplayName="Transform Data" sap:VirtualizedContainerService.HintSize="476.8,3247.2" sap2010:WorkflowViewState.IdRef="Sequence_10">
+      <Sequence DisplayName="Transform Data" sap:VirtualizedContainerService.HintSize="476.8,2890.4" sap2010:WorkflowViewState.IdRef="Sequence_10">
         <Sequence.Variables>
           <Variable x:TypeArguments="x:Int32" Name="int_RowCounter" />
           <Variable x:TypeArguments="sd:DataTable" Name="dt_RegionList" />
@@ -142,31 +141,6 @@
             </scg:List>
           </ui:FilterDataTable.SelectColumns>
         </ui:FilterDataTable>
-        <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="435.2,52.8" sap2010:WorkflowViewState.IdRef="CommentOut_1">
-          <ui:CommentOut.Body>
-            <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="304,152.8" sap2010:WorkflowViewState.IdRef="Sequence_20">
-              <sap:WorkflowViewStateService.ViewState>
-                <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                </scg:Dictionary>
-              </sap:WorkflowViewStateService.ViewState>
-              <Assign DisplayName="Assign- empty column index" sap:VirtualizedContainerService.HintSize="262.4,60" sap2010:WorkflowViewState.IdRef="Assign_1">
-                <Assign.To>
-                  <OutArgument x:TypeArguments="scg:List(sd:DataColumn)">[arr_empty]</OutArgument>
-                </Assign.To>
-                <Assign.Value>
-                  <InArgument x:TypeArguments="scg:List(sd:DataColumn)">[(From col In dt_TransformedOutput.Columns.Cast( Of System.Data.DataColumn)Where dt_TransformedOutput.AsEnumerable().All(Function(x) x.IsNull(Convert.ToString(col.ColumnName)))Select col.ColumnName).ToArray()]</InArgument>
-                </Assign.Value>
-              </Assign>
-            </Sequence>
-          </ui:CommentOut.Body>
-          <sap:WorkflowViewStateService.ViewState>
-            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-              <x:Boolean x:Key="IsPinned">False</x:Boolean>
-            </scg:Dictionary>
-          </sap:WorkflowViewStateService.ViewState>
-        </ui:CommentOut>
         <Assign DisplayName="Assign- empty column index" sap:VirtualizedContainerService.HintSize="435.2,60" sap2010:WorkflowViewState.IdRef="Assign_11">
           <Assign.To>
             <OutArgument x:TypeArguments="scg:List(sd:DataColumn)">[arr_empty]</OutArgument>
@@ -175,40 +149,6 @@
             <InArgument x:TypeArguments="scg:List(sd:DataColumn)">[dt_TransformedOutput.Columns.Cast(Of DataColumn).Where(function(c) dt_TransformedOutput.AsEnumerable.All(function(r) r(c) is Nothing OrElse String.IsNullOrEmpty(r(c).ToString()))).toList()]</InArgument>
           </Assign.Value>
         </Assign>
-        <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="435.2,224" sap2010:WorkflowViewState.IdRef="CommentOut_2">
-          <ui:CommentOut.Body>
-            <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="241.6,145.6" sap2010:WorkflowViewState.IdRef="Sequence_21">
-              <sap:WorkflowViewStateService.ViewState>
-                <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                </scg:Dictionary>
-              </sap:WorkflowViewStateService.ViewState>
-              <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each- remove empty columns" sap:VirtualizedContainerService.HintSize="200,52.8" sap2010:WorkflowViewState.IdRef="ForEach`1_3" Values="[arr_empty]">
-                <ui:ForEach.Body>
-                  <ActivityAction x:TypeArguments="x:String">
-                    <ActivityAction.Argument>
-                      <DelegateInArgument x:TypeArguments="x:String" Name="item" />
-                    </ActivityAction.Argument>
-                    <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="271.2,155.2" sap2010:WorkflowViewState.IdRef="Sequence_19">
-                      <sap:WorkflowViewStateService.ViewState>
-                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                        </scg:Dictionary>
-                      </sap:WorkflowViewStateService.ViewState>
-                      <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="229.6,62.4" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="[item.ToString]" />
-                    </Sequence>
-                  </ActivityAction>
-                </ui:ForEach.Body>
-                <sap:WorkflowViewStateService.ViewState>
-                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                  </scg:Dictionary>
-                </sap:WorkflowViewStateService.ViewState>
-              </ui:ForEach>
-            </Sequence>
-          </ui:CommentOut.Body>
-        </ui:CommentOut>
         <ui:ForEach x:TypeArguments="sd:DataColumn" CurrentIndex="{x:Null}" DisplayName="For Each" sap:VirtualizedContainerService.HintSize="435.2,249.6" sap2010:WorkflowViewState.IdRef="ForEach`1_4" Values="[arr_empty]">
           <ui:ForEach.Body>
             <ActivityAction x:TypeArguments="sd:DataColumn">
