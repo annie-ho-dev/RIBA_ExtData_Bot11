@@ -13,7 +13,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>623.2,953.6</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>644.8,953.6</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ONSConstructionByRegion_Transformations_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="72">
@@ -82,6 +82,7 @@
       <AssemblyReference>UiPath.Azure</AssemblyReference>
       <AssemblyReference>UiPath.Azure.Activities</AssemblyReference>
       <AssemblyReference>System.Data.Entity</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
   <Flowchart sap2010:Annotation.AnnotationText="------- AUTOMATION SUBPROCESS-----------------------------------------------------------------------&#xA;&#xA;Name: &#xA;Bot Reference: RIBA Bot ##&#xA;&#xA;Description: Transformation of imported datatable. &#xA;&#xA;Input: &#xA;- dt_WorkingImport&#xA;&#xA;Output:&#xA;- dt_TransformedOutput&#xA;&#xA;Developer: &#xA;Date: " DisplayName="Transformation Flow" sap:VirtualizedContainerService.HintSize="633.6,888.8" sap2010:WorkflowViewState.IdRef="Flowchart_1">
@@ -104,7 +105,7 @@
           <av:Size x:Key="ShapeSize">200,68.8</av:Size>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Sequence DisplayName="Transform Data" sap:VirtualizedContainerService.HintSize="476.8,2890.4" sap2010:WorkflowViewState.IdRef="Sequence_10">
+      <Sequence DisplayName="Transform Data" sap:VirtualizedContainerService.HintSize="616,3511.2" sap2010:WorkflowViewState.IdRef="Sequence_10">
         <Sequence.Variables>
           <Variable x:TypeArguments="x:Int32" Name="int_RowCounter" />
           <Variable x:TypeArguments="sd:DataTable" Name="dt_RegionList" />
@@ -122,7 +123,7 @@
             <x:Boolean x:Key="IsPinned">False</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <ui:FilterDataTable DataTable="[dt_WorkingImport]" DisplayName="Filter Data Table" FilterRowsMode="Keep" sap:VirtualizedContainerService.HintSize="435.2,60" sap2010:WorkflowViewState.IdRef="FilterDataTable_1" OutputDataTable="[dt_TransformedOutput]" SelectColumnsMode="Keep">
+        <ui:FilterDataTable DataTable="[dt_WorkingImport]" DisplayName="Filter Data Table" FilterRowsMode="Keep" sap:VirtualizedContainerService.HintSize="574.4,60" sap2010:WorkflowViewState.IdRef="FilterDataTable_1" OutputDataTable="[dt_TransformedOutput]" SelectColumnsMode="Keep">
           <ui:FilterDataTable.Filters>
             <scg:List x:TypeArguments="ui:FilterOperationArgument" Capacity="4">
               <ui:FilterOperationArgument BooleanOperator="And" Operator="CONTAINS">
@@ -141,7 +142,7 @@
             </scg:List>
           </ui:FilterDataTable.SelectColumns>
         </ui:FilterDataTable>
-        <Assign DisplayName="Assign- empty column index" sap:VirtualizedContainerService.HintSize="435.2,60" sap2010:WorkflowViewState.IdRef="Assign_11">
+        <Assign DisplayName="Assign- empty column index" sap:VirtualizedContainerService.HintSize="574.4,60" sap2010:WorkflowViewState.IdRef="Assign_11">
           <Assign.To>
             <OutArgument x:TypeArguments="scg:List(sd:DataColumn)">[arr_empty]</OutArgument>
           </Assign.To>
@@ -149,7 +150,7 @@
             <InArgument x:TypeArguments="scg:List(sd:DataColumn)">[dt_TransformedOutput.Columns.Cast(Of DataColumn).Where(function(c) dt_TransformedOutput.AsEnumerable.All(function(r) r(c) is Nothing OrElse String.IsNullOrEmpty(r(c).ToString()))).toList()]</InArgument>
           </Assign.Value>
         </Assign>
-        <ui:ForEach x:TypeArguments="sd:DataColumn" CurrentIndex="{x:Null}" DisplayName="For Each" sap:VirtualizedContainerService.HintSize="435.2,249.6" sap2010:WorkflowViewState.IdRef="ForEach`1_4" Values="[arr_empty]">
+        <ui:ForEach x:TypeArguments="sd:DataColumn" CurrentIndex="{x:Null}" DisplayName="For Each" sap:VirtualizedContainerService.HintSize="574.4,249.6" sap2010:WorkflowViewState.IdRef="ForEach`1_4" Values="[arr_empty]">
           <ui:ForEach.Body>
             <ActivityAction x:TypeArguments="sd:DataColumn">
               <ActivityAction.Argument>
@@ -173,9 +174,9 @@
             </ActivityAction>
           </ui:ForEach.Body>
         </ui:ForEach>
-        <ui:AddDataColumn x:TypeArguments="x:Object" AllowDBNull="{x:Null}" AutoIncrement="{x:Null}" Column="{x:Null}" DefaultValue="{x:Null}" MaxLength="{x:Null}" Unique="{x:Null}" ColumnName="Quarter int" DataTable="[dt_TransformedOutput]" DisplayName="Add Quarter integer column" sap:VirtualizedContainerService.HintSize="435.2,22.4" sap2010:WorkflowViewState.IdRef="AddDataColumn`1_2" />
-        <ui:AddDataColumn x:TypeArguments="x:String" AllowDBNull="{x:Null}" AutoIncrement="{x:Null}" Column="{x:Null}" DefaultValue="{x:Null}" MaxLength="{x:Null}" Unique="{x:Null}" ColumnName="Date" DataTable="[dt_TransformedOutput]" DisplayName="Add Date Column" sap:VirtualizedContainerService.HintSize="435.2,22.4" sap2010:WorkflowViewState.IdRef="AddDataColumn`1_3" />
-        <ui:ForEachRow CurrentIndex="{x:Null}" DataTable="[dt_TransformedOutput]" DisplayName="For Each Row" sap:VirtualizedContainerService.HintSize="435.2,52.8" sap2010:WorkflowViewState.IdRef="ForEachRow_2">
+        <ui:AddDataColumn x:TypeArguments="x:Object" AllowDBNull="{x:Null}" AutoIncrement="{x:Null}" Column="{x:Null}" DefaultValue="{x:Null}" MaxLength="{x:Null}" Unique="{x:Null}" ColumnName="Quarter int" DataTable="[dt_TransformedOutput]" DisplayName="Add Quarter integer column" sap:VirtualizedContainerService.HintSize="574.4,22.4" sap2010:WorkflowViewState.IdRef="AddDataColumn`1_2" />
+        <ui:AddDataColumn x:TypeArguments="x:String" AllowDBNull="{x:Null}" AutoIncrement="{x:Null}" Column="{x:Null}" DefaultValue="{x:Null}" MaxLength="{x:Null}" Unique="{x:Null}" ColumnName="Date" DataTable="[dt_TransformedOutput]" DisplayName="Add Date Column" sap:VirtualizedContainerService.HintSize="574.4,22.4" sap2010:WorkflowViewState.IdRef="AddDataColumn`1_3" />
+        <ui:ForEachRow CurrentIndex="{x:Null}" DataTable="[dt_TransformedOutput]" DisplayName="For Each Row" sap:VirtualizedContainerService.HintSize="574.4,52.8" sap2010:WorkflowViewState.IdRef="ForEachRow_2">
           <ui:ForEachRow.Body>
             <ActivityAction x:TypeArguments="sd:DataRow">
               <ActivityAction.Argument>
@@ -239,7 +240,7 @@
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
         </ui:ForEachRow>
-        <InvokeMethod DisplayName="Invoke Method" sap:VirtualizedContainerService.HintSize="435.2,133.6" sap2010:WorkflowViewState.IdRef="InvokeMethod_2" MethodName="SetOrdinal">
+        <InvokeMethod DisplayName="Invoke Method" sap:VirtualizedContainerService.HintSize="574.4,133.6" sap2010:WorkflowViewState.IdRef="InvokeMethod_2" MethodName="SetOrdinal">
           <InvokeMethod.TargetObject>
             <InArgument x:TypeArguments="sd:DataColumn">[dt_TransformedOutput.Columns("Date")]</InArgument>
           </InvokeMethod.TargetObject>
@@ -367,20 +368,20 @@
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
         </ui:ForEachRow>
-        <InvokeMethod DisplayName="Invoke Method" sap:VirtualizedContainerService.HintSize="435.2,133.6" sap2010:WorkflowViewState.IdRef="InvokeMethod_3" MethodName="SetOrdinal">
+        <InvokeMethod DisplayName="Invoke Method" sap:VirtualizedContainerService.HintSize="574.4,133.6" sap2010:WorkflowViewState.IdRef="InvokeMethod_3" MethodName="SetOrdinal">
           <InvokeMethod.TargetObject>
             <InArgument x:TypeArguments="sd:DataColumn">[dt_TransformedOutput.Columns("Geographical Region")]</InArgument>
           </InvokeMethod.TargetObject>
           <InArgument x:TypeArguments="x:Int32">1</InArgument>
         </InvokeMethod>
-        <InvokeMethod DisplayName="Invoke Method" sap:VirtualizedContainerService.HintSize="435.2,133.6" sap2010:WorkflowViewState.IdRef="InvokeMethod_4" MethodName="SetOrdinal">
+        <InvokeMethod DisplayName="Invoke Method" sap:VirtualizedContainerService.HintSize="574.4,133.6" sap2010:WorkflowViewState.IdRef="InvokeMethod_4" MethodName="SetOrdinal">
           <InvokeMethod.TargetObject>
             <InArgument x:TypeArguments="sd:DataColumn">[dt_TransformedOutput.Columns("Sector")]</InArgument>
           </InvokeMethod.TargetObject>
           <InArgument x:TypeArguments="x:Int32">2</InArgument>
         </InvokeMethod>
-        <ui:WriteCsvFile Encoding="{x:Null}" AddHeaders="True" DataTable="[dt_TransformedOutput]" Delimitator="Comma" DisplayName="Write CSV" FilePath="Data\Output\Transformed Output Data\temp.csv" sap:VirtualizedContainerService.HintSize="435.2,155.2" sap2010:WorkflowViewState.IdRef="WriteCsvFile_1" />
-        <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Excel Application Scope- Unpivot" sap:VirtualizedContainerService.HintSize="435.2,52.8" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_1" WorkbookPath="Data\Output\Transformed Output Data\temp.csv">
+        <ui:WriteCsvFile Encoding="{x:Null}" AddHeaders="True" DataTable="[dt_TransformedOutput]" Delimitator="Comma" DisplayName="Write CSV" FilePath="Data\Output\Transformed Output Data\temp.csv" sap:VirtualizedContainerService.HintSize="574.4,155.2" sap2010:WorkflowViewState.IdRef="WriteCsvFile_1" />
+        <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Excel Application Scope- Unpivot" sap:VirtualizedContainerService.HintSize="574.4,52.8" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_1" WorkbookPath="Data\Output\Transformed Output Data\temp.csv">
           <ui:ExcelApplicationScope.Body>
             <ActivityAction x:TypeArguments="ui:WorkbookApplication">
               <ActivityAction.Argument>
@@ -410,21 +411,49 @@
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
         </ui:ExcelApplicationScope>
-        <ui:ReadCsvFile Encoding="{x:Null}" DataTable="[dt_TransformedOutput]" Delimitator="Comma" DisplayName="Read CSV" FilePath="Data\Output\Transformed Output Data\temp.csv" sap:VirtualizedContainerService.HintSize="435.2,155.2" sap2010:WorkflowViewState.IdRef="ReadCsvFile_1" />
-        <ui:AddDataColumn x:TypeArguments="x:Object" AllowDBNull="{x:Null}" AutoIncrement="{x:Null}" Column="{x:Null}" DefaultValue="{x:Null}" MaxLength="{x:Null}" Unique="{x:Null}" ColumnName="Unique_Key" DataTable="[dt_TransformedOutput]" DisplayName="Add Data Column- Unique Key" sap:VirtualizedContainerService.HintSize="435.2,22.4" sap2010:WorkflowViewState.IdRef="AddDataColumn`1_6" />
-        <ui:ForEachRow CurrentIndex="{x:Null}" DataTable="[dt_TransformedOutput]" DisplayName="For Each Row" sap:VirtualizedContainerService.HintSize="435.2,52.8" sap2010:WorkflowViewState.IdRef="ForEachRow_4">
+        <ui:ReadCsvFile Encoding="{x:Null}" DataTable="[dt_TransformedOutput]" Delimitator="Comma" DisplayName="Read CSV" FilePath="Data\Output\Transformed Output Data\temp.csv" sap:VirtualizedContainerService.HintSize="574.4,155.2" sap2010:WorkflowViewState.IdRef="ReadCsvFile_1" />
+        <ui:AddDataColumn x:TypeArguments="x:Object" AllowDBNull="{x:Null}" AutoIncrement="{x:Null}" Column="{x:Null}" DefaultValue="{x:Null}" MaxLength="{x:Null}" Unique="{x:Null}" ColumnName="Unique_Key" DataTable="[dt_TransformedOutput]" DisplayName="Add Data Column- Unique Key" sap:VirtualizedContainerService.HintSize="574.4,22.4" sap2010:WorkflowViewState.IdRef="AddDataColumn`1_6" />
+        <ui:ForEachRow CurrentIndex="{x:Null}" DataTable="[dt_TransformedOutput]" DisplayName="For Each Row" sap:VirtualizedContainerService.HintSize="574.4,673.6" sap2010:WorkflowViewState.IdRef="ForEachRow_4">
           <ui:ForEachRow.Body>
             <ActivityAction x:TypeArguments="sd:DataRow">
               <ActivityAction.Argument>
                 <DelegateInArgument x:TypeArguments="sd:DataRow" Name="row" />
               </ActivityAction.Argument>
-              <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="304,152.8" sap2010:WorkflowViewState.IdRef="Sequence_18">
+              <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="524.8,524.8" sap2010:WorkflowViewState.IdRef="Sequence_18">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <Assign DisplayName="Assign- Unique Key column" sap:VirtualizedContainerService.HintSize="262.4,60" sap2010:WorkflowViewState.IdRef="Assign_10">
+                <If Condition="[row(&quot;Sales (Thousand tonnes)&quot;).ToString.Contains(&quot;c&quot;)]" sap:VirtualizedContainerService.HintSize="483.2,332" sap2010:WorkflowViewState.IdRef="If_4">
+                  <If.Then>
+                    <Sequence sap:VirtualizedContainerService.HintSize="304,152.8" sap2010:WorkflowViewState.IdRef="Sequence_19">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <Assign sap:VirtualizedContainerService.HintSize="262.4,60" sap2010:WorkflowViewState.IdRef="Assign_12">
+                        <Assign.To>
+                          <OutArgument x:TypeArguments="x:Object">[row("Sales (Thousand tonnes)")]</OutArgument>
+                        </Assign.To>
+                        <Assign.Value>
+                          <InArgument x:TypeArguments="x:String">[row("Sales (Thousand tonnes)").ToString.Replace("c","").Trim]</InArgument>
+                        </Assign.Value>
+                      </Assign>
+                    </Sequence>
+                  </If.Then>
+                  <If.Else>
+                    <Sequence sap2010:WorkflowViewState.IdRef="Sequence_20">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </Sequence>
+                  </If.Else>
+                </If>
+                <Assign DisplayName="Assign- Unique Key column" sap:VirtualizedContainerService.HintSize="483.2,60" sap2010:WorkflowViewState.IdRef="Assign_10">
                   <Assign.To>
                     <OutArgument x:TypeArguments="x:Object">[row("Unique_Key")]</OutArgument>
                   </Assign.To>
@@ -437,7 +466,7 @@
           </ui:ForEachRow.Body>
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
-              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               <x:Boolean x:Key="IsPinned">False</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
