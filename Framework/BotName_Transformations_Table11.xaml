@@ -13,7 +13,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>740,953.6</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>623.2,953.6</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ONSConstructionByRegion_Transformations_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="37">
@@ -104,7 +104,7 @@
           <av:Size x:Key="ShapeSize">200,68.8</av:Size>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Sequence DisplayName="Transform Data" sap:VirtualizedContainerService.HintSize="616,3915.2" sap2010:WorkflowViewState.IdRef="Sequence_10">
+      <Sequence DisplayName="Transform Data" sap:VirtualizedContainerService.HintSize="616,3184.8" sap2010:WorkflowViewState.IdRef="Sequence_10">
         <Sequence.Variables>
           <Variable x:TypeArguments="x:Int32" Name="int_RowCounter" />
           <Variable x:TypeArguments="sd:DataTable" Name="dt_RegionList" />
@@ -147,14 +147,6 @@
             </scg:List>
           </ui:FilterDataTable.SelectColumns>
         </ui:FilterDataTable>
-        <ui:WriteCsvFile Encoding="{x:Null}" AddHeaders="True" DataTable="[dt_WorkingImport]" Delimitator="Comma" DisplayName="Write CSV" FilePath="Data\Output\Transformed Output Data\filtered.csv" sap:VirtualizedContainerService.HintSize="574.4,155.2" sap2010:WorkflowViewState.IdRef="WriteCsvFile_6">
-          <sap:WorkflowViewStateService.ViewState>
-            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-              <x:Boolean x:Key="IsPinned">False</x:Boolean>
-            </scg:Dictionary>
-          </sap:WorkflowViewStateService.ViewState>
-        </ui:WriteCsvFile>
         <Assign DisplayName="Assign- empty column index" sap:VirtualizedContainerService.HintSize="574.4,60" sap2010:WorkflowViewState.IdRef="Assign_24">
           <Assign.To>
             <OutArgument x:TypeArguments="scg:List(sd:DataColumn)">[arr_empty]</OutArgument>
@@ -215,39 +207,64 @@
             </scg:List>
           </ui:FilterDataTable.SelectColumns>
         </ui:FilterDataTable>
-        <ui:FilterDataTable DataTable="[dt_WorkingImport]" DisplayName="Filter Data Table" FilterRowsMode="Remove" sap:VirtualizedContainerService.HintSize="574.4,60" sap2010:WorkflowViewState.IdRef="FilterDataTable_5" OutputDataTable="[dt_WorkingImport]" SelectColumnsMode="Keep">
-          <ui:FilterDataTable.Filters>
-            <scg:List x:TypeArguments="ui:FilterOperationArgument" Capacity="4">
-              <ui:FilterOperationArgument Column="{x:Null}" Operand="{x:Null}" BooleanOperator="And" Operator="LT" />
-            </scg:List>
-          </ui:FilterDataTable.Filters>
-          <ui:FilterDataTable.SelectColumns>
-            <scg:List x:TypeArguments="InArgument" Capacity="16">
-              <InArgument x:TypeArguments="x:Int32">[0]</InArgument>
-              <InArgument x:TypeArguments="x:Int32">[1]</InArgument>
-              <InArgument x:TypeArguments="x:Int32">[2]</InArgument>
-              <InArgument x:TypeArguments="x:Int32">[3]</InArgument>
-              <InArgument x:TypeArguments="x:Int32">[5]</InArgument>
-              <InArgument x:TypeArguments="x:Int32">[7]</InArgument>
-              <InArgument x:TypeArguments="x:Int32">[9]</InArgument>
-              <InArgument x:TypeArguments="x:Int32">[11]</InArgument>
-              <InArgument x:TypeArguments="x:Int32">[13]</InArgument>
-              <InArgument x:TypeArguments="x:Int32">[15]</InArgument>
-              <InArgument x:TypeArguments="x:Int32">[17]</InArgument>
-              <InArgument x:TypeArguments="x:Int32">[19]</InArgument>
-              <InArgument x:TypeArguments="x:Int32">[21]</InArgument>
-              <InArgument x:TypeArguments="x:Int32">[22]</InArgument>
-              <InArgument x:TypeArguments="x:Int32">[24]</InArgument>
-            </scg:List>
-          </ui:FilterDataTable.SelectColumns>
-        </ui:FilterDataTable>
-        <ui:ForEachRow CurrentIndex="{x:Null}" DataTable="[dt_WorkingImport]" DisplayName="For Each Row" sap:VirtualizedContainerService.HintSize="574.4,776" sap2010:WorkflowViewState.IdRef="ForEachRow_4">
+        <ui:WriteCsvFile Encoding="{x:Null}" AddHeaders="True" DataTable="[dt_WorkingImport]" Delimitator="Comma" DisplayName="Write CSV" FilePath="Data\Output\Transformed Output Data\first.csv" sap:VirtualizedContainerService.HintSize="574.4,155.2" sap2010:WorkflowViewState.IdRef="WriteCsvFile_8">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+        </ui:WriteCsvFile>
+        <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="574.4,52.8" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+          <ui:CommentOut.Body>
+            <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="375.2,152.8" sap2010:WorkflowViewState.IdRef="Sequence_39">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ui:FilterDataTable DataTable="[dt_WorkingImport]" DisplayName="Filter Data Table" FilterRowsMode="Remove" sap:VirtualizedContainerService.HintSize="333.6,60" sap2010:WorkflowViewState.IdRef="FilterDataTable_5" OutputDataTable="[dt_WorkingImport]" SelectColumnsMode="Keep">
+                <ui:FilterDataTable.Filters>
+                  <scg:List x:TypeArguments="ui:FilterOperationArgument" Capacity="4">
+                    <ui:FilterOperationArgument Column="{x:Null}" Operand="{x:Null}" BooleanOperator="And" Operator="LT" />
+                  </scg:List>
+                </ui:FilterDataTable.Filters>
+                <ui:FilterDataTable.SelectColumns>
+                  <scg:List x:TypeArguments="InArgument" Capacity="16">
+                    <InArgument x:TypeArguments="x:Int32">[0]</InArgument>
+                    <InArgument x:TypeArguments="x:Int32">[1]</InArgument>
+                    <InArgument x:TypeArguments="x:Int32">[2]</InArgument>
+                    <InArgument x:TypeArguments="x:Int32">[3]</InArgument>
+                    <InArgument x:TypeArguments="x:Int32">[5]</InArgument>
+                    <InArgument x:TypeArguments="x:Int32">[7]</InArgument>
+                    <InArgument x:TypeArguments="x:Int32">[9]</InArgument>
+                    <InArgument x:TypeArguments="x:Int32">[11]</InArgument>
+                    <InArgument x:TypeArguments="x:Int32">[13]</InArgument>
+                    <InArgument x:TypeArguments="x:Int32">[15]</InArgument>
+                    <InArgument x:TypeArguments="x:Int32">[17]</InArgument>
+                    <InArgument x:TypeArguments="x:Int32">[19]</InArgument>
+                    <InArgument x:TypeArguments="x:Int32">[21]</InArgument>
+                    <InArgument x:TypeArguments="x:Int32">[22]</InArgument>
+                    <InArgument x:TypeArguments="x:Int32">[24]</InArgument>
+                  </scg:List>
+                </ui:FilterDataTable.SelectColumns>
+              </ui:FilterDataTable>
+            </Sequence>
+          </ui:CommentOut.Body>
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+        </ui:CommentOut>
+        <ui:ForEachRow CurrentIndex="{x:Null}" DataTable="[dt_WorkingImport]" DisplayName="For Each Row" sap:VirtualizedContainerService.HintSize="574.4,52.8" sap2010:WorkflowViewState.IdRef="ForEachRow_4">
           <ui:ForEachRow.Body>
             <ActivityAction x:TypeArguments="sd:DataRow">
               <ActivityAction.Argument>
                 <DelegateInArgument x:TypeArguments="sd:DataRow" Name="row" />
               </ActivityAction.Argument>
-              <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="524.8,627.2" sap2010:WorkflowViewState.IdRef="Sequence_25">
+              <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="524.8,524.8" sap2010:WorkflowViewState.IdRef="Sequence_25">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -287,13 +304,12 @@
                     <InArgument x:TypeArguments="x:String">[left(row(1).ToString,3)]</InArgument>
                   </Assign.Value>
                 </Assign>
-                <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="483.2,62.4" sap2010:WorkflowViewState.IdRef="WriteLine_2" Text="[row(1).ToString]" />
               </Sequence>
             </ActivityAction>
           </ui:ForEachRow.Body>
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
-              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
               <x:Boolean x:Key="IsPinned">False</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
