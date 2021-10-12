@@ -1,5 +1,5 @@
 ﻿Date,Production/Deliveries/Stocks,Brick Type,Millions of Bricks,Building Material Type,Geographical Region,Unique_Key
-01/08/2019,Seasonally Adjusted Deliveries,All Types,161.7155206,Bricks,Great Britain,2019AugSeasonally Adjusted Deliveries-All Types161.71552060801/08/2019
+01/08/2019,Seasonally Adjusted Deliveries,All Types,161.715520559026,Bricks,Great Britain,2019AugSeasonally Adjusted Deliveries-All Types161.7155205590260801/08/2019
 01/08/2019,Production,All Types,173392000,Bricks,Great Britain,2019AugProduction-All Types1733920000801/08/2019
 01/08/2019,Deliveries(from),All Types,162773000,Bricks,Great Britain,2019AugDeliveries(from)-All Types1627730000801/08/2019
 01/08/2019,Stocks,All Types,390141000,Bricks,Great Britain,2019AugStocks-All Types3901410000801/08/2019
@@ -12,7 +12,7 @@
 01/08/2019,Production,Engineerings,13551000,Bricks,Great Britain,2019AugProduction-Engineerings135510000801/08/2019
 01/08/2019,Deliveries(from),Engineerings,11329000,Bricks,Great Britain,2019AugDeliveries(from)-Engineerings113290000801/08/2019
 01/08/2019,Stocks,Engineerings,18814000,Bricks,Great Britain,2019AugStocks-Engineerings188140000801/08/2019
-01/09/2019,Seasonally Adjusted Deliveries,All Types,173.4060322,Bricks,Great Britain,2019SepSeasonally Adjusted Deliveries-All Types173.40603220901/09/2019
+01/09/2019,Seasonally Adjusted Deliveries,All Types,173.406032153109,Bricks,Great Britain,2019SepSeasonally Adjusted Deliveries-All Types173.4060321531090901/09/2019
 01/09/2019,Production,All Types,179524000,Bricks,Great Britain,2019SepProduction-All Types1795240000901/09/2019
 01/09/2019,Deliveries(from),All Types,177935000,Bricks,Great Britain,2019SepDeliveries(from)-All Types1779350000901/09/2019
 01/09/2019,Stocks,All Types,391730000,Bricks,Great Britain,2019SepStocks-All Types3917300000901/09/2019
@@ -25,7 +25,7 @@
 01/09/2019,Production,Engineerings,10727000,Bricks,Great Britain,2019SepProduction-Engineerings107270000901/09/2019
 01/09/2019,Deliveries(from),Engineerings,13150000,Bricks,Great Britain,2019SepDeliveries(from)-Engineerings131500000901/09/2019
 01/09/2019,Stocks,Engineerings,16391000,Bricks,Great Britain,2019SepStocks-Engineerings163910000901/09/2019
-01/10/2019,Seasonally Adjusted Deliveries,All Types,158.4794959,Bricks,Great Britain,2019OctSeasonally Adjusted Deliveries-All Types158.47949591001/10/2019
+01/10/2019,Seasonally Adjusted Deliveries,All Types,158.479495926322,Bricks,Great Britain,2019OctSeasonally Adjusted Deliveries-All Types158.4794959263221001/10/2019
 01/10/2019,Production,All Types,189654000,Bricks,Great Britain,2019OctProduction-All Types1896540001001/10/2019
 01/10/2019,Deliveries(from),All Types,181327000,Bricks,Great Britain,2019OctDeliveries(from)-All Types1813270001001/10/2019
 01/10/2019,Stocks,All Types,400056000,Bricks,Great Britain,2019OctStocks-All Types4000560001001/10/2019
@@ -38,7 +38,7 @@
 01/10/2019,Production,Engineerings,12105000,Bricks,Great Britain,2019OctProduction-Engineerings121050001001/10/2019
 01/10/2019,Deliveries(from),Engineerings,14053000,Bricks,Great Britain,2019OctDeliveries(from)-Engineerings140530001001/10/2019
 01/10/2019,Stocks,Engineerings,14443000,Bricks,Great Britain,2019OctStocks-Engineerings144430001001/10/2019
-01/11/2019,Seasonally Adjusted Deliveries,All Types,158.2346042,Bricks,Great Britain,2019NovSeasonally Adjusted Deliveries-All Types158.23460421101/11/2019
+01/11/2019,Seasonally Adjusted Deliveries,All Types,158.234604222538,Bricks,Great Britain,2019NovSeasonally Adjusted Deliveries-All Types158.2346042225381101/11/2019
 01/11/2019,Production,All Types,182751000,Bricks,Great Britain,2019NovProduction-All Types1827510001101/11/2019
 01/11/2019,Deliveries(from),All Types,163346000,Bricks,Great Britain,2019NovDeliveries(from)-All Types1633460001101/11/2019
 01/11/2019,Stocks,All Types,419461000,Bricks,Great Britain,2019NovStocks-All Types4194610001101/11/2019
@@ -51,7 +51,7 @@
 01/11/2019,Production,Engineerings,15526000,Bricks,Great Britain,2019NovProduction-Engineerings155260001101/11/2019
 01/11/2019,Deliveries(from),Engineerings,11676000,Bricks,Great Britain,2019NovDeliveries(from)-Engineerings116760001101/11/2019
 01/11/2019,Stocks,Engineerings,18293000,Bricks,Great Britain,2019NovStocks-Engineerings182930001101/11/2019
-01/12/2019,Seasonally Adjusted Deliveries,All Types,171.6230367,Bricks,Great Britain,2019DecSeasonally Adjusted Deliveries-All Types171.62303671201/12/2019
+01/12/2019,Seasonally Adjusted Deliveries,All Types,171.623036664809,Bricks,Great Britain,2019DecSeasonally Adjusted Deliveries-All Types171.6230366648091201/12/2019
 01/12/2019,Production,All Types,,Bricks,Great Britain,2019DecProduction-All Typesc1201/12/2019
 01/12/2019,Deliveries(from),All Types,132851000,Bricks,Great Britain,2019DecDeliveries(from)-All Types1328510001201/12/2019
 01/12/2019,Stocks,All Types,424370000,Bricks,Great Britain,2019DecStocks-All Types4243700001201/12/2019
@@ -64,7 +64,7 @@
 01/12/2019,Production,Engineerings,,Bricks,Great Britain,2019DecProduction-Engineeringsc1201/12/2019
 01/12/2019,Deliveries(from),Engineerings,10665000,Bricks,Great Britain,2019DecDeliveries(from)-Engineerings106650001201/12/2019
 01/12/2019,Stocks,Engineerings,18715000,Bricks,Great Britain,2019DecStocks-Engineerings187150001201/12/2019
-01/01/2020,Seasonally Adjusted Deliveries,All Types,157.2241574,Bricks,Great Britain,2020JanSeasonally Adjusted Deliveries-All Types157.22415740101/01/2020
+01/01/2020,Seasonally Adjusted Deliveries,All Types,157.22415744089,Bricks,Great Britain,2020JanSeasonally Adjusted Deliveries-All Types157.224157440890101/01/2020
 01/01/2020,Production,All Types,150892000,Bricks,Great Britain,2020JanProduction-All Types1508920000101/01/2020
 01/01/2020,Deliveries(from),All Types,132188000,Bricks,Great Britain,2020JanDeliveries(from)-All Types1321880000101/01/2020
 01/01/2020,Stocks,All Types,443072000,Bricks,Great Britain,2020JanStocks-All Types4430720000101/01/2020
@@ -77,7 +77,7 @@
 01/01/2020,Production,Engineerings,13972000,Bricks,Great Britain,2020JanProduction-Engineerings139720000101/01/2020
 01/01/2020,Deliveries(from),Engineerings,6979000,Bricks,Great Britain,2020JanDeliveries(from)-Engineerings69790000101/01/2020
 01/01/2020,Stocks,Engineerings,25708000,Bricks,Great Britain,2020JanStocks-Engineerings257080000101/01/2020
-01/02/2020,Seasonally Adjusted Deliveries,All Types,158.3977625,Bricks,Great Britain,2020FebSeasonally Adjusted Deliveries-All Types158.39776250201/02/2020
+01/02/2020,Seasonally Adjusted Deliveries,All Types,158.397762458737,Bricks,Great Britain,2020FebSeasonally Adjusted Deliveries-All Types158.3977624587370201/02/2020
 01/02/2020,Production,All Types,166028000,Bricks,Great Britain,2020FebProduction-All Types1660280000201/02/2020
 01/02/2020,Deliveries(from),All Types,141076000,Bricks,Great Britain,2020FebDeliveries(from)-All Types1410760000201/02/2020
 01/02/2020,Stocks,All Types,468024000,Bricks,Great Britain,2020FebStocks-All Types4680240000201/02/2020
@@ -90,7 +90,7 @@
 01/02/2020,Production,Engineerings,10725000,Bricks,Great Britain,2020FebProduction-Engineerings107250000201/02/2020
 01/02/2020,Deliveries(from),Engineerings,9197000,Bricks,Great Britain,2020FebDeliveries(from)-Engineerings91970000201/02/2020
 01/02/2020,Stocks,Engineerings,27236000,Bricks,Great Britain,2020FebStocks-Engineerings272360000201/02/2020
-01/03/2020,Seasonally Adjusted Deliveries,All Types,113.7941996,Bricks,Great Britain,2020MarSeasonally Adjusted Deliveries-All Types113.79419960301/03/2020
+01/03/2020,Seasonally Adjusted Deliveries,All Types,113.794199627825,Bricks,Great Britain,2020MarSeasonally Adjusted Deliveries-All Types113.7941996278250301/03/2020
 01/03/2020,Production,All Types,138954000,Bricks,Great Britain,2020MarProduction-All Types1389540000301/03/2020
 01/03/2020,Deliveries(from),All Types,122038000,Bricks,Great Britain,2020MarDeliveries(from)-All Types1220380000301/03/2020
 01/03/2020,Stocks,All Types,484940000,Bricks,Great Britain,2020MarStocks-All Types4849400000301/03/2020
@@ -103,7 +103,7 @@
 01/03/2020,Production,Engineerings,10303000,Bricks,Great Britain,2020MarProduction-Engineerings103030000301/03/2020
 01/03/2020,Deliveries(from),Engineerings,8234000,Bricks,Great Britain,2020MarDeliveries(from)-Engineerings82340000301/03/2020
 01/03/2020,Stocks,Engineerings,29305000,Bricks,Great Britain,2020MarStocks-Engineerings293050000301/03/2020
-01/04/2020,Seasonally Adjusted Deliveries,All Types,20.53147061,Bricks,Great Britain,2020AprSeasonally Adjusted Deliveries-All Types20.531470610401/04/2020
+01/04/2020,Seasonally Adjusted Deliveries,All Types,20.5314706142076,Bricks,Great Britain,2020AprSeasonally Adjusted Deliveries-All Types20.53147061420760401/04/2020
 01/04/2020,Production,All Types,3715000,Bricks,Great Britain,2020AprProduction-All Types37150000401/04/2020
 01/04/2020,Deliveries(from),All Types,22529000,Bricks,Great Britain,2020AprDeliveries(from)-All Types225290000401/04/2020
 01/04/2020,Stocks,All Types,466126000,Bricks,Great Britain,2020AprStocks-All Types4661260000401/04/2020
@@ -116,7 +116,7 @@
 01/04/2020,Production,Engineerings,,Bricks,Great Britain,2020AprProduction-Engineeringsc0401/04/2020
 01/04/2020,Deliveries(from),Engineerings,3050000,Bricks,Great Britain,2020AprDeliveries(from)-Engineerings30500000401/04/2020
 01/04/2020,Stocks,Engineerings,26300000,Bricks,Great Britain,2020AprStocks-Engineerings263000000401/04/2020
-01/05/2020,Seasonally Adjusted Deliveries,All Types,66.50903155,Bricks,Great Britain,2020MaySeasonally Adjusted Deliveries-All Types66.509031550501/05/2020
+01/05/2020,Seasonally Adjusted Deliveries,All Types,66.5090315499415,Bricks,Great Britain,2020MaySeasonally Adjusted Deliveries-All Types66.50903154994150501/05/2020
 01/05/2020,Production,All Types,25836000,Bricks,Great Britain,2020MayProduction-All Types258360000501/05/2020
 01/05/2020,Deliveries(from),All Types,69931000,Bricks,Great Britain,2020MayDeliveries(from)-All Types699310000501/05/2020
 01/05/2020,Stocks,All Types,422031000,Bricks,Great Britain,2020MayStocks-All Types4220310000501/05/2020
@@ -129,7 +129,7 @@
 01/05/2020,Production,Engineerings,,Bricks,Great Britain,2020MayProduction-Engineeringsc0501/05/2020
 01/05/2020,Deliveries(from),Engineerings,7313000,Bricks,Great Britain,2020MayDeliveries(from)-Engineerings73130000501/05/2020
 01/05/2020,Stocks,Engineerings,19497000,Bricks,Great Britain,2020MayStocks-Engineerings194970000501/05/2020
-01/06/2020,Seasonally Adjusted Deliveries,All Types,105.0444854,Bricks,Great Britain,2020JunSeasonally Adjusted Deliveries-All Types105.04448540601/06/2020
+01/06/2020,Seasonally Adjusted Deliveries,All Types,105.044485350981,Bricks,Great Britain,2020JunSeasonally Adjusted Deliveries-All Types105.0444853509810601/06/2020
 01/06/2020,Production,All Types,80290000,Bricks,Great Britain,2020JunProduction-All Types802900000601/06/2020
 01/06/2020,Deliveries(from),All Types,123402000,Bricks,Great Britain,2020JunDeliveries(from)-All Types1234020000601/06/2020
 01/06/2020,Stocks,All Types,378919000,Bricks,Great Britain,2020JunStocks-All Types3789190000601/06/2020
@@ -142,7 +142,7 @@
 01/06/2020,Production,Engineerings,4631000,Bricks,Great Britain,2020JunProduction-Engineerings46310000601/06/2020
 01/06/2020,Deliveries(from),Engineerings,9593000,Bricks,Great Britain,2020JunDeliveries(from)-Engineerings95930000601/06/2020
 01/06/2020,Stocks,Engineerings,14535000,Bricks,Great Britain,2020JunStocks-Engineerings145350000601/06/2020
-01/07/2020,Seasonally Adjusted Deliveries,All Types,140.4982802,Bricks,Great Britain,2020JulSeasonally Adjusted Deliveries-All Types140.49828020701/07/2020
+01/07/2020,Seasonally Adjusted Deliveries,All Types,140.498280218662,Bricks,Great Britain,2020JulSeasonally Adjusted Deliveries-All Types140.4982802186620701/07/2020
 01/07/2020,Production,All Types,135704000,Bricks,Great Britain,2020JulProduction-All Types1357040000701/07/2020
 01/07/2020,Deliveries(from),All Types,155987000,Bricks,Great Britain,2020JulDeliveries(from)-All Types1559870000701/07/2020
 01/07/2020,Stocks,All Types,358636000,Bricks,Great Britain,2020JulStocks-All Types3586360000701/07/2020
@@ -155,7 +155,7 @@
 01/07/2020,Production,Engineerings,,Bricks,Great Britain,2020JulProduction-Engineeringsc0701/07/2020
 01/07/2020,Deliveries(from),Engineerings,12269000,Bricks,Great Britain,2020JulDeliveries(from)-Engineerings122690000701/07/2020
 01/07/2020,Stocks,Engineerings,14280000,Bricks,Great Britain,2020JulStocks-Engineerings142800000701/07/2020
-01/08/2020,Seasonally Adjusted Deliveries,All Types,153.0508069,Bricks,Great Britain,2020AugSeasonally Adjusted Deliveries-All Types153.05080690801/08/2020
+01/08/2020,Seasonally Adjusted Deliveries,All Types,153.050806903485,Bricks,Great Britain,2020AugSeasonally Adjusted Deliveries-All Types153.0508069034850801/08/2020
 01/08/2020,Production,All Types,142200000,Bricks,Great Britain,2020AugProduction-All Types1422000000801/08/2020
 01/08/2020,Deliveries(from),All Types,147178000,Bricks,Great Britain,2020AugDeliveries(from)-All Types1471780000801/08/2020
 01/08/2020,Stocks,All Types,353658000,Bricks,Great Britain,2020AugStocks-All Types3536580000801/08/2020
@@ -168,7 +168,7 @@
 01/08/2020,Production,Engineerings,,Bricks,Great Britain,2020AugProduction-Engineeringsc0801/08/2020
 01/08/2020,Deliveries(from),Engineerings,12785000,Bricks,Great Britain,2020AugDeliveries(from)-Engineerings127850000801/08/2020
 01/08/2020,Stocks,Engineerings,13701000,Bricks,Great Britain,2020AugStocks-Engineerings137010000801/08/2020
-01/09/2020,Seasonally Adjusted Deliveries,All Types,152.3417697,Bricks,Great Britain,2020SepSeasonally Adjusted Deliveries-All Types152.34176970901/09/2020
+01/09/2020,Seasonally Adjusted Deliveries,All Types,152.341769702946,Bricks,Great Britain,2020SepSeasonally Adjusted Deliveries-All Types152.3417697029460901/09/2020
 01/09/2020,Production,All Types,149280000,Bricks,Great Britain,2020SepProduction-All Types1492800000901/09/2020
 01/09/2020,Deliveries(from),All Types,165275000,Bricks,Great Britain,2020SepDeliveries(from)-All Types1652750000901/09/2020
 01/09/2020,Stocks,All Types,337663000,Bricks,Great Britain,2020SepStocks-All Types3376630000901/09/2020
@@ -181,7 +181,7 @@
 01/09/2020,Production,Engineerings,11782000,Bricks,Great Britain,2020SepProduction-Engineerings117820000901/09/2020
 01/09/2020,Deliveries(from),Engineerings,12284000,Bricks,Great Britain,2020SepDeliveries(from)-Engineerings122840000901/09/2020
 01/09/2020,Stocks,Engineerings,13199000,Bricks,Great Britain,2020SepStocks-Engineerings131990000901/09/2020
-01/10/2020,Seasonally Adjusted Deliveries,All Types,155.2868741,Bricks,Great Britain,2020OctSeasonally Adjusted Deliveries-All Types155.28687411001/10/2020
+01/10/2020,Seasonally Adjusted Deliveries,All Types,155.286874098755,Bricks,Great Britain,2020OctSeasonally Adjusted Deliveries-All Types155.2868740987551001/10/2020
 01/10/2020,Production,All Types,156575000,Bricks,Great Britain,2020OctProduction-All Types1565750001001/10/2020
 01/10/2020,Deliveries(from),All Types,167009000,Bricks,Great Britain,2020OctDeliveries(from)-All Types1670090001001/10/2020
 01/10/2020,Stocks,All Types,327229000,Bricks,Great Britain,2020OctStocks-All Types3272290001001/10/2020
@@ -194,7 +194,7 @@
 01/10/2020,Production,Engineerings,,Bricks,Great Britain,2020OctProduction-Engineeringsc1001/10/2020
 01/10/2020,Deliveries(from),Engineerings,13077000,Bricks,Great Britain,2020OctDeliveries(from)-Engineerings130770001001/10/2020
 01/10/2020,Stocks,Engineerings,11356000,Bricks,Great Britain,2020OctStocks-Engineerings113560001001/10/2020
-01/11/2020,Seasonally Adjusted Deliveries,All Types,158.4346593,Bricks,Great Britain,2020NovSeasonally Adjusted Deliveries-All Types158.43465931101/11/2020
+01/11/2020,Seasonally Adjusted Deliveries,All Types,158.434659342113,Bricks,Great Britain,2020NovSeasonally Adjusted Deliveries-All Types158.4346593421131101/11/2020
 01/11/2020,Production,All Types,163511000,Bricks,Great Britain,2020NovProduction-All Types1635110001101/11/2020
 01/11/2020,Deliveries(from),All Types,163941000,Bricks,Great Britain,2020NovDeliveries(from)-All Types1639410001101/11/2020
 01/11/2020,Stocks,All Types,326799000,Bricks,Great Britain,2020NovStocks-All Types3267990001101/11/2020
@@ -207,7 +207,7 @@
 01/11/2020,Production,Engineerings,,Bricks,Great Britain,2020NovProduction-Engineeringsc1101/11/2020
 01/11/2020,Deliveries(from),Engineerings,13975000,Bricks,Great Britain,2020NovDeliveries(from)-Engineerings139750001101/11/2020
 01/11/2020,Stocks,Engineerings,11822000,Bricks,Great Britain,2020NovStocks-Engineerings118220001101/11/2020
-01/12/2020,Seasonally Adjusted Deliveries,All Types,162.3400762,Bricks,Great Britain,2020DecSeasonally Adjusted Deliveries-All Types162.34007621201/12/2020
+01/12/2020,Seasonally Adjusted Deliveries,All Types,162.340076170551,Bricks,Great Britain,2020DecSeasonally Adjusted Deliveries-All Types162.3400761705511201/12/2020
 01/12/2020,Production,All Types,113669000,Bricks,Great Britain,2020DecProduction-All Types1136690001201/12/2020
 01/12/2020,Deliveries(from),All Types,132494000,Bricks,Great Britain,2020DecDeliveries(from)-All Types1324940001201/12/2020
 01/12/2020,Stocks,All Types,307967000,Bricks,Great Britain,2020DecStocks-All Types3079670001201/12/2020
@@ -220,7 +220,7 @@
 01/12/2020,Production,Engineerings,11583000,Bricks,Great Britain,2020DecProduction-Engineerings115830001201/12/2020
 01/12/2020,Deliveries(from),Engineerings,12599000,Bricks,Great Britain,2020DecDeliveries(from)-Engineerings125990001201/12/2020
 01/12/2020,Stocks,Engineerings,10806000,Bricks,Great Britain,2020DecStocks-Engineerings108060001201/12/2020
-01/01/2021,Seasonally Adjusted Deliveries,All Types,160.3835106,Bricks,Great Britain,2021JanSeasonally Adjusted Deliveries-All Types160.38351060101/01/2021
+01/01/2021,Seasonally Adjusted Deliveries,All Types,160.383510649423,Bricks,Great Britain,2021JanSeasonally Adjusted Deliveries-All Types160.3835106494230101/01/2021
 01/01/2021,Production,All Types,124668000,Bricks,Great Britain,2021JanProduction-All Types1246680000101/01/2021
 01/01/2021,Deliveries(from),All Types,122469000,Bricks,Great Britain,2021JanDeliveries(from)-All Types1224690000101/01/2021
 01/01/2021,Stocks,All Types,310166000,Bricks,Great Britain,2021JanStocks-All Types3101660000101/01/2021
@@ -233,7 +233,7 @@
 01/01/2021,Production,Engineerings,10503000,Bricks,Great Britain,2021JanProduction-Engineerings105030000101/01/2021
 01/01/2021,Deliveries(from),Engineerings,8025000,Bricks,Great Britain,2021JanDeliveries(from)-Engineerings80250000101/01/2021
 01/01/2021,Stocks,Engineerings,13284000,Bricks,Great Britain,2021JanStocks-Engineerings132840000101/01/2021
-01/02/2021,Seasonally Adjusted Deliveries,All Types,153.2405348,Bricks,Great Britain,2021FebSeasonally Adjusted Deliveries-All Types153.24053480201/02/2021
+01/02/2021,Seasonally Adjusted Deliveries,All Types,153.240534792629,Bricks,Great Britain,2021FebSeasonally Adjusted Deliveries-All Types153.2405347926290201/02/2021
 01/02/2021,Production,All Types,152019000,Bricks,Great Britain,2021FebProduction-All Types1520190000201/02/2021
 01/02/2021,Deliveries(from),All Types,135238000,Bricks,Great Britain,2021FebDeliveries(from)-All Types1352380000201/02/2021
 01/02/2021,Stocks,All Types,326851000,Bricks,Great Britain,2021FebStocks-All Types3268510000201/02/2021
@@ -246,7 +246,7 @@
 01/02/2021,Production,Engineerings,11456000,Bricks,Great Britain,2021FebProduction-Engineerings114560000201/02/2021
 01/02/2021,Deliveries(from),Engineerings,9712000,Bricks,Great Britain,2021FebDeliveries(from)-Engineerings97120000201/02/2021
 01/02/2021,Stocks,Engineerings,15028000,Bricks,Great Britain,2021FebStocks-Engineerings150280000201/02/2021
-01/03/2021,Seasonally Adjusted Deliveries,All Types,170.6483284,Bricks,Great Britain,2021MarSeasonally Adjusted Deliveries-All Types170.64832840301/03/2021
+01/03/2021,Seasonally Adjusted Deliveries,All Types,170.648328390459,Bricks,Great Britain,2021MarSeasonally Adjusted Deliveries-All Types170.6483283904590301/03/2021
 01/03/2021,Production,All Types,177763000,Bricks,Great Britain,2021MarProduction-All Types1777630000301/03/2021
 01/03/2021,Deliveries(from),All Types,182623000,Bricks,Great Britain,2021MarDeliveries(from)-All Types1826230000301/03/2021
 01/03/2021,Stocks,All Types,321981000,Bricks,Great Britain,2021MarStocks-All Types3219810000301/03/2021
@@ -259,7 +259,7 @@
 01/03/2021,Production,Engineerings,11746000,Bricks,Great Britain,2021MarProduction-Engineerings117460000301/03/2021
 01/03/2021,Deliveries(from),Engineerings,14502000,Bricks,Great Britain,2021MarDeliveries(from)-Engineerings145020000301/03/2021
 01/03/2021,Stocks,Engineerings,12272000,Bricks,Great Britain,2021MarStocks-Engineerings122720000301/03/2021
-01/04/2021,Seasonally Adjusted Deliveries,All Types,159.5937031,Bricks,Great Britain,2021AprSeasonally Adjusted Deliveries-All Types159.59370310401/04/2021
+01/04/2021,Seasonally Adjusted Deliveries,All Types,159.593703090637,Bricks,Great Britain,2021AprSeasonally Adjusted Deliveries-All Types159.5937030906370401/04/2021
 01/04/2021,Production,All Types,158910000,Bricks,Great Britain,2021AprProduction-All Types1589100000401/04/2021
 01/04/2021,Deliveries(from),All Types,170986000,Bricks,Great Britain,2021AprDeliveries(from)-All Types1709860000401/04/2021
 01/04/2021,Stocks,All Types,309905000,Bricks,Great Britain,2021AprStocks-All Types3099050000401/04/2021
@@ -272,7 +272,7 @@
 01/04/2021,Production,Engineerings,10693000,Bricks,Great Britain,2021AprProduction-Engineerings106930000401/04/2021
 01/04/2021,Deliveries(from),Engineerings,12998000,Bricks,Great Britain,2021AprDeliveries(from)-Engineerings129980000401/04/2021
 01/04/2021,Stocks,Engineerings,9967000,Bricks,Great Britain,2021AprStocks-Engineerings99670000401/04/2021
-01/05/2021,Seasonally Adjusted Deliveries,All Types,164.4375306,Bricks,Great Britain,2021MaySeasonally Adjusted Deliveries-All Types164.43753060501/05/2021
+01/05/2021,Seasonally Adjusted Deliveries,All Types,164.437530594908,Bricks,Great Britain,2021MaySeasonally Adjusted Deliveries-All Types164.4375305949080501/05/2021
 01/05/2021,Production,All Types,168727000,Bricks,Great Britain,2021MayProduction-All Types1687270000501/05/2021
 01/05/2021,Deliveries(from),All Types,168741000,Bricks,Great Britain,2021MayDeliveries(from)-All Types1687410000501/05/2021
 01/05/2021,Stocks,All Types,309891000,Bricks,Great Britain,2021MayStocks-All Types3098910000501/05/2021
@@ -285,7 +285,7 @@
 01/05/2021,Production,Engineerings,13027000,Bricks,Great Britain,2021MayProduction-Engineerings130270000501/05/2021
 01/05/2021,Deliveries(from),Engineerings,13950000,Bricks,Great Britain,2021MayDeliveries(from)-Engineerings139500000501/05/2021
 01/05/2021,Stocks,Engineerings,9044000,Bricks,Great Britain,2021MayStocks-Engineerings90440000501/05/2021
-01/06/2021,Seasonally Adjusted Deliveries,All Types,160.8022921,Bricks,Great Britain,2021JunSeasonally Adjusted Deliveries-All Types160.80229210601/06/2021
+01/06/2021,Seasonally Adjusted Deliveries,All Types,160.802292113011,Bricks,Great Britain,2021JunSeasonally Adjusted Deliveries-All Types160.8022921130110601/06/2021
 01/06/2021,Production,All Types,167191000,Bricks,Great Britain,2021JunProduction-All Types1671910000601/06/2021
 01/06/2021,Deliveries(from),All Types,186646000,Bricks,Great Britain,2021JunDeliveries(from)-All Types1866460000601/06/2021
 01/06/2021,Stocks,All Types,290436000,Bricks,Great Britain,2021JunStocks-All Types2904360000601/06/2021
@@ -298,7 +298,7 @@
 01/06/2021,Production,Engineerings,11907000,Bricks,Great Britain,2021JunProduction-Engineerings119070000601/06/2021
 01/06/2021,Deliveries(from),Engineerings,12758000,Bricks,Great Britain,2021JunDeliveries(from)-Engineerings127580000601/06/2021
 01/06/2021,Stocks,Engineerings,8193000,Bricks,Great Britain,2021JunStocks-Engineerings81930000601/06/2021
-01/07/2021,Seasonally Adjusted Deliveries,All Types,169.2024311,Bricks,Great Britain,2021JulSeasonally Adjusted Deliveries-All Types169.20243110701/07/2021
+01/07/2021,Seasonally Adjusted Deliveries,All Types,169.202431067931,Bricks,Great Britain,2021JulSeasonally Adjusted Deliveries-All Types169.2024310679310701/07/2021
 01/07/2021,Production,All Types,160040000,Bricks,Great Britain,2021JulProduction-All Types1600400000701/07/2021
 01/07/2021,Deliveries(from),All Types,177660000,Bricks,Great Britain,2021JulDeliveries(from)-All Types1776600000701/07/2021
 01/07/2021,Stocks,All Types,272936000,Bricks,Great Britain,2021JulStocks-All Types2729360000701/07/2021
@@ -311,7 +311,7 @@
 01/07/2021,Production,Engineerings,14735000,Bricks,Great Britain,2021JulProduction-Engineerings147350000701/07/2021
 01/07/2021,Deliveries(from),Engineerings,14423000,Bricks,Great Britain,2021JulDeliveries(from)-Engineerings144230000701/07/2021
 01/07/2021,Stocks,Engineerings,8696000,Bricks,Great Britain,2021JulStocks-Engineerings86960000701/07/2021
-01/08/2021,Seasonally Adjusted Deliveries,All Types,162.5592886,Bricks,Great Britain,2021AugSeasonally Adjusted Deliveries-All Types162.55928860801/08/2021
+01/08/2021,Seasonally Adjusted Deliveries,All Types,162.559288582795,Bricks,Great Britain,2021AugSeasonally Adjusted Deliveries-All Types162.5592885827950801/08/2021
 01/08/2021,Production,All Types,162849000,Bricks,Great Britain,2021AugProduction-All Types1628490000801/08/2021
 01/08/2021,Deliveries(from),All Types,161091000,Bricks,Great Britain,2021AugDeliveries(from)-All Types1610910000801/08/2021
 01/08/2021,Stocks,All Types,274694000,Bricks,Great Britain,2021AugStocks-All Types2746940000801/08/2021

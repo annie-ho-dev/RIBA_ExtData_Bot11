@@ -1,35 +1,326 @@
-﻿Date,Material,Thousand tonnes
-01/01/2003,Cement,11215
-01/01/2003,Clinker,10146
-01/01/2004,Cement,11405
-01/01/2004,Clinker,10402
-01/01/2005,Cement,11216
-01/01/2005,Clinker,10074
-01/01/2006,Cement,11469
-01/01/2006,Clinker,10069
-01/01/2007,Cement,11887
-01/01/2007,Clinker,10227
-01/01/2008,Cement,10071
-01/01/2008,Clinker,8700
-01/01/2009,Cement,7622.731
-01/01/2009,Clinker,6420.567
-01/01/2010,Cement,7882.96339
-01/01/2010,Clinker,6598.468
-01/01/2011,Cement,8529.2296
-01/01/2011,Clinker,7096.343
-01/01/2012,Cement,7951.52382
-01/01/2012,Clinker,6554.75552
-01/01/2013,Cement,8203.226
-01/01/2013,Clinker,6711.881
-01/01/2014,Cement,8958.1
-01/01/2014,Clinker,7196.8
-01/01/2015,Cement,9235.35
-01/01/2015,Clinker,7804
-01/01/2016,Cement,9369.78
-01/01/2016,Clinker,8056
-01/01/2017,Cement,9359.06
-01/01/2017,Clinker,7823.75
-01/01/2018,Cement,9197.16
-01/01/2018,Clinker,7734.26
-01/01/2019,Cement,9079.06
-01/01/2019,Clinker,7829.86
+﻿Year,Month,Header,Millions of Bricks
+2019,August,Seasonally Adjusted Deliveries-All Types,161.715520559026
+2019,August,Production-All Types,173392000
+2019,August,Deliveries(from)-All Types,162773000
+2019,August,Stocks-All Types,390141000
+2019,August,Production-Commons,9849000
+2019,August,Deliveries(from)-Commons,8806000
+2019,August,Stocks-Commons,34051000
+2019,August,Production-Facings,149992000
+2019,August,Deliveries(from)-Facings,142638000
+2019,August,Stocks-Facings,337276000
+2019,August,Production-Engineerings,13551000
+2019,August,Deliveries(from)-Engineerings,11329000
+2019,August,Stocks-Engineerings,18814000
+2019,September,Seasonally Adjusted Deliveries-All Types,173.406032153109
+2019,September,Production-All Types,179524000
+2019,September,Deliveries(from)-All Types,177935000
+2019,September,Stocks-All Types,391730000
+2019,September,Production-Commons,9977000
+2019,September,Deliveries(from)-Commons,9580000
+2019,September,Stocks-Commons,34448000
+2019,September,Production-Facings,158820000
+2019,September,Deliveries(from)-Facings,155205000
+2019,September,Stocks-Facings,340891000
+2019,September,Production-Engineerings,10727000
+2019,September,Deliveries(from)-Engineerings,13150000
+2019,September,Stocks-Engineerings,16391000
+2019,October,Seasonally Adjusted Deliveries-All Types,158.479495926322
+2019,October,Production-All Types,189654000
+2019,October,Deliveries(from)-All Types,181327000
+2019,October,Stocks-All Types,400056000
+2019,October,Production-Commons,11520000
+2019,October,Deliveries(from)-Commons,9959000
+2019,October,Stocks-Commons,36009000
+2019,October,Production-Facings,166029000
+2019,October,Deliveries(from)-Facings,157315000
+2019,October,Stocks-Facings,349604000
+2019,October,Production-Engineerings,12105000
+2019,October,Deliveries(from)-Engineerings,14053000
+2019,October,Stocks-Engineerings,14443000
+2019,November,Seasonally Adjusted Deliveries-All Types,158.234604222538
+2019,November,Production-All Types,182751000
+2019,November,Deliveries(from)-All Types,163346000
+2019,November,Stocks-All Types,419461000
+2019,November,Production-Commons,11496000
+2019,November,Deliveries(from)-Commons,8177000
+2019,November,Stocks-Commons,39328000
+2019,November,Production-Facings,155729000
+2019,November,Deliveries(from)-Facings,143493000
+2019,November,Stocks-Facings,361840000
+2019,November,Production-Engineerings,15526000
+2019,November,Deliveries(from)-Engineerings,11676000
+2019,November,Stocks-Engineerings,18293000
+2019,December,Seasonally Adjusted Deliveries-All Types,171.623036664809
+2019,December,Production-All Types,c
+2019,December,Deliveries(from)-All Types,132851000
+2019,December,Stocks-All Types,424370000
+2019,December,Production-Commons,5315000
+2019,December,Deliveries(from)-Commons,5865000
+2019,December,Stocks-Commons,38778000
+2019,December,Production-Facings,121358000
+2019,December,Deliveries(from)-Facings,116321000
+2019,December,Stocks-Facings,366877000
+2019,December,Production-Engineerings,c
+2019,December,Deliveries(from)-Engineerings,10665000
+2019,December,Stocks-Engineerings,18715000
+2020,January,Seasonally Adjusted Deliveries-All Types,157.22415744089
+2020,January,Production-All Types,150892000
+2020,January,Deliveries(from)-All Types,132188000
+2020,January,Stocks-All Types,443072000
+2020,January,Production-Commons,8175000
+2020,January,Deliveries(from)-Commons,8299000
+2020,January,Stocks-Commons,38654000
+2020,January,Production-Facings,128745000
+2020,January,Deliveries(from)-Facings,116910000
+2020,January,Stocks-Facings,378710000
+2020,January,Production-Engineerings,13972000
+2020,January,Deliveries(from)-Engineerings,6979000
+2020,January,Stocks-Engineerings,25708000
+2020,February,Seasonally Adjusted Deliveries-All Types,158.397762458737
+2020,February,Production-All Types,166028000
+2020,February,Deliveries(from)-All Types,141076000
+2020,February,Stocks-All Types,468024000
+2020,February,Production-Commons,10156000
+2020,February,Deliveries(from)-Commons,9418000
+2020,February,Stocks-Commons,39392000
+2020,February,Production-Facings,145147000
+2020,February,Deliveries(from)-Facings,122461000
+2020,February,Stocks-Facings,401396000
+2020,February,Production-Engineerings,10725000
+2020,February,Deliveries(from)-Engineerings,9197000
+2020,February,Stocks-Engineerings,27236000
+2020,March,Seasonally Adjusted Deliveries-All Types,113.794199627825
+2020,March,Production-All Types,138954000
+2020,March,Deliveries(from)-All Types,122038000
+2020,March,Stocks-All Types,484940000
+2020,March,Production-Commons,7877000
+2020,March,Deliveries(from)-Commons,7264000
+2020,March,Stocks-Commons,40005000
+2020,March,Production-Facings,120774000
+2020,March,Deliveries(from)-Facings,106540000
+2020,March,Stocks-Facings,415630000
+2020,March,Production-Engineerings,10303000
+2020,March,Deliveries(from)-Engineerings,8234000
+2020,March,Stocks-Engineerings,29305000
+2020,April,Seasonally Adjusted Deliveries-All Types,20.5314706142076
+2020,April,Production-All Types,3715000
+2020,April,Deliveries(from)-All Types,22529000
+2020,April,Stocks-All Types,466126000
+2020,April,Production-Commons,c
+2020,April,Deliveries(from)-Commons,1684000
+2020,April,Stocks-Commons,38545000
+2020,April,Production-Facings,3446000
+2020,April,Deliveries(from)-Facings,17795000
+2020,April,Stocks-Facings,401281000
+2020,April,Production-Engineerings,c
+2020,April,Deliveries(from)-Engineerings,3050000
+2020,April,Stocks-Engineerings,26300000
+2020,May,Seasonally Adjusted Deliveries-All Types,66.5090315499415
+2020,May,Production-All Types,25836000
+2020,May,Deliveries(from)-All Types,69931000
+2020,May,Stocks-All Types,422031000
+2020,May,Production-Commons,c
+2020,May,Deliveries(from)-Commons,4357000
+2020,May,Stocks-Commons,35930000
+2020,May,Production-Facings,23584000
+2020,May,Deliveries(from)-Facings,58261000
+2020,May,Stocks-Facings,366604000
+2020,May,Production-Engineerings,c
+2020,May,Deliveries(from)-Engineerings,7313000
+2020,May,Stocks-Engineerings,19497000
+2020,June,Seasonally Adjusted Deliveries-All Types,105.044485350981
+2020,June,Production-All Types,80290000
+2020,June,Deliveries(from)-All Types,123402000
+2020,June,Stocks-All Types,378919000
+2020,June,Production-Commons,6303000
+2020,June,Deliveries(from)-Commons,8234000
+2020,June,Stocks-Commons,33999000
+2020,June,Production-Facings,69356000
+2020,June,Deliveries(from)-Facings,105575000
+2020,June,Stocks-Facings,330385000
+2020,June,Production-Engineerings,4631000
+2020,June,Deliveries(from)-Engineerings,9593000
+2020,June,Stocks-Engineerings,14535000
+2020,July,Seasonally Adjusted Deliveries-All Types,140.498280218662
+2020,July,Production-All Types,135704000
+2020,July,Deliveries(from)-All Types,155987000
+2020,July,Stocks-All Types,358636000
+2020,July,Production-Commons,c
+2020,July,Deliveries(from)-Commons,9049000
+2020,July,Stocks-Commons,33007000
+2020,July,Production-Facings,115633000
+2020,July,Deliveries(from)-Facings,134669000
+2020,July,Stocks-Facings,311349000
+2020,July,Production-Engineerings,c
+2020,July,Deliveries(from)-Engineerings,12269000
+2020,July,Stocks-Engineerings,14280000
+2020,August,Seasonally Adjusted Deliveries-All Types,153.050806903485
+2020,August,Production-All Types,142200000
+2020,August,Deliveries(from)-All Types,147178000
+2020,August,Stocks-All Types,353658000
+2020,August,Production-Commons,c
+2020,August,Deliveries(from)-Commons,8405000
+2020,August,Stocks-Commons,34973000
+2020,August,Production-Facings,119623000
+2020,August,Deliveries(from)-Facings,125988000
+2020,August,Stocks-Facings,304984000
+2020,August,Production-Engineerings,c
+2020,August,Deliveries(from)-Engineerings,12785000
+2020,August,Stocks-Engineerings,13701000
+2020,September,Seasonally Adjusted Deliveries-All Types,152.341769702946
+2020,September,Production-All Types,149280000
+2020,September,Deliveries(from)-All Types,165275000
+2020,September,Stocks-All Types,337663000
+2020,September,Production-Commons,9977000
+2020,September,Deliveries(from)-Commons,9754000
+2020,September,Stocks-Commons,35196000
+2020,September,Production-Facings,127521000
+2020,September,Deliveries(from)-Facings,143237000
+2020,September,Stocks-Facings,289268000
+2020,September,Production-Engineerings,11782000
+2020,September,Deliveries(from)-Engineerings,12284000
+2020,September,Stocks-Engineerings,13199000
+2020,October,Seasonally Adjusted Deliveries-All Types,155.286874098755
+2020,October,Production-All Types,156575000
+2020,October,Deliveries(from)-All Types,167009000
+2020,October,Stocks-All Types,327229000
+2020,October,Production-Commons,c
+2020,October,Deliveries(from)-Commons,9229000
+2020,October,Stocks-Commons,34922000
+2020,October,Production-Facings,136386000
+2020,October,Deliveries(from)-Facings,144703000
+2020,October,Stocks-Facings,280951000
+2020,October,Production-Engineerings,c
+2020,October,Deliveries(from)-Engineerings,13077000
+2020,October,Stocks-Engineerings,11356000
+2020,November,Seasonally Adjusted Deliveries-All Types,158.434659342113
+2020,November,Production-All Types,163511000
+2020,November,Deliveries(from)-All Types,163941000
+2020,November,Stocks-All Types,326799000
+2020,November,Production-Commons,c
+2020,November,Deliveries(from)-Commons,9269000
+2020,November,Stocks-Commons,34107000
+2020,November,Production-Facings,140616000
+2020,November,Deliveries(from)-Facings,140697000
+2020,November,Stocks-Facings,280870000
+2020,November,Production-Engineerings,c
+2020,November,Deliveries(from)-Engineerings,13975000
+2020,November,Stocks-Engineerings,11822000
+2020,December,Seasonally Adjusted Deliveries-All Types,162.340076170551
+2020,December,Production-All Types,113669000
+2020,December,Deliveries(from)-All Types,132494000
+2020,December,Stocks-All Types,307967000
+2020,December,Production-Commons,6059000
+2020,December,Deliveries(from)-Commons,12521000
+2020,December,Stocks-Commons,27645000
+2020,December,Production-Facings,96027000
+2020,December,Deliveries(from)-Facings,107374000
+2020,December,Stocks-Facings,269516000
+2020,December,Production-Engineerings,11583000
+2020,December,Deliveries(from)-Engineerings,12599000
+2020,December,Stocks-Engineerings,10806000
+2021,January,Seasonally Adjusted Deliveries-All Types,160.383510649423
+2021,January,Production-All Types,124668000
+2021,January,Deliveries(from)-All Types,122469000
+2021,January,Stocks-All Types,310166000
+2021,January,Production-Commons,8166000
+2021,January,Deliveries(from)-Commons,7169000
+2021,January,Stocks-Commons,28642000
+2021,January,Production-Facings,105999000
+2021,January,Deliveries(from)-Facings,107275000
+2021,January,Stocks-Facings,268240000
+2021,January,Production-Engineerings,10503000
+2021,January,Deliveries(from)-Engineerings,8025000
+2021,January,Stocks-Engineerings,13284000
+2021,February,Seasonally Adjusted Deliveries-All Types,153.240534792629
+2021,February,Production-All Types,152019000
+2021,February,Deliveries(from)-All Types,135238000
+2021,February,Stocks-All Types,326851000
+2021,February,Production-Commons,9405000
+2021,February,Deliveries(from)-Commons,7499000
+2021,February,Stocks-Commons,30531000
+2021,February,Production-Facings,131158000
+2021,February,Deliveries(from)-Facings,118027000
+2021,February,Stocks-Facings,281292000
+2021,February,Production-Engineerings,11456000
+2021,February,Deliveries(from)-Engineerings,9712000
+2021,February,Stocks-Engineerings,15028000
+2021,March,Seasonally Adjusted Deliveries-All Types,170.648328390459
+2021,March,Production-All Types,177763000
+2021,March,Deliveries(from)-All Types,182623000
+2021,March,Stocks-All Types,321981000
+2021,March,Production-Commons,8498000
+2021,March,Deliveries(from)-Commons,12253000
+2021,March,Stocks-Commons,26776000
+2021,March,Production-Facings,157519000
+2021,March,Deliveries(from)-Facings,155868000
+2021,March,Stocks-Facings,282933000
+2021,March,Production-Engineerings,11746000
+2021,March,Deliveries(from)-Engineerings,14502000
+2021,March,Stocks-Engineerings,12272000
+2021,April,Seasonally Adjusted Deliveries-All Types,159.593703090637
+2021,April,Production-All Types,158910000
+2021,April,Deliveries(from)-All Types,170986000
+2021,April,Stocks-All Types,309905000
+2021,April,Production-Commons,9306000
+2021,April,Deliveries(from)-Commons,11745000
+2021,April,Stocks-Commons,24337000
+2021,April,Production-Facings,138911000
+2021,April,Deliveries(from)-Facings,146243000
+2021,April,Stocks-Facings,275601000
+2021,April,Production-Engineerings,10693000
+2021,April,Deliveries(from)-Engineerings,12998000
+2021,April,Stocks-Engineerings,9967000
+2021,May,Seasonally Adjusted Deliveries-All Types,164.437530594908
+2021,May,Production-All Types,168727000
+2021,May,Deliveries(from)-All Types,168741000
+2021,May,Stocks-All Types,309891000
+2021,May,Production-Commons,10345000
+2021,May,Deliveries(from)-Commons,10475000
+2021,May,Stocks-Commons,24207000
+2021,May,Production-Facings,145355000
+2021,May,Deliveries(from)-Facings,144316000
+2021,May,Stocks-Facings,276640000
+2021,May,Production-Engineerings,13027000
+2021,May,Deliveries(from)-Engineerings,13950000
+2021,May,Stocks-Engineerings,9044000
+2021,June,Seasonally Adjusted Deliveries-All Types,160.802292113011
+2021,June,Production-All Types,167191000
+2021,June,Deliveries(from)-All Types,186646000
+2021,June,Stocks-All Types,290436000
+2021,June,Production-Commons,9336000
+2021,June,Deliveries(from)-Commons,10926000
+2021,June,Stocks-Commons,22617000
+2021,June,Production-Facings,145948000
+2021,June,Deliveries(from)-Facings,162962000
+2021,June,Stocks-Facings,259626000
+2021,June,Production-Engineerings,11907000
+2021,June,Deliveries(from)-Engineerings,12758000
+2021,June,Stocks-Engineerings,8193000
+2021,July,Seasonally Adjusted Deliveries-All Types,169.202431067931
+2021,July,Production-All Types,160040000
+2021,July,Deliveries(from)-All Types,177660000
+2021,July,Stocks-All Types,272936000
+2021,July,Production-Commons,9772000
+2021,July,Deliveries(from)-Commons,10733000
+2021,July,Stocks-Commons,21656000
+2021,July,Production-Facings,135533000
+2021,July,Deliveries(from)-Facings,152504000
+2021,July,Stocks-Facings,242584000
+2021,July,Production-Engineerings,14735000
+2021,July,Deliveries(from)-Engineerings,14423000
+2021,July,Stocks-Engineerings,8696000
+2021,August,Seasonally Adjusted Deliveries-All Types,162.559288582795
+2021,August,Production-All Types,162849000
+2021,August,Deliveries(from)-All Types,161091000
+2021,August,Stocks-All Types,274694000
+2021,August,Production-Commons,8092000
+2021,August,Deliveries(from)-Commons,9689000
+2021,August,Stocks-Commons,20059000
+2021,August,Production-Facings,140098000
+2021,August,Deliveries(from)-Facings,141832000
+2021,August,Stocks-Facings,240850000
+2021,August,Production-Engineerings,14659000
+2021,August,Deliveries(from)-Engineerings,9570000
+2021,August,Stocks-Engineerings,13785000
