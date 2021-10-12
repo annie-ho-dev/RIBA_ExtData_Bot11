@@ -133,9 +133,9 @@
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <Flowchart.StartNode>
-      <x:Reference>__ReferenceID10</x:Reference>
+      <x:Reference>__ReferenceID7</x:Reference>
     </Flowchart.StartNode>
-    <FlowStep x:Name="__ReferenceID10">
+    <FlowStep x:Name="__ReferenceID7">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <av:Point x:Key="ShapeLocation">40,116</av:Point>
@@ -482,7 +482,7 @@
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <av:Point x:Key="ShapeLocation">420,141.6</av:Point>
               <av:Size x:Key="ShapeSize">200,176.8</av:Size>
-              <av:PointCollection x:Key="ConnectorLocation">520,318.4 520,348.4 130,348.4 130,465.6</av:PointCollection>
+              <av:PointCollection x:Key="ConnectorLocation">520,318.4 520,348.4 390,348.4 390,545.6 130,545.6 130,575.6</av:PointCollection>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
           <Sequence sap2010:Annotation.AnnotationText="The sequence will check all paths collected from the config file to see if they exist, prompting the user with a message box if they don't exist. " DisplayName="Check All Paths Exist" sap:VirtualizedContainerService.HintSize="200,176.8" sap2010:WorkflowViewState.IdRef="Sequence_8">
@@ -547,35 +547,35 @@
             <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="563,91" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info" Message="[&quot;Completed checking of all folder paths.&quot;]" />
           </Sequence>
           <FlowStep.Next>
-            <FlowStep x:Name="__ReferenceID3">
+            <FlowStep x:Name="__ReferenceID5">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                  <av:Point x:Key="ShapeLocation">30,465.6</av:Point>
+                  <av:Point x:Key="ShapeLocation">30,575.6</av:Point>
                   <av:Size x:Key="ShapeSize">200,68.8</av:Size>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <Sequence DisplayName="Table 4" sap:VirtualizedContainerService.HintSize="200,68.8" sap2010:WorkflowViewState.IdRef="Sequence_122">
+              <Sequence DisplayName="Table 8" sap:VirtualizedContainerService.HintSize="200,68.8" sap2010:WorkflowViewState.IdRef="Sequence_156">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     <x:Boolean x:Key="IsPinned">False</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <Sequence DisplayName="Import &amp; Transform- Table 4 " sap:VirtualizedContainerService.HintSize="520,1524" sap2010:WorkflowViewState.IdRef="Sequence_121">
+                <Sequence DisplayName="Import &amp; Transform- Table 8" sap:VirtualizedContainerService.HintSize="520,2452" sap2010:WorkflowViewState.IdRef="Sequence_153">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       <x:Boolean x:Key="IsPinned">False</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <Sequence DisplayName="Import Data" sap:VirtualizedContainerService.HintSize="478.4,1230.4" sap2010:WorkflowViewState.IdRef="Sequence_117">
+                  <Sequence DisplayName="Import Data" sap:VirtualizedContainerService.HintSize="478.4,1137.6" sap2010:WorkflowViewState.IdRef="Sequence_149">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                         <x:Boolean x:Key="IsPinned">False</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <TryCatch DisplayName="Try Import Data" sap:VirtualizedContainerService.HintSize="436.8,1004.8" sap2010:WorkflowViewState.IdRef="TryCatch_21">
+                    <TryCatch DisplayName="Try Import Data" sap:VirtualizedContainerService.HintSize="436.8,912" sap2010:WorkflowViewState.IdRef="TryCatch_30">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -583,57 +583,17 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                       <TryCatch.Try>
-                        <Sequence sap:VirtualizedContainerService.HintSize="375.2,273.6" sap2010:WorkflowViewState.IdRef="Sequence_211">
+                        <Sequence sap:VirtualizedContainerService.HintSize="375.2,180.8" sap2010:WorkflowViewState.IdRef="Sequence_203">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <ui:ReadRange AddHeaders="False" DataTable="[dt_WorkingImport]" DisplayName="Read Range" sap:VirtualizedContainerService.HintSize="333.6,88" sap2010:WorkflowViewState.IdRef="ReadRange_11" Range="A3" SheetName="Table 4" WorkbookPath="[str_FilePath_RawDownload.ToString]" />
-                          <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="333.6,52.8" sap2010:WorkflowViewState.IdRef="CommentOut_26">
-                            <ui:CommentOut.Body>
-                              <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="475.2,355.2" sap2010:WorkflowViewState.IdRef="Sequence_254">
-                                <sap:WorkflowViewStateService.ViewState>
-                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                  </scg:Dictionary>
-                                </sap:WorkflowViewStateService.ViewState>
-                                <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Excel Application Scope" sap:VirtualizedContainerService.HintSize="433.6,262.4" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_14" WorkbookPath="[str_FilePath_RawDownload.ToString]">
-                                  <ui:ExcelApplicationScope.Body>
-                                    <ActivityAction x:TypeArguments="ui:WorkbookApplication">
-                                      <ActivityAction.Argument>
-                                        <DelegateInArgument x:TypeArguments="ui:WorkbookApplication" Name="ExcelWorkbookScope" />
-                                      </ActivityAction.Argument>
-                                      <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="375.2,152.8" sap2010:WorkflowViewState.IdRef="Sequence_210">
-                                        <sap:WorkflowViewStateService.ViewState>
-                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                          </scg:Dictionary>
-                                        </sap:WorkflowViewStateService.ViewState>
-                                        <ui:ExcelReadRange AddHeaders="False" DataTable="[dt_WorkingImport]" DisplayName="Read Range" sap:VirtualizedContainerService.HintSize="333.6,60" sap2010:WorkflowViewState.IdRef="ExcelReadRange_14" Range="A3" SheetName="Table 4" />
-                                      </Sequence>
-                                    </ActivityAction>
-                                  </ui:ExcelApplicationScope.Body>
-                                  <sap:WorkflowViewStateService.ViewState>
-                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                                    </scg:Dictionary>
-                                  </sap:WorkflowViewStateService.ViewState>
-                                </ui:ExcelApplicationScope>
-                              </Sequence>
-                            </ui:CommentOut.Body>
-                            <sap:WorkflowViewStateService.ViewState>
-                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                                <x:Boolean x:Key="IsPinned">True</x:Boolean>
-                              </scg:Dictionary>
-                            </sap:WorkflowViewStateService.ViewState>
-                          </ui:CommentOut>
+                          <ui:ReadRange AddHeaders="True" DataTable="[dt_WorkingImport]" DisplayName="Read Range" sap:VirtualizedContainerService.HintSize="333.6,88" sap2010:WorkflowViewState.IdRef="ReadRange_12" Range="A12" SheetName="Table 8" WorkbookPath="[str_FilePath_RawDownload.ToString]" />
                         </Sequence>
                       </TryCatch.Try>
                       <TryCatch.Catches>
-                        <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="403.2,418.4" sap2010:WorkflowViewState.IdRef="Catch`1_21">
+                        <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="403.2,418.4" sap2010:WorkflowViewState.IdRef="Catch`1_30">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -644,31 +604,31 @@
                             <ActivityAction.Argument>
                               <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
                             </ActivityAction.Argument>
-                            <Sequence DisplayName="Failure - Importing File" sap:VirtualizedContainerService.HintSize="375.2,348" sap2010:WorkflowViewState.IdRef="Sequence_116">
+                            <Sequence DisplayName="Failure - Importing File" sap:VirtualizedContainerService.HintSize="375.2,348" sap2010:WorkflowViewState.IdRef="Sequence_148">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
-                              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="333.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_42" Level="Error" Message="[&quot;Failed to import the raw file into UiPath.&quot;]" />
-                              <ui:MessageBox ChosenButton="{x:Null}" Buttons="Ok" Caption="Automation Failure: Import Raw File" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="333.6,60" sap2010:WorkflowViewState.IdRef="MessageBox_24" Text="[&quot;The automation has failed whilst trying to import the downloaded file into UiPath. The process will now terminate.&quot;]" TopMost="True" />
-                              <TerminateWorkflow DisplayName="Terminate Workflow" sap:VirtualizedContainerService.HintSize="333.6,22.4" sap2010:WorkflowViewState.IdRef="TerminateWorkflow_23" Reason="The automation has failed whilst trying to import the downloaded file into UiPath." />
+                              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="333.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_60" Level="Error" Message="[&quot;Failed to import the raw file into UiPath.&quot;]" />
+                              <ui:MessageBox ChosenButton="{x:Null}" Buttons="Ok" Caption="Automation Failure: Import Raw File" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="333.6,60" sap2010:WorkflowViewState.IdRef="MessageBox_33" Text="[&quot;The automation has failed whilst trying to import the downloaded file into UiPath. The process will now terminate.&quot;]" TopMost="True" />
+                              <TerminateWorkflow DisplayName="Terminate Workflow" sap:VirtualizedContainerService.HintSize="333.6,22.4" sap2010:WorkflowViewState.IdRef="TerminateWorkflow_32" Reason="The automation has failed whilst trying to import the downloaded file into UiPath." />
                             </Sequence>
                           </ActivityAction>
                         </Catch>
                       </TryCatch.Catches>
                     </TryCatch>
-                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="436.8,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_43" Level="Info" Message="[&quot;Completed import of Raw File into UiPath.&quot;]" />
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="436.8,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_61" Level="Info" Message="[&quot;Completed import of Raw File into UiPath.&quot;]" />
                   </Sequence>
-                  <Sequence sap2010:Annotation.AnnotationText="This sequence INVOKEs the Transformation Sequence that performs all the transformations to unpivot &amp;/or flatten the datatables. " DisplayName="Transform Data- Table 4" sap:VirtualizedContainerService.HintSize="478.4,160.8" sap2010:WorkflowViewState.IdRef="Sequence_120">
+                  <Sequence sap2010:Annotation.AnnotationText="This sequence INVOKEs the Transformation Sequence that performs all the transformations to unpivot &amp;/or flatten the datatables. " DisplayName="Transform Data- Table 8" sap:VirtualizedContainerService.HintSize="478.4,1181.6" sap2010:WorkflowViewState.IdRef="Sequence_152">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                        <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
                         <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <TryCatch DisplayName="Try Transform Data" sap:VirtualizedContainerService.HintSize="436.8,912" sap2010:WorkflowViewState.IdRef="TryCatch_22">
+                    <TryCatch DisplayName="Try Transform Data" sap:VirtualizedContainerService.HintSize="436.8,912" sap2010:WorkflowViewState.IdRef="TryCatch_31">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -676,13 +636,13 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                       <TryCatch.Try>
-                        <Sequence sap:VirtualizedContainerService.HintSize="392.8,180.8" sap2010:WorkflowViewState.IdRef="Sequence_118">
+                        <Sequence sap:VirtualizedContainerService.HintSize="392.8,180.8" sap2010:WorkflowViewState.IdRef="Sequence_150">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke BotName_Transformations_Table4 workflow" sap:VirtualizedContainerService.HintSize="351.2,88" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_15" UnSafe="False" WorkflowFileName="Framework\BotName_Transformations_Table4.xaml">
+                          <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke BotName_Transformations_Table8 workflow" sap:VirtualizedContainerService.HintSize="351.2,88" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_21" UnSafe="False" WorkflowFileName="Framework\BotName_Transformations_Table8.xaml">
                             <ui:InvokeWorkflowFile.Arguments>
                               <OutArgument x:TypeArguments="sd:DataTable" x:Key="dt_TransformedOutput">[dt_TransformedOutput]</OutArgument>
                               <InArgument x:TypeArguments="sd:DataTable" x:Key="dt_WorkingImport">[dt_WorkingImport]</InArgument>
@@ -692,7 +652,7 @@
                         </Sequence>
                       </TryCatch.Try>
                       <TryCatch.Catches>
-                        <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="403.2,418.4" sap2010:WorkflowViewState.IdRef="Catch`1_22">
+                        <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="403.2,418.4" sap2010:WorkflowViewState.IdRef="Catch`1_31">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -703,24 +663,24 @@
                             <ActivityAction.Argument>
                               <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
                             </ActivityAction.Argument>
-                            <Sequence DisplayName="Failure - Transforming Data Table" sap:VirtualizedContainerService.HintSize="375.2,348" sap2010:WorkflowViewState.IdRef="Sequence_119">
+                            <Sequence DisplayName="Failure - Transforming Data Table" sap:VirtualizedContainerService.HintSize="375.2,348" sap2010:WorkflowViewState.IdRef="Sequence_151">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
-                              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="333.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_44" Level="Error" Message="[&quot;Failed whilst invoking the Transform process.&quot;]" />
-                              <ui:MessageBox ChosenButton="{x:Null}" Buttons="Ok" Caption="Automation Failure: Transform Data Table" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="333.6,60" sap2010:WorkflowViewState.IdRef="MessageBox_25" Text="[&quot;The automation has failed whilst trying to transform the downloaded table into it's final format. The process will now terminate.&quot;]" TopMost="True" />
-                              <TerminateWorkflow DisplayName="Terminate Workflow" sap:VirtualizedContainerService.HintSize="333.6,22.4" sap2010:WorkflowViewState.IdRef="TerminateWorkflow_24" Reason="The automation has failed whilst trying to transform the downloaded table into it's final format." />
+                              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="333.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_62" Level="Error" Message="[&quot;Failed whilst invoking the Transform process.&quot;]" />
+                              <ui:MessageBox ChosenButton="{x:Null}" Buttons="Ok" Caption="Automation Failure: Transform Data Table" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="333.6,60" sap2010:WorkflowViewState.IdRef="MessageBox_34" Text="[&quot;The automation has failed whilst trying to transform the downloaded table into it's final format. The process will now terminate.&quot;]" TopMost="True" />
+                              <TerminateWorkflow DisplayName="Terminate Workflow" sap:VirtualizedContainerService.HintSize="333.6,22.4" sap2010:WorkflowViewState.IdRef="TerminateWorkflow_33" Reason="The automation has failed whilst trying to transform the downloaded table into it's final format." />
                             </Sequence>
                           </ActivityAction>
                         </Catch>
                       </TryCatch.Catches>
                     </TryCatch>
-                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="436.8,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_45" Level="Info" Message="[&quot;Completed Transformation of Table 4&quot;]" />
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="436.8,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_63" Level="Info" Message="[&quot;Completed Transformation of Table 8&quot;]" />
                   </Sequence>
                 </Sequence>
-                <Sequence sap2010:Annotation.AnnotationText="The isequence exports the transformed datatable and saves it in the relevant location. " DisplayName="Save Output File- Table 4" sap:VirtualizedContainerService.HintSize="520,144.8" sap2010:WorkflowViewState.IdRef="Sequence_114">
+                <Sequence sap2010:Annotation.AnnotationText="The isequence exports the transformed datatable and saves it in the relevant location. " DisplayName="Save Output File- Table 8" sap:VirtualizedContainerService.HintSize="520,144.8" sap2010:WorkflowViewState.IdRef="Sequence_155">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -728,12 +688,12 @@
                       <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="436.8,886.4" sap2010:WorkflowViewState.IdRef="TryCatch_20">
+                  <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="436.8,886.4" sap2010:WorkflowViewState.IdRef="TryCatch_32">
                     <TryCatch.Try>
-                      <ui:WriteCsvFile Encoding="{x:Null}" AddHeaders="True" DataTable="[dt_TransformedOutput]" Delimitator="Comma" DisplayName="Write CSV" FilePath="[str_FilePath_TransformedData2.ToString]" sap:VirtualizedContainerService.HintSize="333.6,155.2" sap2010:WorkflowViewState.IdRef="WriteCsvFile_4" />
+                      <ui:WriteCsvFile Encoding="{x:Null}" AddHeaders="True" DataTable="[dt_TransformedOutput]" Delimitator="Comma" DisplayName="Write CSV" FilePath="[str_FilePath_TransformedData5.ToString]" sap:VirtualizedContainerService.HintSize="333.6,155.2" sap2010:WorkflowViewState.IdRef="WriteCsvFile_8" />
                     </TryCatch.Try>
                     <TryCatch.Catches>
-                      <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="403.2,418.4" sap2010:WorkflowViewState.IdRef="Catch`1_20">
+                      <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="403.2,418.4" sap2010:WorkflowViewState.IdRef="Catch`1_32">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -744,21 +704,21 @@
                           <ActivityAction.Argument>
                             <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
                           </ActivityAction.Argument>
-                          <Sequence DisplayName="Failure - Export Tansformed Data Table" sap:VirtualizedContainerService.HintSize="375.2,348" sap2010:WorkflowViewState.IdRef="Sequence_113">
+                          <Sequence DisplayName="Failure - Export Tansformed Data Table" sap:VirtualizedContainerService.HintSize="375.2,348" sap2010:WorkflowViewState.IdRef="Sequence_154">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
-                            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="333.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_40" Level="Error" Message="[&quot;Failed to export Transformed .csv(s) to the local Transformed Folder.&quot;]" />
-                            <ui:MessageBox ChosenButton="{x:Null}" Buttons="Ok" Caption="Automation Failure: Export Transformed Table" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="333.6,60" sap2010:WorkflowViewState.IdRef="MessageBox_23" Text="[&quot;The automation has failed whilst trying to export the transformed data table to the Transformed Output folder. The process will now terminate.&quot;]" TopMost="True" />
-                            <TerminateWorkflow DisplayName="Terminate Workflow" sap:VirtualizedContainerService.HintSize="333.6,22.4" sap2010:WorkflowViewState.IdRef="TerminateWorkflow_22" Reason="The automation has failed whilst trying to export the transformed data table to the Transformed Output folder." />
+                            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="333.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_64" Level="Error" Message="[&quot;Failed to export Transformed .csv(s) to the local Transformed Folder.&quot;]" />
+                            <ui:MessageBox ChosenButton="{x:Null}" Buttons="Ok" Caption="Automation Failure: Export Transformed Table" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="333.6,60" sap2010:WorkflowViewState.IdRef="MessageBox_35" Text="[&quot;The automation has failed whilst trying to export the transformed data table to the Transformed Output folder. The process will now terminate.&quot;]" TopMost="True" />
+                            <TerminateWorkflow DisplayName="Terminate Workflow" sap:VirtualizedContainerService.HintSize="333.6,22.4" sap2010:WorkflowViewState.IdRef="TerminateWorkflow_34" Reason="The automation has failed whilst trying to export the transformed data table to the Transformed Output folder." />
                           </Sequence>
                         </ActivityAction>
                       </Catch>
                     </TryCatch.Catches>
                   </TryCatch>
-                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="436.8,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_41" Level="Info" Message="[&quot;Completed export of Table 4 Transformed to Transformed .csv (&quot; + str_FilePath_TransformedData.ToString.Trim + &quot;).&quot;]" />
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="436.8,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_65" Level="Info" Message="[&quot;Completed export of Table 8 Transformed to Transformed .csv (&quot; + str_FilePath_TransformedData.ToString.Trim + &quot;).&quot;]" />
                 </Sequence>
               </Sequence>
             </FlowStep>
@@ -767,7 +727,7 @@
       </FlowStep.Next>
     </FlowStep>
     <x:Reference>__ReferenceID0</x:Reference>
-    <FlowStep x:Name="__ReferenceID4">
+    <FlowStep x:Name="__ReferenceID3">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <av:Point x:Key="ShapeLocation">420,927.6</av:Point>
@@ -899,13 +859,13 @@
         <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="514,91" sap2010:WorkflowViewState.IdRef="LogMessage_16" Level="Info" Message="[&quot;Completed Azure Upload Process.&quot;]" />
       </Sequence>
       <FlowStep.Next>
-        <FlowDecision x:Name="__ReferenceID1" Condition="[Config(&quot;Delete Files after upload?&quot;).ToString = &quot;Yes&quot;]" DisplayName="Flow Decision" sap:VirtualizedContainerService.HintSize="78.4,87.2" sap2010:WorkflowViewState.IdRef="FlowDecision_1">
+        <FlowDecision x:Name="__ReferenceID1" Condition="[Config(&quot;Delete Files after upload?&quot;).ToString = &quot;Yes&quot;]" DisplayName="Flow Decision" sap:VirtualizedContainerService.HintSize="79.2,87.2" sap2010:WorkflowViewState.IdRef="FlowDecision_1">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               <x:Boolean x:Key="IsPinned">False</x:Boolean>
               <av:Point x:Key="ShapeLocation">180.5,916.5</av:Point>
-              <av:Size x:Key="ShapeSize">78.4,87.2</av:Size>
+              <av:Size x:Key="ShapeSize">79.2,87.2</av:Size>
               <av:PointCollection x:Key="TrueConnector">180.5,960 140,960 140,1087</av:PointCollection>
               <x:String x:Key="TrueLabel">Delete Files</x:String>
             </scg:Dictionary>
@@ -1148,8 +1108,222 @@
         </Sequence>
       </Sequence>
     </FlowStep>
-    <x:Reference>__ReferenceID3</x:Reference>
-    <FlowStep x:Name="__ReferenceID6">
+    <FlowStep>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <av:Point x:Key="ShapeLocation">30,465.6</av:Point>
+          <av:Size x:Key="ShapeSize">200,68.8</av:Size>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <Sequence DisplayName="Table 4" sap:VirtualizedContainerService.HintSize="200,68.8" sap2010:WorkflowViewState.IdRef="Sequence_122">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+        <Sequence DisplayName="Import &amp; Transform- Table 4 " sap:VirtualizedContainerService.HintSize="478.4,68.8" sap2010:WorkflowViewState.IdRef="Sequence_121">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+              <x:Boolean x:Key="IsPinned">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <Sequence DisplayName="Import Data" sap:VirtualizedContainerService.HintSize="478.4,68.8" sap2010:WorkflowViewState.IdRef="Sequence_117">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                <x:Boolean x:Key="IsPinned">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <TryCatch DisplayName="Try Import Data" sap:VirtualizedContainerService.HintSize="436.8,1004.8" sap2010:WorkflowViewState.IdRef="TryCatch_21">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <TryCatch.Try>
+                <Sequence sap:VirtualizedContainerService.HintSize="375.2,273.6" sap2010:WorkflowViewState.IdRef="Sequence_211">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:ReadRange AddHeaders="False" DataTable="[dt_WorkingImport]" DisplayName="Read Range" sap:VirtualizedContainerService.HintSize="333.6,88" sap2010:WorkflowViewState.IdRef="ReadRange_11" Range="A3" SheetName="Table 4" WorkbookPath="[str_FilePath_RawDownload.ToString]" />
+                  <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="333.6,52.8" sap2010:WorkflowViewState.IdRef="CommentOut_26">
+                    <ui:CommentOut.Body>
+                      <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="475.2,355.2" sap2010:WorkflowViewState.IdRef="Sequence_254">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Excel Application Scope" sap:VirtualizedContainerService.HintSize="433.6,262.4" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_14" WorkbookPath="[str_FilePath_RawDownload.ToString]">
+                          <ui:ExcelApplicationScope.Body>
+                            <ActivityAction x:TypeArguments="ui:WorkbookApplication">
+                              <ActivityAction.Argument>
+                                <DelegateInArgument x:TypeArguments="ui:WorkbookApplication" Name="ExcelWorkbookScope" />
+                              </ActivityAction.Argument>
+                              <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="375.2,152.8" sap2010:WorkflowViewState.IdRef="Sequence_210">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <ui:ExcelReadRange AddHeaders="False" DataTable="[dt_WorkingImport]" DisplayName="Read Range" sap:VirtualizedContainerService.HintSize="333.6,60" sap2010:WorkflowViewState.IdRef="ExcelReadRange_14" Range="A3" SheetName="Table 4" />
+                              </Sequence>
+                            </ActivityAction>
+                          </ui:ExcelApplicationScope.Body>
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </ui:ExcelApplicationScope>
+                      </Sequence>
+                    </ui:CommentOut.Body>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </ui:CommentOut>
+                </Sequence>
+              </TryCatch.Try>
+              <TryCatch.Catches>
+                <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="403.2,418.4" sap2010:WorkflowViewState.IdRef="Catch`1_21">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ActivityAction x:TypeArguments="s:Exception">
+                    <ActivityAction.Argument>
+                      <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+                    </ActivityAction.Argument>
+                    <Sequence DisplayName="Failure - Importing File" sap:VirtualizedContainerService.HintSize="375.2,348" sap2010:WorkflowViewState.IdRef="Sequence_116">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="333.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_42" Level="Error" Message="[&quot;Failed to import the raw file into UiPath.&quot;]" />
+                      <ui:MessageBox ChosenButton="{x:Null}" Buttons="Ok" Caption="Automation Failure: Import Raw File" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="333.6,60" sap2010:WorkflowViewState.IdRef="MessageBox_24" Text="[&quot;The automation has failed whilst trying to import the downloaded file into UiPath. The process will now terminate.&quot;]" TopMost="True" />
+                      <TerminateWorkflow DisplayName="Terminate Workflow" sap:VirtualizedContainerService.HintSize="333.6,22.4" sap2010:WorkflowViewState.IdRef="TerminateWorkflow_23" Reason="The automation has failed whilst trying to import the downloaded file into UiPath." />
+                    </Sequence>
+                  </ActivityAction>
+                </Catch>
+              </TryCatch.Catches>
+            </TryCatch>
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="436.8,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_43" Level="Info" Message="[&quot;Completed import of Raw File into UiPath.&quot;]" />
+          </Sequence>
+          <Sequence sap2010:Annotation.AnnotationText="This sequence INVOKEs the Transformation Sequence that performs all the transformations to unpivot &amp;/or flatten the datatables. " DisplayName="Transform Data- Table 4" sap:VirtualizedContainerService.HintSize="478.4,1181.6" sap2010:WorkflowViewState.IdRef="Sequence_120">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <TryCatch DisplayName="Try Transform Data" sap:VirtualizedContainerService.HintSize="436.8,912" sap2010:WorkflowViewState.IdRef="TryCatch_22">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <TryCatch.Try>
+                <Sequence sap:VirtualizedContainerService.HintSize="392.8,180.8" sap2010:WorkflowViewState.IdRef="Sequence_118">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke BotName_Transformations_Table4 workflow" sap:VirtualizedContainerService.HintSize="351.2,88" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_15" UnSafe="False" WorkflowFileName="Framework\BotName_Transformations_Table4.xaml">
+                    <ui:InvokeWorkflowFile.Arguments>
+                      <OutArgument x:TypeArguments="sd:DataTable" x:Key="dt_TransformedOutput">[dt_TransformedOutput]</OutArgument>
+                      <InArgument x:TypeArguments="sd:DataTable" x:Key="dt_WorkingImport">[dt_WorkingImport]</InArgument>
+                      <InArgument x:TypeArguments="scg:Dictionary(x:String, x:Object)" x:Key="Config" />
+                    </ui:InvokeWorkflowFile.Arguments>
+                  </ui:InvokeWorkflowFile>
+                </Sequence>
+              </TryCatch.Try>
+              <TryCatch.Catches>
+                <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="403.2,418.4" sap2010:WorkflowViewState.IdRef="Catch`1_22">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ActivityAction x:TypeArguments="s:Exception">
+                    <ActivityAction.Argument>
+                      <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+                    </ActivityAction.Argument>
+                    <Sequence DisplayName="Failure - Transforming Data Table" sap:VirtualizedContainerService.HintSize="375.2,348" sap2010:WorkflowViewState.IdRef="Sequence_119">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="333.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_44" Level="Error" Message="[&quot;Failed whilst invoking the Transform process.&quot;]" />
+                      <ui:MessageBox ChosenButton="{x:Null}" Buttons="Ok" Caption="Automation Failure: Transform Data Table" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="333.6,60" sap2010:WorkflowViewState.IdRef="MessageBox_25" Text="[&quot;The automation has failed whilst trying to transform the downloaded table into it's final format. The process will now terminate.&quot;]" TopMost="True" />
+                      <TerminateWorkflow DisplayName="Terminate Workflow" sap:VirtualizedContainerService.HintSize="333.6,22.4" sap2010:WorkflowViewState.IdRef="TerminateWorkflow_24" Reason="The automation has failed whilst trying to transform the downloaded table into it's final format." />
+                    </Sequence>
+                  </ActivityAction>
+                </Catch>
+              </TryCatch.Catches>
+            </TryCatch>
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="436.8,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_45" Level="Info" Message="[&quot;Completed Transformation of Table 4&quot;]" />
+          </Sequence>
+        </Sequence>
+        <Sequence sap2010:Annotation.AnnotationText="The isequence exports the transformed datatable and saves it in the relevant location. " DisplayName="Save Output File- Table 4" sap:VirtualizedContainerService.HintSize="478.4,1156" sap2010:WorkflowViewState.IdRef="Sequence_114">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+              <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="436.8,886.4" sap2010:WorkflowViewState.IdRef="TryCatch_20">
+            <TryCatch.Try>
+              <ui:WriteCsvFile Encoding="{x:Null}" AddHeaders="True" DataTable="[dt_TransformedOutput]" Delimitator="Comma" DisplayName="Write CSV" FilePath="[str_FilePath_TransformedData2.ToString]" sap:VirtualizedContainerService.HintSize="333.6,155.2" sap2010:WorkflowViewState.IdRef="WriteCsvFile_4" />
+            </TryCatch.Try>
+            <TryCatch.Catches>
+              <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="403.2,418.4" sap2010:WorkflowViewState.IdRef="Catch`1_20">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ActivityAction x:TypeArguments="s:Exception">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Failure - Export Tansformed Data Table" sap:VirtualizedContainerService.HintSize="375.2,348" sap2010:WorkflowViewState.IdRef="Sequence_113">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="333.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_40" Level="Error" Message="[&quot;Failed to export Transformed .csv(s) to the local Transformed Folder.&quot;]" />
+                    <ui:MessageBox ChosenButton="{x:Null}" Buttons="Ok" Caption="Automation Failure: Export Transformed Table" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="333.6,60" sap2010:WorkflowViewState.IdRef="MessageBox_23" Text="[&quot;The automation has failed whilst trying to export the transformed data table to the Transformed Output folder. The process will now terminate.&quot;]" TopMost="True" />
+                    <TerminateWorkflow DisplayName="Terminate Workflow" sap:VirtualizedContainerService.HintSize="333.6,22.4" sap2010:WorkflowViewState.IdRef="TerminateWorkflow_22" Reason="The automation has failed whilst trying to export the transformed data table to the Transformed Output folder." />
+                  </Sequence>
+                </ActivityAction>
+              </Catch>
+            </TryCatch.Catches>
+          </TryCatch>
+          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="436.8,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_41" Level="Info" Message="[&quot;Completed export of Table 4 Transformed to Transformed .csv (&quot; + str_FilePath_TransformedData.ToString.Trim + &quot;).&quot;]" />
+        </Sequence>
+      </Sequence>
+    </FlowStep>
+    <FlowStep>
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <av:Point x:Key="ShapeLocation">430,565.6</av:Point>
@@ -1332,7 +1506,7 @@
         </Sequence>
       </Sequence>
       <FlowStep.Next>
-        <FlowStep x:Name="__ReferenceID5">
+        <FlowStep x:Name="__ReferenceID4">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <av:Point x:Key="ShapeLocation">430,675.6</av:Point>
@@ -1522,7 +1696,7 @@
             </Sequence>
           </Sequence>
           <FlowStep.Next>
-            <FlowStep x:Name="__ReferenceID9">
+            <FlowStep x:Name="__ReferenceID6">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <av:Point x:Key="ShapeLocation">430,785.6</av:Point>
@@ -1698,44 +1872,44 @@
                 </Sequence>
               </Sequence>
               <FlowStep.Next>
-                <x:Reference>__ReferenceID4</x:Reference>
+                <x:Reference>__ReferenceID3</x:Reference>
               </FlowStep.Next>
             </FlowStep>
           </FlowStep.Next>
         </FlowStep>
       </FlowStep.Next>
     </FlowStep>
+    <x:Reference>__ReferenceID4</x:Reference>
     <x:Reference>__ReferenceID5</x:Reference>
     <FlowStep>
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <av:Point x:Key="ShapeLocation">30,575.6</av:Point>
+          <av:Point x:Key="ShapeLocation">30,685.6</av:Point>
           <av:Size x:Key="ShapeSize">200,68.8</av:Size>
-          <av:PointCollection x:Key="ConnectorLocation">130,644.4 130,685.6</av:PointCollection>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Sequence DisplayName="Table 8" sap:VirtualizedContainerService.HintSize="200,68.8" sap2010:WorkflowViewState.IdRef="Sequence_156">
+      <Sequence DisplayName="Table 9" sap:VirtualizedContainerService.HintSize="200,68.8" sap2010:WorkflowViewState.IdRef="Sequence_174">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             <x:Boolean x:Key="IsPinned">False</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <Sequence DisplayName="Import &amp; Transform- Table 8" sap:VirtualizedContainerService.HintSize="520,2452" sap2010:WorkflowViewState.IdRef="Sequence_153">
+        <Sequence DisplayName="Import &amp; Transform- Table 9" sap:VirtualizedContainerService.HintSize="520,2452" sap2010:WorkflowViewState.IdRef="Sequence_171">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               <x:Boolean x:Key="IsPinned">False</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <Sequence DisplayName="Import Data" sap:VirtualizedContainerService.HintSize="478.4,1137.6" sap2010:WorkflowViewState.IdRef="Sequence_149">
+          <Sequence DisplayName="Import Data" sap:VirtualizedContainerService.HintSize="478.4,1137.6" sap2010:WorkflowViewState.IdRef="Sequence_167">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <TryCatch DisplayName="Try Import Data" sap:VirtualizedContainerService.HintSize="436.8,912" sap2010:WorkflowViewState.IdRef="TryCatch_30">
+            <TryCatch DisplayName="Try Import Data" sap:VirtualizedContainerService.HintSize="436.8,912" sap2010:WorkflowViewState.IdRef="TryCatch_35">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1743,17 +1917,17 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
               <TryCatch.Try>
-                <Sequence sap:VirtualizedContainerService.HintSize="375.2,180.8" sap2010:WorkflowViewState.IdRef="Sequence_203">
+                <Sequence sap:VirtualizedContainerService.HintSize="375.2,180.8" sap2010:WorkflowViewState.IdRef="Sequence_204">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <ui:ReadRange AddHeaders="True" DataTable="[dt_WorkingImport]" DisplayName="Read Range" sap:VirtualizedContainerService.HintSize="333.6,88" sap2010:WorkflowViewState.IdRef="ReadRange_12" Range="A12" SheetName="Table 8" WorkbookPath="[str_FilePath_RawDownload.ToString]" />
+                  <ui:ReadRange AddHeaders="True" DataTable="[dt_WorkingImport]" DisplayName="Read Range" sap:VirtualizedContainerService.HintSize="333.6,88" sap2010:WorkflowViewState.IdRef="ReadRange_13" Range="A12" SheetName="Table 9" WorkbookPath="[str_FilePath_RawDownload.ToString]" />
                 </Sequence>
               </TryCatch.Try>
               <TryCatch.Catches>
-                <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="403.2,418.4" sap2010:WorkflowViewState.IdRef="Catch`1_30">
+                <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="403.2,418.4" sap2010:WorkflowViewState.IdRef="Catch`1_35">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -1764,23 +1938,23 @@
                     <ActivityAction.Argument>
                       <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
                     </ActivityAction.Argument>
-                    <Sequence DisplayName="Failure - Importing File" sap:VirtualizedContainerService.HintSize="375.2,348" sap2010:WorkflowViewState.IdRef="Sequence_148">
+                    <Sequence DisplayName="Failure - Importing File" sap:VirtualizedContainerService.HintSize="375.2,348" sap2010:WorkflowViewState.IdRef="Sequence_166">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
-                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="333.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_60" Level="Error" Message="[&quot;Failed to import the raw file into UiPath.&quot;]" />
-                      <ui:MessageBox ChosenButton="{x:Null}" Buttons="Ok" Caption="Automation Failure: Import Raw File" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="333.6,60" sap2010:WorkflowViewState.IdRef="MessageBox_33" Text="[&quot;The automation has failed whilst trying to import the downloaded file into UiPath. The process will now terminate.&quot;]" TopMost="True" />
-                      <TerminateWorkflow DisplayName="Terminate Workflow" sap:VirtualizedContainerService.HintSize="333.6,22.4" sap2010:WorkflowViewState.IdRef="TerminateWorkflow_32" Reason="The automation has failed whilst trying to import the downloaded file into UiPath." />
+                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="333.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_70" Level="Error" Message="[&quot;Failed to import the raw file into UiPath.&quot;]" />
+                      <ui:MessageBox ChosenButton="{x:Null}" Buttons="Ok" Caption="Automation Failure: Import Raw File" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="333.6,60" sap2010:WorkflowViewState.IdRef="MessageBox_38" Text="[&quot;The automation has failed whilst trying to import the downloaded file into UiPath. The process will now terminate.&quot;]" TopMost="True" />
+                      <TerminateWorkflow DisplayName="Terminate Workflow" sap:VirtualizedContainerService.HintSize="333.6,22.4" sap2010:WorkflowViewState.IdRef="TerminateWorkflow_37" Reason="The automation has failed whilst trying to import the downloaded file into UiPath." />
                     </Sequence>
                   </ActivityAction>
                 </Catch>
               </TryCatch.Catches>
             </TryCatch>
-            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="436.8,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_61" Level="Info" Message="[&quot;Completed import of Raw File into UiPath.&quot;]" />
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="436.8,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_71" Level="Info" Message="[&quot;Completed import of Raw File into UiPath.&quot;]" />
           </Sequence>
-          <Sequence sap2010:Annotation.AnnotationText="This sequence INVOKEs the Transformation Sequence that performs all the transformations to unpivot &amp;/or flatten the datatables. " DisplayName="Transform Data- Table 8" sap:VirtualizedContainerService.HintSize="478.4,1181.6" sap2010:WorkflowViewState.IdRef="Sequence_152">
+          <Sequence sap2010:Annotation.AnnotationText="This sequence INVOKEs the Transformation Sequence that performs all the transformations to unpivot &amp;/or flatten the datatables. " DisplayName="Transform Data- Table 9" sap:VirtualizedContainerService.HintSize="478.4,1181.6" sap2010:WorkflowViewState.IdRef="Sequence_170">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1788,7 +1962,7 @@
                 <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <TryCatch DisplayName="Try Transform Data" sap:VirtualizedContainerService.HintSize="436.8,912" sap2010:WorkflowViewState.IdRef="TryCatch_31">
+            <TryCatch DisplayName="Try Transform Data" sap:VirtualizedContainerService.HintSize="436.8,912" sap2010:WorkflowViewState.IdRef="TryCatch_36">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1796,13 +1970,13 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
               <TryCatch.Try>
-                <Sequence sap:VirtualizedContainerService.HintSize="392.8,180.8" sap2010:WorkflowViewState.IdRef="Sequence_150">
+                <Sequence sap:VirtualizedContainerService.HintSize="392.8,180.8" sap2010:WorkflowViewState.IdRef="Sequence_168">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke BotName_Transformations_Table8 workflow" sap:VirtualizedContainerService.HintSize="351.2,88" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_21" UnSafe="False" WorkflowFileName="Framework\BotName_Transformations_Table8.xaml">
+                  <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke BotName_Transformations_Table9 workflow" sap:VirtualizedContainerService.HintSize="351.2,88" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_24" UnSafe="False" WorkflowFileName="Framework\BotName_Transformations_Table9.xaml">
                     <ui:InvokeWorkflowFile.Arguments>
                       <OutArgument x:TypeArguments="sd:DataTable" x:Key="dt_TransformedOutput">[dt_TransformedOutput]</OutArgument>
                       <InArgument x:TypeArguments="sd:DataTable" x:Key="dt_WorkingImport">[dt_WorkingImport]</InArgument>
@@ -1812,7 +1986,7 @@
                 </Sequence>
               </TryCatch.Try>
               <TryCatch.Catches>
-                <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="403.2,418.4" sap2010:WorkflowViewState.IdRef="Catch`1_31">
+                <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="403.2,418.4" sap2010:WorkflowViewState.IdRef="Catch`1_36">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -1823,24 +1997,24 @@
                     <ActivityAction.Argument>
                       <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
                     </ActivityAction.Argument>
-                    <Sequence DisplayName="Failure - Transforming Data Table" sap:VirtualizedContainerService.HintSize="375.2,348" sap2010:WorkflowViewState.IdRef="Sequence_151">
+                    <Sequence DisplayName="Failure - Transforming Data Table" sap:VirtualizedContainerService.HintSize="375.2,348" sap2010:WorkflowViewState.IdRef="Sequence_169">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
-                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="333.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_62" Level="Error" Message="[&quot;Failed whilst invoking the Transform process.&quot;]" />
-                      <ui:MessageBox ChosenButton="{x:Null}" Buttons="Ok" Caption="Automation Failure: Transform Data Table" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="333.6,60" sap2010:WorkflowViewState.IdRef="MessageBox_34" Text="[&quot;The automation has failed whilst trying to transform the downloaded table into it's final format. The process will now terminate.&quot;]" TopMost="True" />
-                      <TerminateWorkflow DisplayName="Terminate Workflow" sap:VirtualizedContainerService.HintSize="333.6,22.4" sap2010:WorkflowViewState.IdRef="TerminateWorkflow_33" Reason="The automation has failed whilst trying to transform the downloaded table into it's final format." />
+                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="333.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_72" Level="Error" Message="[&quot;Failed whilst invoking the Transform process.&quot;]" />
+                      <ui:MessageBox ChosenButton="{x:Null}" Buttons="Ok" Caption="Automation Failure: Transform Data Table" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="333.6,60" sap2010:WorkflowViewState.IdRef="MessageBox_39" Text="[&quot;The automation has failed whilst trying to transform the downloaded table into it's final format. The process will now terminate.&quot;]" TopMost="True" />
+                      <TerminateWorkflow DisplayName="Terminate Workflow" sap:VirtualizedContainerService.HintSize="333.6,22.4" sap2010:WorkflowViewState.IdRef="TerminateWorkflow_38" Reason="The automation has failed whilst trying to transform the downloaded table into it's final format." />
                     </Sequence>
                   </ActivityAction>
                 </Catch>
               </TryCatch.Catches>
             </TryCatch>
-            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="436.8,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_63" Level="Info" Message="[&quot;Completed Transformation of Table 8&quot;]" />
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="436.8,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_73" Level="Info" Message="[&quot;Completed Transformation of Table 9&quot;]" />
           </Sequence>
         </Sequence>
-        <Sequence sap2010:Annotation.AnnotationText="The isequence exports the transformed datatable and saves it in the relevant location. " DisplayName="Save Output File- Table 8" sap:VirtualizedContainerService.HintSize="520,144.8" sap2010:WorkflowViewState.IdRef="Sequence_155">
+        <Sequence sap2010:Annotation.AnnotationText="The isequence exports the transformed datatable and saves it in the relevant location. " DisplayName="Save Output File- Table 9" sap:VirtualizedContainerService.HintSize="478.4,1156" sap2010:WorkflowViewState.IdRef="Sequence_173">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -1848,12 +2022,12 @@
               <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="436.8,886.4" sap2010:WorkflowViewState.IdRef="TryCatch_32">
+          <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="436.8,886.4" sap2010:WorkflowViewState.IdRef="TryCatch_37">
             <TryCatch.Try>
-              <ui:WriteCsvFile Encoding="{x:Null}" AddHeaders="True" DataTable="[dt_TransformedOutput]" Delimitator="Comma" DisplayName="Write CSV" FilePath="[str_FilePath_TransformedData5.ToString]" sap:VirtualizedContainerService.HintSize="333.6,155.2" sap2010:WorkflowViewState.IdRef="WriteCsvFile_8" />
+              <ui:WriteCsvFile Encoding="{x:Null}" AddHeaders="True" DataTable="[dt_TransformedOutput]" Delimitator="Comma" DisplayName="Write CSV" FilePath="[str_FilePath_TransformedData6.ToString]" sap:VirtualizedContainerService.HintSize="333.6,155.2" sap2010:WorkflowViewState.IdRef="WriteCsvFile_9" />
             </TryCatch.Try>
             <TryCatch.Catches>
-              <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="403.2,418.4" sap2010:WorkflowViewState.IdRef="Catch`1_32">
+              <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="403.2,418.4" sap2010:WorkflowViewState.IdRef="Catch`1_37">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -1864,386 +2038,200 @@
                   <ActivityAction.Argument>
                     <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
                   </ActivityAction.Argument>
-                  <Sequence DisplayName="Failure - Export Tansformed Data Table" sap:VirtualizedContainerService.HintSize="375.2,348" sap2010:WorkflowViewState.IdRef="Sequence_154">
+                  <Sequence DisplayName="Failure - Export Tansformed Data Table" sap:VirtualizedContainerService.HintSize="375.2,348" sap2010:WorkflowViewState.IdRef="Sequence_172">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="333.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_64" Level="Error" Message="[&quot;Failed to export Transformed .csv(s) to the local Transformed Folder.&quot;]" />
-                    <ui:MessageBox ChosenButton="{x:Null}" Buttons="Ok" Caption="Automation Failure: Export Transformed Table" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="333.6,60" sap2010:WorkflowViewState.IdRef="MessageBox_35" Text="[&quot;The automation has failed whilst trying to export the transformed data table to the Transformed Output folder. The process will now terminate.&quot;]" TopMost="True" />
-                    <TerminateWorkflow DisplayName="Terminate Workflow" sap:VirtualizedContainerService.HintSize="333.6,22.4" sap2010:WorkflowViewState.IdRef="TerminateWorkflow_34" Reason="The automation has failed whilst trying to export the transformed data table to the Transformed Output folder." />
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="333.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_74" Level="Error" Message="[&quot;Failed to export Transformed .csv(s) to the local Transformed Folder.&quot;]" />
+                    <ui:MessageBox ChosenButton="{x:Null}" Buttons="Ok" Caption="Automation Failure: Export Transformed Table" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="333.6,60" sap2010:WorkflowViewState.IdRef="MessageBox_40" Text="[&quot;The automation has failed whilst trying to export the transformed data table to the Transformed Output folder. The process will now terminate.&quot;]" TopMost="True" />
+                    <TerminateWorkflow DisplayName="Terminate Workflow" sap:VirtualizedContainerService.HintSize="333.6,22.4" sap2010:WorkflowViewState.IdRef="TerminateWorkflow_39" Reason="The automation has failed whilst trying to export the transformed data table to the Transformed Output folder." />
                   </Sequence>
                 </ActivityAction>
               </Catch>
             </TryCatch.Catches>
           </TryCatch>
-          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="436.8,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_65" Level="Info" Message="[&quot;Completed export of Table 8 Transformed to Transformed .csv (&quot; + str_FilePath_TransformedData.ToString.Trim + &quot;).&quot;]" />
+          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="436.8,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_75" Level="Info" Message="[&quot;Completed export of Table 9 Transformed datatable to Transformed .csv (&quot; + str_FilePath_TransformedData.ToString.Trim + &quot;).&quot;]" />
         </Sequence>
       </Sequence>
-      <FlowStep.Next>
-        <FlowStep x:Name="__ReferenceID7">
+    </FlowStep>
+    <FlowStep>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <av:Point x:Key="ShapeLocation">30,785.6</av:Point>
+          <av:Size x:Key="ShapeSize">200,68.8</av:Size>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <Sequence DisplayName="Table 11" sap:VirtualizedContainerService.HintSize="200,68.8" sap2010:WorkflowViewState.IdRef="Sequence_185">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+        <Sequence DisplayName="Import &amp; Transform- Table 11" sap:VirtualizedContainerService.HintSize="520,2452" sap2010:WorkflowViewState.IdRef="Sequence_182">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
-              <av:Point x:Key="ShapeLocation">30,685.6</av:Point>
-              <av:Size x:Key="ShapeSize">200,68.8</av:Size>
-              <av:PointCollection x:Key="ConnectorLocation">130,754.4 130,785.6</av:PointCollection>
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <Sequence DisplayName="Table 9" sap:VirtualizedContainerService.HintSize="200,68.8" sap2010:WorkflowViewState.IdRef="Sequence_174">
+          <Sequence DisplayName="Import Data" sap:VirtualizedContainerService.HintSize="478.4,1137.6" sap2010:WorkflowViewState.IdRef="Sequence_178">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <Sequence DisplayName="Import &amp; Transform- Table 9" sap:VirtualizedContainerService.HintSize="520,2452" sap2010:WorkflowViewState.IdRef="Sequence_171">
+            <TryCatch DisplayName="Try Import Data" sap:VirtualizedContainerService.HintSize="436.8,912" sap2010:WorkflowViewState.IdRef="TryCatch_38">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   <x:Boolean x:Key="IsPinned">False</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <Sequence DisplayName="Import Data" sap:VirtualizedContainerService.HintSize="478.4,1137.6" sap2010:WorkflowViewState.IdRef="Sequence_167">
-                <sap:WorkflowViewStateService.ViewState>
-                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                  </scg:Dictionary>
-                </sap:WorkflowViewStateService.ViewState>
-                <TryCatch DisplayName="Try Import Data" sap:VirtualizedContainerService.HintSize="436.8,912" sap2010:WorkflowViewState.IdRef="TryCatch_35">
+              <TryCatch.Try>
+                <Sequence sap:VirtualizedContainerService.HintSize="375.2,180.8" sap2010:WorkflowViewState.IdRef="Sequence_205">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <TryCatch.Try>
-                    <Sequence sap:VirtualizedContainerService.HintSize="375.2,180.8" sap2010:WorkflowViewState.IdRef="Sequence_204">
-                      <sap:WorkflowViewStateService.ViewState>
-                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                        </scg:Dictionary>
-                      </sap:WorkflowViewStateService.ViewState>
-                      <ui:ReadRange AddHeaders="True" DataTable="[dt_WorkingImport]" DisplayName="Read Range" sap:VirtualizedContainerService.HintSize="333.6,88" sap2010:WorkflowViewState.IdRef="ReadRange_13" Range="A12" SheetName="Table 9" WorkbookPath="[str_FilePath_RawDownload.ToString]" />
-                    </Sequence>
-                  </TryCatch.Try>
-                  <TryCatch.Catches>
-                    <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="403.2,418.4" sap2010:WorkflowViewState.IdRef="Catch`1_35">
-                      <sap:WorkflowViewStateService.ViewState>
-                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                        </scg:Dictionary>
-                      </sap:WorkflowViewStateService.ViewState>
-                      <ActivityAction x:TypeArguments="s:Exception">
-                        <ActivityAction.Argument>
-                          <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
-                        </ActivityAction.Argument>
-                        <Sequence DisplayName="Failure - Importing File" sap:VirtualizedContainerService.HintSize="375.2,348" sap2010:WorkflowViewState.IdRef="Sequence_166">
-                          <sap:WorkflowViewStateService.ViewState>
-                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                            </scg:Dictionary>
-                          </sap:WorkflowViewStateService.ViewState>
-                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="333.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_70" Level="Error" Message="[&quot;Failed to import the raw file into UiPath.&quot;]" />
-                          <ui:MessageBox ChosenButton="{x:Null}" Buttons="Ok" Caption="Automation Failure: Import Raw File" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="333.6,60" sap2010:WorkflowViewState.IdRef="MessageBox_38" Text="[&quot;The automation has failed whilst trying to import the downloaded file into UiPath. The process will now terminate.&quot;]" TopMost="True" />
-                          <TerminateWorkflow DisplayName="Terminate Workflow" sap:VirtualizedContainerService.HintSize="333.6,22.4" sap2010:WorkflowViewState.IdRef="TerminateWorkflow_37" Reason="The automation has failed whilst trying to import the downloaded file into UiPath." />
-                        </Sequence>
-                      </ActivityAction>
-                    </Catch>
-                  </TryCatch.Catches>
-                </TryCatch>
-                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="436.8,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_71" Level="Info" Message="[&quot;Completed import of Raw File into UiPath.&quot;]" />
-              </Sequence>
-              <Sequence sap2010:Annotation.AnnotationText="This sequence INVOKEs the Transformation Sequence that performs all the transformations to unpivot &amp;/or flatten the datatables. " DisplayName="Transform Data- Table 9" sap:VirtualizedContainerService.HintSize="478.4,1181.6" sap2010:WorkflowViewState.IdRef="Sequence_170">
-                <sap:WorkflowViewStateService.ViewState>
-                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                    <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
-                  </scg:Dictionary>
-                </sap:WorkflowViewStateService.ViewState>
-                <TryCatch DisplayName="Try Transform Data" sap:VirtualizedContainerService.HintSize="436.8,912" sap2010:WorkflowViewState.IdRef="TryCatch_36">
-                  <sap:WorkflowViewStateService.ViewState>
-                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                    </scg:Dictionary>
-                  </sap:WorkflowViewStateService.ViewState>
-                  <TryCatch.Try>
-                    <Sequence sap:VirtualizedContainerService.HintSize="392.8,180.8" sap2010:WorkflowViewState.IdRef="Sequence_168">
-                      <sap:WorkflowViewStateService.ViewState>
-                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                        </scg:Dictionary>
-                      </sap:WorkflowViewStateService.ViewState>
-                      <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke BotName_Transformations_Table9 workflow" sap:VirtualizedContainerService.HintSize="351.2,88" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_24" UnSafe="False" WorkflowFileName="Framework\BotName_Transformations_Table9.xaml">
-                        <ui:InvokeWorkflowFile.Arguments>
-                          <OutArgument x:TypeArguments="sd:DataTable" x:Key="dt_TransformedOutput">[dt_TransformedOutput]</OutArgument>
-                          <InArgument x:TypeArguments="sd:DataTable" x:Key="dt_WorkingImport">[dt_WorkingImport]</InArgument>
-                          <InArgument x:TypeArguments="scg:Dictionary(x:String, x:Object)" x:Key="Config" />
-                        </ui:InvokeWorkflowFile.Arguments>
-                      </ui:InvokeWorkflowFile>
-                    </Sequence>
-                  </TryCatch.Try>
-                  <TryCatch.Catches>
-                    <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="403.2,418.4" sap2010:WorkflowViewState.IdRef="Catch`1_36">
-                      <sap:WorkflowViewStateService.ViewState>
-                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                        </scg:Dictionary>
-                      </sap:WorkflowViewStateService.ViewState>
-                      <ActivityAction x:TypeArguments="s:Exception">
-                        <ActivityAction.Argument>
-                          <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
-                        </ActivityAction.Argument>
-                        <Sequence DisplayName="Failure - Transforming Data Table" sap:VirtualizedContainerService.HintSize="375.2,348" sap2010:WorkflowViewState.IdRef="Sequence_169">
-                          <sap:WorkflowViewStateService.ViewState>
-                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                            </scg:Dictionary>
-                          </sap:WorkflowViewStateService.ViewState>
-                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="333.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_72" Level="Error" Message="[&quot;Failed whilst invoking the Transform process.&quot;]" />
-                          <ui:MessageBox ChosenButton="{x:Null}" Buttons="Ok" Caption="Automation Failure: Transform Data Table" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="333.6,60" sap2010:WorkflowViewState.IdRef="MessageBox_39" Text="[&quot;The automation has failed whilst trying to transform the downloaded table into it's final format. The process will now terminate.&quot;]" TopMost="True" />
-                          <TerminateWorkflow DisplayName="Terminate Workflow" sap:VirtualizedContainerService.HintSize="333.6,22.4" sap2010:WorkflowViewState.IdRef="TerminateWorkflow_38" Reason="The automation has failed whilst trying to transform the downloaded table into it's final format." />
-                        </Sequence>
-                      </ActivityAction>
-                    </Catch>
-                  </TryCatch.Catches>
-                </TryCatch>
-                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="436.8,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_73" Level="Info" Message="[&quot;Completed Transformation of Table 9&quot;]" />
-              </Sequence>
-            </Sequence>
-            <Sequence sap2010:Annotation.AnnotationText="The isequence exports the transformed datatable and saves it in the relevant location. " DisplayName="Save Output File- Table 9" sap:VirtualizedContainerService.HintSize="478.4,1156" sap2010:WorkflowViewState.IdRef="Sequence_173">
-              <sap:WorkflowViewStateService.ViewState>
-                <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                  <x:Boolean x:Key="IsPinned">True</x:Boolean>
-                  <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
-                </scg:Dictionary>
-              </sap:WorkflowViewStateService.ViewState>
-              <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="436.8,886.4" sap2010:WorkflowViewState.IdRef="TryCatch_37">
-                <TryCatch.Try>
-                  <ui:WriteCsvFile Encoding="{x:Null}" AddHeaders="True" DataTable="[dt_TransformedOutput]" Delimitator="Comma" DisplayName="Write CSV" FilePath="[str_FilePath_TransformedData6.ToString]" sap:VirtualizedContainerService.HintSize="333.6,155.2" sap2010:WorkflowViewState.IdRef="WriteCsvFile_9" />
-                </TryCatch.Try>
-                <TryCatch.Catches>
-                  <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="403.2,418.4" sap2010:WorkflowViewState.IdRef="Catch`1_37">
-                    <sap:WorkflowViewStateService.ViewState>
-                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                      </scg:Dictionary>
-                    </sap:WorkflowViewStateService.ViewState>
-                    <ActivityAction x:TypeArguments="s:Exception">
-                      <ActivityAction.Argument>
-                        <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
-                      </ActivityAction.Argument>
-                      <Sequence DisplayName="Failure - Export Tansformed Data Table" sap:VirtualizedContainerService.HintSize="375.2,348" sap2010:WorkflowViewState.IdRef="Sequence_172">
-                        <sap:WorkflowViewStateService.ViewState>
-                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                          </scg:Dictionary>
-                        </sap:WorkflowViewStateService.ViewState>
-                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="333.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_74" Level="Error" Message="[&quot;Failed to export Transformed .csv(s) to the local Transformed Folder.&quot;]" />
-                        <ui:MessageBox ChosenButton="{x:Null}" Buttons="Ok" Caption="Automation Failure: Export Transformed Table" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="333.6,60" sap2010:WorkflowViewState.IdRef="MessageBox_40" Text="[&quot;The automation has failed whilst trying to export the transformed data table to the Transformed Output folder. The process will now terminate.&quot;]" TopMost="True" />
-                        <TerminateWorkflow DisplayName="Terminate Workflow" sap:VirtualizedContainerService.HintSize="333.6,22.4" sap2010:WorkflowViewState.IdRef="TerminateWorkflow_39" Reason="The automation has failed whilst trying to export the transformed data table to the Transformed Output folder." />
-                      </Sequence>
-                    </ActivityAction>
-                  </Catch>
-                </TryCatch.Catches>
-              </TryCatch>
-              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="436.8,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_75" Level="Info" Message="[&quot;Completed export of Table 9 Transformed datatable to Transformed .csv (&quot; + str_FilePath_TransformedData.ToString.Trim + &quot;).&quot;]" />
-            </Sequence>
-          </Sequence>
-          <FlowStep.Next>
-            <FlowStep x:Name="__ReferenceID8">
-              <sap:WorkflowViewStateService.ViewState>
-                <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                  <av:Point x:Key="ShapeLocation">30,785.6</av:Point>
-                  <av:Size x:Key="ShapeSize">200,68.8</av:Size>
-                  <av:PointCollection x:Key="ConnectorLocation">130,854.4 130,884.4 10,884.4 10,554.4 530,554.4 530,565.6</av:PointCollection>
-                </scg:Dictionary>
-              </sap:WorkflowViewStateService.ViewState>
-              <Sequence DisplayName="Table 11" sap:VirtualizedContainerService.HintSize="200,68.8" sap2010:WorkflowViewState.IdRef="Sequence_185">
-                <sap:WorkflowViewStateService.ViewState>
-                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                  </scg:Dictionary>
-                </sap:WorkflowViewStateService.ViewState>
-                <Sequence DisplayName="Import &amp; Transform- Table 11" sap:VirtualizedContainerService.HintSize="520,2452" sap2010:WorkflowViewState.IdRef="Sequence_182">
-                  <sap:WorkflowViewStateService.ViewState>
-                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                    </scg:Dictionary>
-                  </sap:WorkflowViewStateService.ViewState>
-                  <Sequence DisplayName="Import Data" sap:VirtualizedContainerService.HintSize="478.4,1137.6" sap2010:WorkflowViewState.IdRef="Sequence_178">
-                    <sap:WorkflowViewStateService.ViewState>
-                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                      </scg:Dictionary>
-                    </sap:WorkflowViewStateService.ViewState>
-                    <TryCatch DisplayName="Try Import Data" sap:VirtualizedContainerService.HintSize="436.8,912" sap2010:WorkflowViewState.IdRef="TryCatch_38">
-                      <sap:WorkflowViewStateService.ViewState>
-                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                        </scg:Dictionary>
-                      </sap:WorkflowViewStateService.ViewState>
-                      <TryCatch.Try>
-                        <Sequence sap:VirtualizedContainerService.HintSize="375.2,180.8" sap2010:WorkflowViewState.IdRef="Sequence_205">
-                          <sap:WorkflowViewStateService.ViewState>
-                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                            </scg:Dictionary>
-                          </sap:WorkflowViewStateService.ViewState>
-                          <ui:ReadRange AddHeaders="True" DataTable="[dt_WorkingImport]" DisplayName="Read Range" sap:VirtualizedContainerService.HintSize="333.6,88" sap2010:WorkflowViewState.IdRef="ReadRange_14" Range="A12" SheetName="Table 11" WorkbookPath="[str_FilePath_RawDownload.ToString]" />
-                        </Sequence>
-                      </TryCatch.Try>
-                      <TryCatch.Catches>
-                        <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="403.2,418.4" sap2010:WorkflowViewState.IdRef="Catch`1_38">
-                          <sap:WorkflowViewStateService.ViewState>
-                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                            </scg:Dictionary>
-                          </sap:WorkflowViewStateService.ViewState>
-                          <ActivityAction x:TypeArguments="s:Exception">
-                            <ActivityAction.Argument>
-                              <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
-                            </ActivityAction.Argument>
-                            <Sequence DisplayName="Failure - Importing File" sap:VirtualizedContainerService.HintSize="375.2,348" sap2010:WorkflowViewState.IdRef="Sequence_177">
-                              <sap:WorkflowViewStateService.ViewState>
-                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                </scg:Dictionary>
-                              </sap:WorkflowViewStateService.ViewState>
-                              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="333.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_76" Level="Error" Message="[&quot;Failed to import the raw file into UiPath.&quot;]" />
-                              <ui:MessageBox ChosenButton="{x:Null}" Buttons="Ok" Caption="Automation Failure: Import Raw File" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="333.6,60" sap2010:WorkflowViewState.IdRef="MessageBox_41" Text="[&quot;The automation has failed whilst trying to import the downloaded file into UiPath. The process will now terminate.&quot;]" TopMost="True" />
-                              <TerminateWorkflow DisplayName="Terminate Workflow" sap:VirtualizedContainerService.HintSize="333.6,22.4" sap2010:WorkflowViewState.IdRef="TerminateWorkflow_40" Reason="The automation has failed whilst trying to import the downloaded file into UiPath." />
-                            </Sequence>
-                          </ActivityAction>
-                        </Catch>
-                      </TryCatch.Catches>
-                    </TryCatch>
-                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="436.8,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_77" Level="Info" Message="[&quot;Completed import of Raw File into UiPath.&quot;]" />
-                  </Sequence>
-                  <Sequence sap2010:Annotation.AnnotationText="This sequence INVOKEs the Transformation Sequence that performs all the transformations to unpivot &amp;/or flatten the datatables. " DisplayName="Transform Data- Table 11" sap:VirtualizedContainerService.HintSize="478.4,1181.6" sap2010:WorkflowViewState.IdRef="Sequence_181">
-                    <sap:WorkflowViewStateService.ViewState>
-                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                        <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
-                      </scg:Dictionary>
-                    </sap:WorkflowViewStateService.ViewState>
-                    <TryCatch DisplayName="Try Transform Data" sap:VirtualizedContainerService.HintSize="436.8,912" sap2010:WorkflowViewState.IdRef="TryCatch_39">
-                      <sap:WorkflowViewStateService.ViewState>
-                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                        </scg:Dictionary>
-                      </sap:WorkflowViewStateService.ViewState>
-                      <TryCatch.Try>
-                        <Sequence sap:VirtualizedContainerService.HintSize="399.2,180.8" sap2010:WorkflowViewState.IdRef="Sequence_179">
-                          <sap:WorkflowViewStateService.ViewState>
-                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                            </scg:Dictionary>
-                          </sap:WorkflowViewStateService.ViewState>
-                          <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke BotName_Transformations_Table11 workflow" sap:VirtualizedContainerService.HintSize="357.6,88" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_26" UnSafe="False" WorkflowFileName="Framework\BotName_Transformations_Table11.xaml">
-                            <ui:InvokeWorkflowFile.Arguments>
-                              <OutArgument x:TypeArguments="sd:DataTable" x:Key="dt_TransformedOutput">[dt_TransformedOutput]</OutArgument>
-                              <InArgument x:TypeArguments="sd:DataTable" x:Key="dt_WorkingImport">[dt_WorkingImport]</InArgument>
-                              <InArgument x:TypeArguments="scg:Dictionary(x:String, x:Object)" x:Key="Config" />
-                            </ui:InvokeWorkflowFile.Arguments>
-                          </ui:InvokeWorkflowFile>
-                        </Sequence>
-                      </TryCatch.Try>
-                      <TryCatch.Catches>
-                        <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="403.2,418.4" sap2010:WorkflowViewState.IdRef="Catch`1_39">
-                          <sap:WorkflowViewStateService.ViewState>
-                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                            </scg:Dictionary>
-                          </sap:WorkflowViewStateService.ViewState>
-                          <ActivityAction x:TypeArguments="s:Exception">
-                            <ActivityAction.Argument>
-                              <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
-                            </ActivityAction.Argument>
-                            <Sequence DisplayName="Failure - Transforming Data Table" sap:VirtualizedContainerService.HintSize="375.2,348" sap2010:WorkflowViewState.IdRef="Sequence_180">
-                              <sap:WorkflowViewStateService.ViewState>
-                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                </scg:Dictionary>
-                              </sap:WorkflowViewStateService.ViewState>
-                              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="333.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_78" Level="Error" Message="[&quot;Failed whilst invoking the Transform process.&quot;]" />
-                              <ui:MessageBox ChosenButton="{x:Null}" Buttons="Ok" Caption="Automation Failure: Transform Data Table" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="333.6,60" sap2010:WorkflowViewState.IdRef="MessageBox_42" Text="[&quot;The automation has failed whilst trying to transform the downloaded table into it's final format. The process will now terminate.&quot;]" TopMost="True" />
-                              <TerminateWorkflow DisplayName="Terminate Workflow" sap:VirtualizedContainerService.HintSize="333.6,22.4" sap2010:WorkflowViewState.IdRef="TerminateWorkflow_41" Reason="The automation has failed whilst trying to transform the downloaded table into it's final format." />
-                            </Sequence>
-                          </ActivityAction>
-                        </Catch>
-                      </TryCatch.Catches>
-                    </TryCatch>
-                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="436.8,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_79" Level="Info" Message="[&quot;Completed Transformation of Table 11&quot;]" />
-                  </Sequence>
+                  <ui:ReadRange AddHeaders="True" DataTable="[dt_WorkingImport]" DisplayName="Read Range" sap:VirtualizedContainerService.HintSize="333.6,88" sap2010:WorkflowViewState.IdRef="ReadRange_14" Range="A12" SheetName="Table 11" WorkbookPath="[str_FilePath_RawDownload.ToString]" />
                 </Sequence>
-                <Sequence sap2010:Annotation.AnnotationText="The isequence exports the transformed datatable and saves it in the relevant location. " DisplayName="Save Output File- Table 11" sap:VirtualizedContainerService.HintSize="520,144.8" sap2010:WorkflowViewState.IdRef="Sequence_184">
+              </TryCatch.Try>
+              <TryCatch.Catches>
+                <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="403.2,418.4" sap2010:WorkflowViewState.IdRef="Catch`1_38">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                      <x:Boolean x:Key="IsPinned">True</x:Boolean>
-                      <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="436.8,886.4" sap2010:WorkflowViewState.IdRef="TryCatch_40">
-                    <TryCatch.Try>
-                      <ui:WriteCsvFile Encoding="{x:Null}" AddHeaders="True" DataTable="[dt_TransformedOutput]" Delimitator="Comma" DisplayName="Write CSV" FilePath="[str_FilePath_TransformedData7.ToString]" sap:VirtualizedContainerService.HintSize="333.6,155.2" sap2010:WorkflowViewState.IdRef="WriteCsvFile_10" />
-                    </TryCatch.Try>
-                    <TryCatch.Catches>
-                      <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="403.2,418.4" sap2010:WorkflowViewState.IdRef="Catch`1_40">
-                        <sap:WorkflowViewStateService.ViewState>
-                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                          </scg:Dictionary>
-                        </sap:WorkflowViewStateService.ViewState>
-                        <ActivityAction x:TypeArguments="s:Exception">
-                          <ActivityAction.Argument>
-                            <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
-                          </ActivityAction.Argument>
-                          <Sequence DisplayName="Failure - Export Tansformed Data Table" sap:VirtualizedContainerService.HintSize="375.2,348" sap2010:WorkflowViewState.IdRef="Sequence_183">
-                            <sap:WorkflowViewStateService.ViewState>
-                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                              </scg:Dictionary>
-                            </sap:WorkflowViewStateService.ViewState>
-                            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="333.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_80" Level="Error" Message="[&quot;Failed to export Transformed .csv(s) to the local Transformed Folder.&quot;]" />
-                            <ui:MessageBox ChosenButton="{x:Null}" Buttons="Ok" Caption="Automation Failure: Export Transformed Table" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="333.6,60" sap2010:WorkflowViewState.IdRef="MessageBox_43" Text="[&quot;The automation has failed whilst trying to export the transformed data table to the Transformed Output folder. The process will now terminate.&quot;]" TopMost="True" />
-                            <TerminateWorkflow DisplayName="Terminate Workflow" sap:VirtualizedContainerService.HintSize="333.6,22.4" sap2010:WorkflowViewState.IdRef="TerminateWorkflow_42" Reason="The automation has failed whilst trying to export the transformed data table to the Transformed Output folder." />
-                          </Sequence>
-                        </ActivityAction>
-                      </Catch>
-                    </TryCatch.Catches>
-                  </TryCatch>
-                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="436.8,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_81" Level="Info" Message="[&quot;Completed export of Table 11 Transformed  to Transformed .csv (&quot; + str_FilePath_TransformedData.ToString.Trim + &quot;).&quot;]" />
+                  <ActivityAction x:TypeArguments="s:Exception">
+                    <ActivityAction.Argument>
+                      <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+                    </ActivityAction.Argument>
+                    <Sequence DisplayName="Failure - Importing File" sap:VirtualizedContainerService.HintSize="375.2,348" sap2010:WorkflowViewState.IdRef="Sequence_177">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="333.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_76" Level="Error" Message="[&quot;Failed to import the raw file into UiPath.&quot;]" />
+                      <ui:MessageBox ChosenButton="{x:Null}" Buttons="Ok" Caption="Automation Failure: Import Raw File" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="333.6,60" sap2010:WorkflowViewState.IdRef="MessageBox_41" Text="[&quot;The automation has failed whilst trying to import the downloaded file into UiPath. The process will now terminate.&quot;]" TopMost="True" />
+                      <TerminateWorkflow DisplayName="Terminate Workflow" sap:VirtualizedContainerService.HintSize="333.6,22.4" sap2010:WorkflowViewState.IdRef="TerminateWorkflow_40" Reason="The automation has failed whilst trying to import the downloaded file into UiPath." />
+                    </Sequence>
+                  </ActivityAction>
+                </Catch>
+              </TryCatch.Catches>
+            </TryCatch>
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="436.8,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_77" Level="Info" Message="[&quot;Completed import of Raw File into UiPath.&quot;]" />
+          </Sequence>
+          <Sequence sap2010:Annotation.AnnotationText="This sequence INVOKEs the Transformation Sequence that performs all the transformations to unpivot &amp;/or flatten the datatables. " DisplayName="Transform Data- Table 11" sap:VirtualizedContainerService.HintSize="478.4,1181.6" sap2010:WorkflowViewState.IdRef="Sequence_181">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <TryCatch DisplayName="Try Transform Data" sap:VirtualizedContainerService.HintSize="436.8,912" sap2010:WorkflowViewState.IdRef="TryCatch_39">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <TryCatch.Try>
+                <Sequence sap:VirtualizedContainerService.HintSize="399.2,180.8" sap2010:WorkflowViewState.IdRef="Sequence_179">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke BotName_Transformations_Table11 workflow" sap:VirtualizedContainerService.HintSize="357.6,88" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_26" UnSafe="False" WorkflowFileName="Framework\BotName_Transformations_Table11.xaml">
+                    <ui:InvokeWorkflowFile.Arguments>
+                      <OutArgument x:TypeArguments="sd:DataTable" x:Key="dt_TransformedOutput">[dt_TransformedOutput]</OutArgument>
+                      <InArgument x:TypeArguments="sd:DataTable" x:Key="dt_WorkingImport">[dt_WorkingImport]</InArgument>
+                      <InArgument x:TypeArguments="scg:Dictionary(x:String, x:Object)" x:Key="Config" />
+                    </ui:InvokeWorkflowFile.Arguments>
+                  </ui:InvokeWorkflowFile>
                 </Sequence>
-              </Sequence>
-              <FlowStep.Next>
-                <x:Reference>__ReferenceID6</x:Reference>
-              </FlowStep.Next>
-            </FlowStep>
-          </FlowStep.Next>
-        </FlowStep>
-      </FlowStep.Next>
+              </TryCatch.Try>
+              <TryCatch.Catches>
+                <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="403.2,418.4" sap2010:WorkflowViewState.IdRef="Catch`1_39">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ActivityAction x:TypeArguments="s:Exception">
+                    <ActivityAction.Argument>
+                      <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+                    </ActivityAction.Argument>
+                    <Sequence DisplayName="Failure - Transforming Data Table" sap:VirtualizedContainerService.HintSize="375.2,348" sap2010:WorkflowViewState.IdRef="Sequence_180">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="333.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_78" Level="Error" Message="[&quot;Failed whilst invoking the Transform process.&quot;]" />
+                      <ui:MessageBox ChosenButton="{x:Null}" Buttons="Ok" Caption="Automation Failure: Transform Data Table" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="333.6,60" sap2010:WorkflowViewState.IdRef="MessageBox_42" Text="[&quot;The automation has failed whilst trying to transform the downloaded table into it's final format. The process will now terminate.&quot;]" TopMost="True" />
+                      <TerminateWorkflow DisplayName="Terminate Workflow" sap:VirtualizedContainerService.HintSize="333.6,22.4" sap2010:WorkflowViewState.IdRef="TerminateWorkflow_41" Reason="The automation has failed whilst trying to transform the downloaded table into it's final format." />
+                    </Sequence>
+                  </ActivityAction>
+                </Catch>
+              </TryCatch.Catches>
+            </TryCatch>
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="436.8,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_79" Level="Info" Message="[&quot;Completed Transformation of Table 11&quot;]" />
+          </Sequence>
+        </Sequence>
+        <Sequence sap2010:Annotation.AnnotationText="The isequence exports the transformed datatable and saves it in the relevant location. " DisplayName="Save Output File- Table 11" sap:VirtualizedContainerService.HintSize="520,144.8" sap2010:WorkflowViewState.IdRef="Sequence_184">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+              <x:Boolean x:Key="IsPinned">True</x:Boolean>
+              <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="436.8,886.4" sap2010:WorkflowViewState.IdRef="TryCatch_40">
+            <TryCatch.Try>
+              <ui:WriteCsvFile Encoding="{x:Null}" AddHeaders="True" DataTable="[dt_TransformedOutput]" Delimitator="Comma" DisplayName="Write CSV" FilePath="[str_FilePath_TransformedData7.ToString]" sap:VirtualizedContainerService.HintSize="333.6,155.2" sap2010:WorkflowViewState.IdRef="WriteCsvFile_10" />
+            </TryCatch.Try>
+            <TryCatch.Catches>
+              <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="403.2,418.4" sap2010:WorkflowViewState.IdRef="Catch`1_40">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ActivityAction x:TypeArguments="s:Exception">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Failure - Export Tansformed Data Table" sap:VirtualizedContainerService.HintSize="375.2,348" sap2010:WorkflowViewState.IdRef="Sequence_183">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="333.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_80" Level="Error" Message="[&quot;Failed to export Transformed .csv(s) to the local Transformed Folder.&quot;]" />
+                    <ui:MessageBox ChosenButton="{x:Null}" Buttons="Ok" Caption="Automation Failure: Export Transformed Table" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="333.6,60" sap2010:WorkflowViewState.IdRef="MessageBox_43" Text="[&quot;The automation has failed whilst trying to export the transformed data table to the Transformed Output folder. The process will now terminate.&quot;]" TopMost="True" />
+                    <TerminateWorkflow DisplayName="Terminate Workflow" sap:VirtualizedContainerService.HintSize="333.6,22.4" sap2010:WorkflowViewState.IdRef="TerminateWorkflow_42" Reason="The automation has failed whilst trying to export the transformed data table to the Transformed Output folder." />
+                  </Sequence>
+                </ActivityAction>
+              </Catch>
+            </TryCatch.Catches>
+          </TryCatch>
+          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="436.8,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_81" Level="Info" Message="[&quot;Completed export of Table 11 Transformed  to Transformed .csv (&quot; + str_FilePath_TransformedData.ToString.Trim + &quot;).&quot;]" />
+        </Sequence>
+      </Sequence>
     </FlowStep>
-    <x:Reference>__ReferenceID7</x:Reference>
-    <x:Reference>__ReferenceID8</x:Reference>
-    <x:Reference>__ReferenceID9</x:Reference>
+    <x:Reference>__ReferenceID6</x:Reference>
     <FlowStep>
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
