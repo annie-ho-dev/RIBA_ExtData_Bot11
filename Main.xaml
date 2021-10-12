@@ -554,25 +554,25 @@
                   <av:Size x:Key="ShapeSize">200,68.8</av:Size>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <Sequence DisplayName="Table 9" sap:VirtualizedContainerService.HintSize="561.6,2729.6" sap2010:WorkflowViewState.IdRef="Sequence_174">
+              <Sequence DisplayName="Table 9" sap:VirtualizedContainerService.HintSize="200,68.8" sap2010:WorkflowViewState.IdRef="Sequence_174">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     <x:Boolean x:Key="IsPinned">False</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <Sequence DisplayName="Import &amp; Transform- Table 9" sap:VirtualizedContainerService.HintSize="520,2452" sap2010:WorkflowViewState.IdRef="Sequence_171">
+                <Sequence DisplayName="Import &amp; Transform- Table 9" sap:VirtualizedContainerService.HintSize="241.6,362.4" sap2010:WorkflowViewState.IdRef="Sequence_171">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <Sequence DisplayName="Import Data" sap:VirtualizedContainerService.HintSize="478.4,1137.6" sap2010:WorkflowViewState.IdRef="Sequence_167">
+                  <Sequence DisplayName="Import Data" sap:VirtualizedContainerService.HintSize="200,68.8" sap2010:WorkflowViewState.IdRef="Sequence_167">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
                     <TryCatch DisplayName="Try Import Data" sap:VirtualizedContainerService.HintSize="436.8,912" sap2010:WorkflowViewState.IdRef="TryCatch_35">
@@ -623,8 +623,8 @@
                   <Sequence sap2010:Annotation.AnnotationText="This sequence INVOKEs the Transformation Sequence that performs all the transformations to unpivot &amp;/or flatten the datatables. " DisplayName="Transform Data- Table 9" sap:VirtualizedContainerService.HintSize="478.4,1181.6" sap2010:WorkflowViewState.IdRef="Sequence_170">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">True</x:Boolean>
                         <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
@@ -680,7 +680,7 @@
                     <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="436.8,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_73" Level="Info" Message="[&quot;Completed Transformation of Table 9&quot;]" />
                   </Sequence>
                 </Sequence>
-                <Sequence sap2010:Annotation.AnnotationText="The isequence exports the transformed datatable and saves it in the relevant location. " DisplayName="Save Output File- Table 9" sap:VirtualizedContainerService.HintSize="520,144.8" sap2010:WorkflowViewState.IdRef="Sequence_173">
+                <Sequence sap2010:Annotation.AnnotationText="The isequence exports the transformed datatable and saves it in the relevant location. " DisplayName="Save Output File- Table 9" sap:VirtualizedContainerService.HintSize="200,144.8" sap2010:WorkflowViewState.IdRef="Sequence_173">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -2070,25 +2070,25 @@
             <x:Boolean x:Key="IsPinned">False</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <Sequence DisplayName="Import &amp; Transform- Table 11" sap:VirtualizedContainerService.HintSize="520,2452" sap2010:WorkflowViewState.IdRef="Sequence_182">
+        <Sequence DisplayName="Import &amp; Transform- Table 11" sap:VirtualizedContainerService.HintSize="520,1383.2" sap2010:WorkflowViewState.IdRef="Sequence_182">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               <x:Boolean x:Key="IsPinned">False</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <Sequence DisplayName="Import Data" sap:VirtualizedContainerService.HintSize="478.4,1137.6" sap2010:WorkflowViewState.IdRef="Sequence_178">
+          <Sequence DisplayName="Import Data" sap:VirtualizedContainerService.HintSize="478.4,68.8" sap2010:WorkflowViewState.IdRef="Sequence_178">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                <x:Boolean x:Key="IsPinned">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <TryCatch DisplayName="Try Import Data" sap:VirtualizedContainerService.HintSize="436.8,912" sap2010:WorkflowViewState.IdRef="TryCatch_38">
+            <TryCatch DisplayName="Try Import Data" sap:VirtualizedContainerService.HintSize="333.6,52.8" sap2010:WorkflowViewState.IdRef="TryCatch_38">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
               <TryCatch.Try>
@@ -2127,7 +2127,7 @@
                 </Catch>
               </TryCatch.Catches>
             </TryCatch>
-            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="436.8,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_77" Level="Info" Message="[&quot;Completed import of Raw File into UiPath.&quot;]" />
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="333.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_77" Level="Info" Message="[&quot;Completed import of Raw File into UiPath.&quot;]" />
           </Sequence>
           <Sequence sap2010:Annotation.AnnotationText="This sequence INVOKEs the Transformation Sequence that performs all the transformations to unpivot &amp;/or flatten the datatables. " DisplayName="Transform Data- Table 11" sap:VirtualizedContainerService.HintSize="478.4,1181.6" sap2010:WorkflowViewState.IdRef="Sequence_181">
             <sap:WorkflowViewStateService.ViewState>

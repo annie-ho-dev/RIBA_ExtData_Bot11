@@ -426,17 +426,11 @@
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
         </ui:MultipleAssign>
-        <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke Unpivot_BuildingMaterials_Table11 workflow" sap:VirtualizedContainerService.HintSize="574.4,88" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Framework\Unpivot_BuildingMaterials_Table11.xaml">
+        <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke Unpivot_BuildingMaterials_Table11 workflow" sap:VirtualizedContainerService.HintSize="574.4,88" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Framework\Unpivot_BuildingMaterials_Table9.xaml">
           <ui:InvokeWorkflowFile.Arguments>
-            <InOutArgument x:TypeArguments="sd:DataTable" x:Key="dt_TransformedOutput">
-              <mva:VisualBasicReference x:TypeArguments="sd:DataTable" ExpressionText="dt_WorkingImport" />
-            </InOutArgument>
-            <InArgument x:TypeArguments="s:String[]" x:Key="arr_PivotColumns">
-              <mva:VisualBasicValue x:TypeArguments="s:String[]" ExpressionText="{}{&quot;Year&quot;,&quot;Month&quot;}" />
-            </InArgument>
-            <InArgument x:TypeArguments="s:String[]" x:Key="arr_UnpivotColumns">
-              <mva:VisualBasicValue x:TypeArguments="s:String[]" ExpressionText="{}{&quot;Header&quot;,&quot;Millions of Bricks&quot;}" />
-            </InArgument>
+            <InOutArgument x:TypeArguments="sd:DataTable" x:Key="dt_TransformedOutput">[dt_WorkingImport]</InOutArgument>
+            <InArgument x:TypeArguments="s:String[]" x:Key="arr_PivotColumns">[{"Year","Month"}]</InArgument>
+            <InArgument x:TypeArguments="s:String[]" x:Key="arr_UnpivotColumns">[{"Header","Millions of Bricks"}]</InArgument>
           </ui:InvokeWorkflowFile.Arguments>
         </ui:InvokeWorkflowFile>
         <ui:WriteCsvFile Encoding="{x:Null}" AddHeaders="True" DataTable="[dt_WorkingImport]" Delimitator="Comma" DisplayName="Write CSV" FilePath="Data\Output\Transformed Output Data\temp.csv" sap:VirtualizedContainerService.HintSize="574.4,155.2" sap2010:WorkflowViewState.IdRef="WriteCsvFile_4" />
