@@ -1,0 +1,337 @@
+﻿Month,Work Type,Year," Weighted averages of Construction Producer Price Indices"
+January,New Housing,2016,98.5
+January,New Housing,2017,102.8
+January,New Housing,2018,107.7
+January,New Housing,2019,111.7
+January,New Housing,2020,110.9
+January,New Housing,2021,116.7
+January,New Housing,Column7,
+February,New Housing,2016,99.1
+February,New Housing,2017,103.9
+February,New Housing,2018,109.3
+February,New Housing,2019,112.4
+February,New Housing,2020,111.4
+February,New Housing,2021,118.9
+February,New Housing,Column7,
+March,New Housing,2016,98.9
+March,New Housing,2017,104.3
+March,New Housing,2018,109.3
+March,New Housing,2019,113.4
+March,New Housing,2020,111.7
+March,New Housing,2021,120
+March,New Housing,Column7,
+April,New Housing,2016,99.4
+April,New Housing,2017,104.8
+April,New Housing,2018,109.7
+April,New Housing,2019,113.1
+April,New Housing,2020,111.7
+April,New Housing,2021,121
+April,New Housing,Column7,
+May,New Housing,2016,99.8
+May,New Housing,2017,105.2
+May,New Housing,2018,110.1
+May,New Housing,2019,112.8
+May,New Housing,2020,112.5
+May,New Housing,2021,123
+May,New Housing,Column7,
+June,New Housing,2016,100.3
+June,New Housing,2017,105.3
+June,New Housing,2018,110.5
+June,New Housing,2019,113.3
+June,New Housing,2020,111.9
+June,New Housing,2021,127
+June,New Housing,Column7,p
+July,New Housing,2016,100.2
+July,New Housing,2017,105.4
+July,New Housing,2018,111
+July,New Housing,2019,113.3
+July,New Housing,2020,112.2
+July,New Housing,2021,134.4
+July,New Housing,Column7,p
+August,New Housing,2016,100.8
+August,New Housing,2017,105.6
+August,New Housing,2018,111.1
+August,New Housing,2019,112.8
+August,New Housing,2020,112.3
+August,New Housing,2021,137.5
+August,New Housing,Column7,p
+September,New Housing,2016,101.4
+September,New Housing,2017,106.4
+September,New Housing,2018,111.6
+September,New Housing,2019,112.5
+September,New Housing,2020,112.9
+September,New Housing,2021,
+September,New Housing,Column7,
+October,New Housing,2016,101.3
+October,New Housing,2017,106.9
+October,New Housing,2018,111.3
+October,New Housing,2019,112.8
+October,New Housing,2020,113.5
+October,New Housing,2021,
+October,New Housing,Column7,
+November,New Housing,2016,102.1
+November,New Housing,2017,107.1
+November,New Housing,2018,111.7
+November,New Housing,2019,112
+November,New Housing,2020,114.5
+November,New Housing,2021,
+November,New Housing,Column7,
+December,New Housing,2016,102
+December,New Housing,2017,108.1
+December,New Housing,2018,111.8
+December,New Housing,2019,111.5
+December,New Housing,2020,116.3
+December,New Housing,2021,
+December,New Housing,Column7,
+January,Other New Work,2016,97
+January,Other New Work,2017,102.4
+January,Other New Work,2018,107
+January,Other New Work,2019,111.8
+January,Other New Work,2020,110.6
+January,Other New Work,2021,116.7
+January,Other New Work,Column7,
+February,Other New Work,2016,97.4
+February,Other New Work,2017,103
+February,Other New Work,2018,107.5
+February,Other New Work,2019,113
+February,Other New Work,2020,110.7
+February,Other New Work,2021,118.9
+February,Other New Work,Column7,
+March,Other New Work,2016,97.9
+March,Other New Work,2017,103.4
+March,Other New Work,2018,108.4
+March,Other New Work,2019,113.4
+March,Other New Work,2020,111.1
+March,Other New Work,2021,121.5
+March,Other New Work,Column7,
+April,Other New Work,2016,98
+April,Other New Work,2017,103.5
+April,Other New Work,2018,108.5
+April,Other New Work,2019,113.1
+April,Other New Work,2020,112.4
+April,Other New Work,2021,123.7
+April,Other New Work,Column7,
+May,Other New Work,2016,99
+May,Other New Work,2017,103.5
+May,Other New Work,2018,109.1
+May,Other New Work,2019,113.3
+May,Other New Work,2020,112.8
+May,Other New Work,2021,126.5
+May,Other New Work,Column7,
+June,Other New Work,2016,99.5
+June,Other New Work,2017,103.5
+June,Other New Work,2018,109.6
+June,Other New Work,2019,112
+June,Other New Work,2020,111.5
+June,Other New Work,2021,129.2
+June,Other New Work,Column7,p
+July,Other New Work,2016,99.3
+July,Other New Work,2017,103.5
+July,Other New Work,2018,109.7
+July,Other New Work,2019,112.4
+July,Other New Work,2020,111.4
+July,Other New Work,2021,133.2
+July,Other New Work,Column7,p
+August,Other New Work,2016,99.1
+August,Other New Work,2017,103.6
+August,Other New Work,2018,110
+August,Other New Work,2019,111.7
+August,Other New Work,2020,111.5
+August,Other New Work,2021,136.9
+August,Other New Work,Column7,p
+September,Other New Work,2016,99.5
+September,Other New Work,2017,104.6
+September,Other New Work,2018,110.8
+September,Other New Work,2019,112.2
+September,Other New Work,2020,111.4
+September,Other New Work,2021,
+September,Other New Work,Column7,
+October,Other New Work,2016,99.5
+October,Other New Work,2017,105.7
+October,Other New Work,2018,111
+October,Other New Work,2019,111.7
+October,Other New Work,2020,111.7
+October,Other New Work,2021,
+October,Other New Work,Column7,
+November,Other New Work,2016,100.6
+November,Other New Work,2017,106.5
+November,Other New Work,2018,111
+November,Other New Work,2019,110.2
+November,Other New Work,2020,113.6
+November,Other New Work,2021,
+November,Other New Work,Column7,
+December,Other New Work,2016,101.3
+December,Other New Work,2017,106.8
+December,Other New Work,2018,110.8
+December,Other New Work,2019,109.4
+December,Other New Work,2020,115.2
+December,Other New Work,2021,
+December,Other New Work,Column7,
+January,Repair and Maintenance,2016,98
+January,Repair and Maintenance,2017,103
+January,Repair and Maintenance,2018,108
+January,Repair and Maintenance,2019,113
+January,Repair and Maintenance,2020,111.3
+January,Repair and Maintenance,2021,117.1
+January,Repair and Maintenance,Column7,
+February,Repair and Maintenance,2016,98.1
+February,Repair and Maintenance,2017,104.2
+February,Repair and Maintenance,2018,109.4
+February,Repair and Maintenance,2019,113.5
+February,Repair and Maintenance,2020,111.7
+February,Repair and Maintenance,2021,119.4
+February,Repair and Maintenance,Column7,
+March,Repair and Maintenance,2016,98.1
+March,Repair and Maintenance,2017,104.5
+March,Repair and Maintenance,2018,109.6
+March,Repair and Maintenance,2019,114.2
+March,Repair and Maintenance,2020,111.7
+March,Repair and Maintenance,2021,120.8
+March,Repair and Maintenance,Column7,
+April,Repair and Maintenance,2016,98.6
+April,Repair and Maintenance,2017,104.9
+April,Repair and Maintenance,2018,110.2
+April,Repair and Maintenance,2019,114.3
+April,Repair and Maintenance,2020,111.7
+April,Repair and Maintenance,2021,122.4
+April,Repair and Maintenance,Column7,
+May,Repair and Maintenance,2016,99.2
+May,Repair and Maintenance,2017,105.4
+May,Repair and Maintenance,2018,110.6
+May,Repair and Maintenance,2019,114
+May,Repair and Maintenance,2020,112.2
+May,Repair and Maintenance,2021,124.6
+May,Repair and Maintenance,Column7,
+June,Repair and Maintenance,2016,99.8
+June,Repair and Maintenance,2017,105.4
+June,Repair and Maintenance,2018,111.5
+June,Repair and Maintenance,2019,114.2
+June,Repair and Maintenance,2020,111.8
+June,Repair and Maintenance,2021,129.2
+June,Repair and Maintenance,Column7,p
+July,Repair and Maintenance,2016,99.9
+July,Repair and Maintenance,2017,105.5
+July,Repair and Maintenance,2018,112
+July,Repair and Maintenance,2019,114
+July,Repair and Maintenance,2020,112
+July,Repair and Maintenance,2021,137.8
+July,Repair and Maintenance,Column7,p
+August,Repair and Maintenance,2016,100.6
+August,Repair and Maintenance,2017,105.8
+August,Repair and Maintenance,2018,112.3
+August,Repair and Maintenance,2019,113.7
+August,Repair and Maintenance,2020,112.3
+August,Repair and Maintenance,2021,141.4
+August,Repair and Maintenance,Column7,p
+September,Repair and Maintenance,2016,101.2
+September,Repair and Maintenance,2017,106.5
+September,Repair and Maintenance,2018,112.9
+September,Repair and Maintenance,2019,113.4
+September,Repair and Maintenance,2020,112.9
+September,Repair and Maintenance,2021,
+September,Repair and Maintenance,Column7,
+October,Repair and Maintenance,2016,101.1
+October,Repair and Maintenance,2017,107
+October,Repair and Maintenance,2018,112.9
+October,Repair and Maintenance,2019,113.4
+October,Repair and Maintenance,2020,113.4
+October,Repair and Maintenance,2021,
+October,Repair and Maintenance,Column7,
+November,Repair and Maintenance,2016,101.9
+November,Repair and Maintenance,2017,107.5
+November,Repair and Maintenance,2018,113.3
+November,Repair and Maintenance,2019,112.6
+November,Repair and Maintenance,2020,114.6
+November,Repair and Maintenance,2021,
+November,Repair and Maintenance,Column7,
+December,Repair and Maintenance,2016,101.9
+December,Repair and Maintenance,2017,108.2
+December,Repair and Maintenance,2018,113.3
+December,Repair and Maintenance,2019,111.8
+December,Repair and Maintenance,2020,116
+December,Repair and Maintenance,2021,
+December,Repair and Maintenance,Column7,
+January,All Work,2016,97.4
+January,All Work,2017,102.6
+January,All Work,2018,107.1
+January,All Work,2019,111.8
+January,All Work,2020,110.7
+January,All Work,2021,116.5
+January,All Work,Column7,
+February,All Work,2016,97.7
+February,All Work,2017,103.3
+February,All Work,2018,108
+February,All Work,2019,112.6
+February,All Work,2020,111
+February,All Work,2021,118.7
+February,All Work,Column7,
+March,All Work,2016,98.1
+March,All Work,2017,103.6
+March,All Work,2018,108.5
+March,All Work,2019,113.1
+March,All Work,2020,111.2
+March,All Work,2021,120.3
+March,All Work,Column7,
+April,All Work,2016,98.3
+April,All Work,2017,103.9
+April,All Work,2018,108.7
+April,All Work,2019,112.9
+April,All Work,2020,113.5
+April,All Work,2021,122.4
+April,All Work,Column7,
+May,All Work,2016,99.2
+May,All Work,2017,104
+May,All Work,2018,109.3
+May,All Work,2019,112.9
+May,All Work,2020,113.9
+May,All Work,2021,124.8
+May,All Work,Column7,
+June,All Work,2016,99.5
+June,All Work,2017,103.9
+June,All Work,2018,109.7
+June,All Work,2019,112.3
+June,All Work,2020,111.8
+June,All Work,2021,128.2
+June,All Work,Column7,p
+July,All Work,2016,99.6
+July,All Work,2017,104.1
+July,All Work,2018,110.1
+July,All Work,2019,112.7
+July,All Work,2020,111.6
+July,All Work,2021,134
+July,All Work,Column7,p
+August,All Work,2016,99.8
+August,All Work,2017,104.4
+August,All Work,2018,110.4
+August,All Work,2019,112.2
+August,All Work,2020,111.6
+August,All Work,2021,137.8
+August,All Work,Column7,p
+September,All Work,2016,100.2
+September,All Work,2017,105.1
+September,All Work,2018,111
+September,All Work,2019,112.3
+September,All Work,2020,111.6
+September,All Work,2021,
+September,All Work,Column7,
+October,All Work,2016,100.2
+October,All Work,2017,106
+October,All Work,2018,111
+October,All Work,2019,111.9
+October,All Work,2020,111.9
+October,All Work,2021,
+October,All Work,Column7,
+November,All Work,2016,101.1
+November,All Work,2017,106.3
+November,All Work,2018,111.1
+November,All Work,2019,110.8
+November,All Work,2020,113.5
+November,All Work,2021,
+November,All Work,Column7,
+December,All Work,2016,101.5
+December,All Work,2017,107
+December,All Work,2018,111.2
+December,All Work,2019,110.1
+December,All Work,2020,115.1
+December,All Work,2021,
+December,All Work,Column7,
