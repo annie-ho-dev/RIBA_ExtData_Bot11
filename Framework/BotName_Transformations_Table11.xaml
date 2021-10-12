@@ -104,7 +104,7 @@
           <av:Size x:Key="ShapeSize">200,68.8</av:Size>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Sequence DisplayName="Transform Data" sap:VirtualizedContainerService.HintSize="616,3118.4" sap2010:WorkflowViewState.IdRef="Sequence_10">
+      <Sequence DisplayName="Transform Data" sap:VirtualizedContainerService.HintSize="395.2,2947.2" sap2010:WorkflowViewState.IdRef="Sequence_10">
         <Sequence.Variables>
           <Variable x:TypeArguments="x:Int32" Name="int_RowCounter" />
           <Variable x:TypeArguments="sd:DataTable" Name="dt_RegionList" />
@@ -123,7 +123,7 @@
             <x:Boolean x:Key="IsPinned">False</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <ui:FilterDataTable DataTable="[dt_WorkingImport]" DisplayName="Filter Data Table" FilterRowsMode="Remove" sap:VirtualizedContainerService.HintSize="574.4,60" sap2010:WorkflowViewState.IdRef="FilterDataTable_4" OutputDataTable="[dt_WorkingImport]" SelectColumnsMode="Keep">
+        <ui:FilterDataTable DataTable="[dt_WorkingImport]" DisplayName="Filter Data Table" FilterRowsMode="Remove" sap:VirtualizedContainerService.HintSize="353.6,60" sap2010:WorkflowViewState.IdRef="FilterDataTable_4" OutputDataTable="[dt_WorkingImport]" SelectColumnsMode="Keep">
           <ui:FilterDataTable.Filters>
             <scg:List x:TypeArguments="ui:FilterOperationArgument" Capacity="4">
               <ui:FilterOperationArgument Operand="{x:Null}" BooleanOperator="And" Operator="EMPTY">
@@ -147,7 +147,7 @@
             </scg:List>
           </ui:FilterDataTable.SelectColumns>
         </ui:FilterDataTable>
-        <Assign DisplayName="Assign- empty column index" sap:VirtualizedContainerService.HintSize="574.4,60" sap2010:WorkflowViewState.IdRef="Assign_24">
+        <Assign DisplayName="Assign- empty column index" sap:VirtualizedContainerService.HintSize="353.6,60" sap2010:WorkflowViewState.IdRef="Assign_24">
           <Assign.To>
             <OutArgument x:TypeArguments="scg:List(sd:DataColumn)">[arr_empty]</OutArgument>
           </Assign.To>
@@ -155,7 +155,7 @@
             <InArgument x:TypeArguments="scg:List(sd:DataColumn)">[dt_WorkingImport.Columns.Cast(Of DataColumn).Where(Function(c) dt_WorkingImport.AsEnumerable.All(Function(r) r(c) Is Nothing OrElse String.IsNullOrEmpty(r(c).ToString()))).toList()]</InArgument>
           </Assign.Value>
         </Assign>
-        <ui:ForEach x:TypeArguments="sd:DataColumn" CurrentIndex="{x:Null}" DisplayName="For Each" sap:VirtualizedContainerService.HintSize="574.4,52.8" sap2010:WorkflowViewState.IdRef="ForEach`1_3" Values="[arr_empty]">
+        <ui:ForEach x:TypeArguments="sd:DataColumn" CurrentIndex="{x:Null}" DisplayName="For Each" sap:VirtualizedContainerService.HintSize="353.6,52.8" sap2010:WorkflowViewState.IdRef="ForEach`1_3" Values="[arr_empty]">
           <ui:ForEach.Body>
             <ActivityAction x:TypeArguments="sd:DataColumn">
               <ActivityAction.Argument>
@@ -185,7 +185,7 @@
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
         </ui:ForEach>
-        <Assign sap:VirtualizedContainerService.HintSize="574.4,60" sap2010:WorkflowViewState.IdRef="Assign_6">
+        <Assign sap:VirtualizedContainerService.HintSize="353.6,60" sap2010:WorkflowViewState.IdRef="Assign_6">
           <Assign.To>
             <OutArgument x:TypeArguments="x:Int32">[int_colcount]</OutArgument>
           </Assign.To>
@@ -193,7 +193,7 @@
             <InArgument x:TypeArguments="x:Int32">[dt_WorkingImport.Columns.Count]</InArgument>
           </Assign.Value>
         </Assign>
-        <ui:FilterDataTable DataTable="[dt_WorkingImport]" DisplayName="Filter Data Table" FilterRowsMode="Remove" sap:VirtualizedContainerService.HintSize="574.4,60" sap2010:WorkflowViewState.IdRef="FilterDataTable_2" OutputDataTable="[dt_WorkingImport]" SelectColumnsMode="Remove">
+        <ui:FilterDataTable DataTable="[dt_WorkingImport]" DisplayName="Filter Data Table" FilterRowsMode="Remove" sap:VirtualizedContainerService.HintSize="353.6,60" sap2010:WorkflowViewState.IdRef="FilterDataTable_2" OutputDataTable="[dt_WorkingImport]" SelectColumnsMode="Remove">
           <ui:FilterDataTable.Filters>
             <scg:List x:TypeArguments="ui:FilterOperationArgument" Capacity="4">
               <ui:FilterOperationArgument Column="{x:Null}" Operand="{x:Null}" BooleanOperator="And" Operator="LT" />
@@ -207,7 +207,7 @@
             </scg:List>
           </ui:FilterDataTable.SelectColumns>
         </ui:FilterDataTable>
-        <ui:WriteCsvFile Encoding="{x:Null}" AddHeaders="True" DataTable="[dt_WorkingImport]" Delimitator="Comma" DisplayName="Write CSV" FilePath="Data\Output\Transformed Output Data\first.csv" sap:VirtualizedContainerService.HintSize="574.4,155.2" sap2010:WorkflowViewState.IdRef="WriteCsvFile_8">
+        <ui:WriteCsvFile Encoding="{x:Null}" AddHeaders="True" DataTable="[dt_WorkingImport]" Delimitator="Comma" DisplayName="Write CSV" FilePath="Data\Output\Transformed Output Data\first.csv" sap:VirtualizedContainerService.HintSize="353.6,155.2" sap2010:WorkflowViewState.IdRef="WriteCsvFile_8">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -215,9 +215,9 @@
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
         </ui:WriteCsvFile>
-        <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="574.4,52.8" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+        <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="353.6,52.8" sap2010:WorkflowViewState.IdRef="CommentOut_3">
           <ui:CommentOut.Body>
-            <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="375.2,152.8" sap2010:WorkflowViewState.IdRef="Sequence_39">
+            <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="375.2,152.8" sap2010:WorkflowViewState.IdRef="Sequence_41">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -258,7 +258,7 @@
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
         </ui:CommentOut>
-        <ui:ForEachRow CurrentIndex="{x:Null}" DataTable="[dt_WorkingImport]" DisplayName="For Each Row" sap:VirtualizedContainerService.HintSize="574.4,52.8" sap2010:WorkflowViewState.IdRef="ForEachRow_4">
+        <ui:ForEachRow CurrentIndex="{x:Null}" DataTable="[dt_WorkingImport]" DisplayName="For Each Row" sap:VirtualizedContainerService.HintSize="353.6,52.8" sap2010:WorkflowViewState.IdRef="ForEachRow_4">
           <ui:ForEachRow.Body>
             <ActivityAction x:TypeArguments="sd:DataRow">
               <ActivityAction.Argument>
@@ -314,7 +314,7 @@
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
         </ui:ForEachRow>
-        <ui:MultipleAssign DisplayName="Multiple Assign- Column Names" sap:VirtualizedContainerService.HintSize="574.4,536" sap2010:WorkflowViewState.IdRef="MultipleAssign_2">
+        <ui:MultipleAssign DisplayName="Multiple Assign- Column Names" sap:VirtualizedContainerService.HintSize="353.6,536" sap2010:WorkflowViewState.IdRef="MultipleAssign_2">
           <ui:MultipleAssign.AssignOperations>
             <scg:List x:TypeArguments="ui:AssignOperation" Capacity="32">
               <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_4">
@@ -446,7 +446,7 @@
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
         </ui:MultipleAssign>
-        <ui:WriteCsvFile Encoding="{x:Null}" AddHeaders="True" DataTable="[dt_WorkingImport]" Delimitator="Comma" DisplayName="Write CSV" FilePath="Data\Output\Transformed Output Data\temp.csv" sap:VirtualizedContainerService.HintSize="574.4,52.8" sap2010:WorkflowViewState.IdRef="WriteCsvFile_5">
+        <ui:WriteCsvFile Encoding="{x:Null}" AddHeaders="True" DataTable="[dt_WorkingImport]" Delimitator="Comma" DisplayName="Write CSV" FilePath="Data\Output\Transformed Output Data\temp.csv" sap:VirtualizedContainerService.HintSize="353.6,52.8" sap2010:WorkflowViewState.IdRef="WriteCsvFile_5">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -454,9 +454,9 @@
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
         </ui:WriteCsvFile>
-        <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="574.4,224" sap2010:WorkflowViewState.IdRef="CommentOut_2">
+        <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="353.6,52.8" sap2010:WorkflowViewState.IdRef="CommentOut_2">
           <ui:CommentOut.Body>
-            <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="241.6,145.6" sap2010:WorkflowViewState.IdRef="Sequence_40">
+            <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="475.2,145.6" sap2010:WorkflowViewState.IdRef="Sequence_40">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -494,16 +494,22 @@
               </ui:ExcelApplicationScope>
             </Sequence>
           </ui:CommentOut.Body>
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
         </ui:CommentOut>
-        <ui:ReadCsvFile Encoding="{x:Null}" DataTable="[dt_WorkingImport]" Delimitator="Comma" DisplayName="Read CSV" FilePath="Data\Output\Transformed Output Data\temp.csv" sap:VirtualizedContainerService.HintSize="574.4,155.2" sap2010:WorkflowViewState.IdRef="ReadCsvFile_3" />
-        <ui:AddDataColumn x:TypeArguments="x:Object" AllowDBNull="{x:Null}" AutoIncrement="{x:Null}" Column="{x:Null}" DefaultValue="{x:Null}" MaxLength="{x:Null}" Unique="{x:Null}" ColumnName="month int" DataTable="[dt_WorkingImport]" DisplayName="Add Month integer Column" sap:VirtualizedContainerService.HintSize="574.4,22.4" sap2010:WorkflowViewState.IdRef="AddDataColumn`1_10" />
-        <ui:AddDataColumn x:TypeArguments="x:Object" AllowDBNull="{x:Null}" AutoIncrement="{x:Null}" Column="{x:Null}" DefaultValue="{x:Null}" MaxLength="{x:Null}" Unique="{x:Null}" ColumnName="Date" DataTable="[dt_WorkingImport]" DisplayName="Add Date Column" sap:VirtualizedContainerService.HintSize="574.4,22.4" sap2010:WorkflowViewState.IdRef="AddDataColumn`1_11" />
-        <ui:AddDataColumn x:TypeArguments="x:Object" AllowDBNull="{x:Null}" AutoIncrement="{x:Null}" Column="{x:Null}" DefaultValue="{x:Null}" MaxLength="{x:Null}" Unique="{x:Null}" ColumnName="Production/Deliveries/Stocks" DataTable="[dt_WorkingImport]" DisplayName="Add Header Column" sap:VirtualizedContainerService.HintSize="574.4,22.4" sap2010:WorkflowViewState.IdRef="AddDataColumn`1_12" />
-        <ui:AddDataColumn x:TypeArguments="x:Object" AllowDBNull="{x:Null}" AutoIncrement="{x:Null}" Column="{x:Null}" DefaultValue="{x:Null}" MaxLength="{x:Null}" Unique="{x:Null}" ColumnName="Concrete Block Type" DataTable="[dt_WorkingImport]" DisplayName="AddConcrete Block TypeColumn" sap:VirtualizedContainerService.HintSize="574.4,22.4" sap2010:WorkflowViewState.IdRef="AddDataColumn`1_13" />
-        <ui:AddDataColumn x:TypeArguments="x:Object" AllowDBNull="{x:Null}" AutoIncrement="{x:Null}" Column="{x:Null}" DefaultValue="{x:Null}" MaxLength="{x:Null}" Unique="{x:Null}" ColumnName="Geographical Region" DataTable="[dt_WorkingImport]" DisplayName="Add Region Column" sap:VirtualizedContainerService.HintSize="574.4,22.4" sap2010:WorkflowViewState.IdRef="AddDataColumn`1_14" />
-        <ui:AddDataColumn x:TypeArguments="x:Object" AllowDBNull="{x:Null}" AutoIncrement="{x:Null}" Column="{x:Null}" DefaultValue="{x:Null}" MaxLength="{x:Null}" Unique="{x:Null}" ColumnName="Building Material Type" DataTable="[dt_WorkingImport]" DisplayName="Add Building Material Column" sap:VirtualizedContainerService.HintSize="574.4,22.4" sap2010:WorkflowViewState.IdRef="AddDataColumn`1_15" />
-        <ui:AddDataColumn x:TypeArguments="x:Object" AllowDBNull="{x:Null}" AutoIncrement="{x:Null}" Column="{x:Null}" DefaultValue="{x:Null}" MaxLength="{x:Null}" Unique="{x:Null}" ColumnName="Unique_Key" DataTable="[dt_WorkingImport]" DisplayName="Add Data Column- Unique Key" sap:VirtualizedContainerService.HintSize="574.4,22.4" sap2010:WorkflowViewState.IdRef="AddDataColumn`1_16" />
-        <ui:ForEachRow CurrentIndex="{x:Null}" DataTable="[dt_WorkingImport]" DisplayName="For Each Row" sap:VirtualizedContainerService.HintSize="574.4,52.8" sap2010:WorkflowViewState.IdRef="ForEachRow_6">
+        <ui:ReadCsvFile Encoding="{x:Null}" DataTable="[dt_WorkingImport]" Delimitator="Comma" DisplayName="Read CSV" FilePath="Data\Output\Transformed Output Data\temp.csv" sap:VirtualizedContainerService.HintSize="353.6,155.2" sap2010:WorkflowViewState.IdRef="ReadCsvFile_3" />
+        <ui:AddDataColumn x:TypeArguments="x:Object" AllowDBNull="{x:Null}" AutoIncrement="{x:Null}" Column="{x:Null}" DefaultValue="{x:Null}" MaxLength="{x:Null}" Unique="{x:Null}" ColumnName="month int" DataTable="[dt_WorkingImport]" DisplayName="Add Month integer Column" sap:VirtualizedContainerService.HintSize="353.6,22.4" sap2010:WorkflowViewState.IdRef="AddDataColumn`1_10" />
+        <ui:AddDataColumn x:TypeArguments="x:Object" AllowDBNull="{x:Null}" AutoIncrement="{x:Null}" Column="{x:Null}" DefaultValue="{x:Null}" MaxLength="{x:Null}" Unique="{x:Null}" ColumnName="Date" DataTable="[dt_WorkingImport]" DisplayName="Add Date Column" sap:VirtualizedContainerService.HintSize="353.6,22.4" sap2010:WorkflowViewState.IdRef="AddDataColumn`1_11" />
+        <ui:AddDataColumn x:TypeArguments="x:Object" AllowDBNull="{x:Null}" AutoIncrement="{x:Null}" Column="{x:Null}" DefaultValue="{x:Null}" MaxLength="{x:Null}" Unique="{x:Null}" ColumnName="Production/Deliveries/Stocks" DataTable="[dt_WorkingImport]" DisplayName="Add Header Column" sap:VirtualizedContainerService.HintSize="353.6,22.4" sap2010:WorkflowViewState.IdRef="AddDataColumn`1_12" />
+        <ui:AddDataColumn x:TypeArguments="x:Object" AllowDBNull="{x:Null}" AutoIncrement="{x:Null}" Column="{x:Null}" DefaultValue="{x:Null}" MaxLength="{x:Null}" Unique="{x:Null}" ColumnName="Concrete Block Type" DataTable="[dt_WorkingImport]" DisplayName="AddConcrete Block TypeColumn" sap:VirtualizedContainerService.HintSize="353.6,22.4" sap2010:WorkflowViewState.IdRef="AddDataColumn`1_13" />
+        <ui:AddDataColumn x:TypeArguments="x:Object" AllowDBNull="{x:Null}" AutoIncrement="{x:Null}" Column="{x:Null}" DefaultValue="{x:Null}" MaxLength="{x:Null}" Unique="{x:Null}" ColumnName="Geographical Region" DataTable="[dt_WorkingImport]" DisplayName="Add Region Column" sap:VirtualizedContainerService.HintSize="353.6,22.4" sap2010:WorkflowViewState.IdRef="AddDataColumn`1_14" />
+        <ui:AddDataColumn x:TypeArguments="x:Object" AllowDBNull="{x:Null}" AutoIncrement="{x:Null}" Column="{x:Null}" DefaultValue="{x:Null}" MaxLength="{x:Null}" Unique="{x:Null}" ColumnName="Building Material Type" DataTable="[dt_WorkingImport]" DisplayName="Add Building Material Column" sap:VirtualizedContainerService.HintSize="353.6,22.4" sap2010:WorkflowViewState.IdRef="AddDataColumn`1_15" />
+        <ui:AddDataColumn x:TypeArguments="x:Object" AllowDBNull="{x:Null}" AutoIncrement="{x:Null}" Column="{x:Null}" DefaultValue="{x:Null}" MaxLength="{x:Null}" Unique="{x:Null}" ColumnName="Unique_Key" DataTable="[dt_WorkingImport]" DisplayName="Add Data Column- Unique Key" sap:VirtualizedContainerService.HintSize="353.6,22.4" sap2010:WorkflowViewState.IdRef="AddDataColumn`1_16" />
+        <ui:ForEachRow CurrentIndex="{x:Null}" DataTable="[dt_WorkingImport]" DisplayName="For Each Row" sap:VirtualizedContainerService.HintSize="353.6,52.8" sap2010:WorkflowViewState.IdRef="ForEachRow_6">
           <ui:ForEachRow.Body>
             <ActivityAction x:TypeArguments="sd:DataRow">
               <ActivityAction.Argument>
@@ -581,7 +587,7 @@
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
         </ui:ForEachRow>
-        <ui:FilterDataTable DataTable="[dt_WorkingImport]" DisplayName="Filter Data Table" sap:VirtualizedContainerService.HintSize="574.4,60" sap2010:WorkflowViewState.IdRef="FilterDataTable_3" OutputDataTable="[dt_TransformedOutput]" SelectColumnsMode="Keep">
+        <ui:FilterDataTable DataTable="[dt_WorkingImport]" DisplayName="Filter Data Table" sap:VirtualizedContainerService.HintSize="353.6,60" sap2010:WorkflowViewState.IdRef="FilterDataTable_3" OutputDataTable="[dt_TransformedOutput]" SelectColumnsMode="Keep">
           <ui:FilterDataTable.Filters>
             <scg:List x:TypeArguments="ui:FilterOperationArgument" Capacity="4">
               <ui:FilterOperationArgument Column="{x:Null}" Operand="{x:Null}" BooleanOperator="And" Operator="LT" />
@@ -599,7 +605,7 @@
             </scg:List>
           </ui:FilterDataTable.SelectColumns>
         </ui:FilterDataTable>
-        <ui:ForEachRow CurrentIndex="{x:Null}" DataTable="[dt_TransformedOutput]" DisplayName="For Each Row" sap:VirtualizedContainerService.HintSize="574.4,394.4" sap2010:WorkflowViewState.IdRef="ForEachRow_7">
+        <ui:ForEachRow CurrentIndex="{x:Null}" DataTable="[dt_TransformedOutput]" DisplayName="For Each Row" sap:VirtualizedContainerService.HintSize="353.6,394.4" sap2010:WorkflowViewState.IdRef="ForEachRow_7">
           <ui:ForEachRow.Body>
             <ActivityAction x:TypeArguments="sd:DataRow">
               <ActivityAction.Argument>
