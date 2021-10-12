@@ -1,26 +1,112 @@
-﻿Year,Month,Seasonally Adjusted Deliveries-All Types,Production-All Types,Deliveries(from)-All Types,Stocks-All Types,Production-Dense,Deliveries(from)-Dense,Stocks-Dense,Production-Lightweight,Deliveries(from)-Lightweight,Stocks-Lightweight,Production-Aerated,Deliveries(from)-Aerated,Stocks-Aerated
-2019,Aug,5542.98285207277,5689.434,5845.116,7182.661,2017.334,2064.36,2694.007,1757.99,1781.206,2262.544,1914.11,1999.55,2226.11
-2019,Sep,5806.94585284332,6326.721,6217.603,7198.638,2113.577,2133.865,2672.901,1857.604,1783.618,2244.207,2355.54,2300.12,2281.53
-2019,Oct,5567.43159351599,6837.21,6303.615,7738.531,2298.654,2148.076,2830.219,1869.216,1804.339,2308.642,2669.34,2351.2,2599.67
-2019,Nov,5587.18845857632,5914.409,5661.493,7876.037,1824.962,1815.883,2732.365,1429.517,1639.6,2090.082,2659.93,2206.01,3053.59
-2019,Dec,5603.9413294848,4936.959,3680.714,9144.337,1338.572,1144.847,2944.675,1142.657,974.287,2251.922,2455.73,1561.58,3947.74
-2020,Jan,6456.10458296184,5762.851,5476.33,9430.86,1787.347,1756.124,2975.9,1424.614,1532.946,2143.59,2550.89,2187.26,4311.37
-2020,Feb,6272.56793327148,5843.742,5664.523,9610.079,1779.096,1782.103,2972.893,1665.816,1539.68,2269.726,2398.83,2342.74,4367.46
-2020,Mar,5153.85634282001,5160.266,5379.477,9366.976,1534.65,1653.769,2852.903,1361.276,1429.728,2178.253,2264.34,2295.98,4335.82
-2020,Apr,1506.61745132819,731.961,1634.115,8455.556,554.114,840.104,2550.645,c,c,2041.851,c,c,3863.06
-2020,May,3172.02278854071,2355.362,3385.351,7580.022,1196.312,1481.204,2174.384,c,c,1604.778,c,c,3800.86
-2020,Jun,4681.23076988657,5659.234,5256.536,7982.72,2441.915,2054.072,2562.227,2296.329,1528.124,2372.983,920.99,1674.34,3047.51
-2020,Jul,5577.04108394918,5389.427,6617.622,5470.951,2348.666,2333.782,2118.784,1653.821,1838.37,1363.187,1386.94,2445.47,1988.98
-2020,Aug,5725.67273648755,5857.798,5804.014,5570.253,2042.986,1963.767,2243.521,1582.832,1545.807,1400.212,2231.98,2294.44,1926.52
-2020,Sep,5863.02227045374,6453.485,6567.152,5228.731,2141.843,2162.767,2147.679,1778.172,1746.295,1421.092,2533.47,2658.09,1659.96
-2020,Oct,5806.68197189973,6438.248,6328.508,5338.471,2141.589,2054.225,2235.043,1753.269,1673.213,1501.148,2543.39,2601.07,1602.28
-2020,Nov,5910.79156486138,6260.19,5929.781,5662.108,1930.335,1926.122,2238.851,1731.055,1635.179,1590.657,2598.8,2368.48,1832.6
-2020,Dec,5999.94884340748,4343.565,4009.079,5961.865,1480.239,1248,2472.724,1181.256,1085.419,1650.131,1682.07,1675.66,1839.01
-2021,Jan,5972.78526441926,5267.645,4683.871,6542.223,1626.901,1458.004,2639.203,1173.034,1267.397,1554.77,2467.71,1958.47,2348.25
-2021,Feb,5219.88451985028,5269.681,4628.874,7183.03,1711.524,1600.009,2750.718,1395.997,1164.715,1786.052,2162.16,1864.15,2646.26
-2021,Mar,6852.80869824241,6742.859,7029.91,6911.965,2292.594,2488.373,2564.944,1746.605,1786.597,1752.041,2703.66,2754.94,2594.98
-2021,Apr,6216.19940385467,6021.62,6887.927,6146.953,2154.773,2418.72,2324.82,1549.377,1835.457,1543.433,2317.47,2633.75,2278.7
-2021,May,6217.54455358132,6373.341,6474.832,6060.882,2161.038,2233.255,2268.257,1750.513,1796.097,1497.615,2461.79,2445.48,2295.01
-2021,Jun,6512.39052555033,6786.569,7250.311,5569.284,2411.031,2558.207,2116.582,1893.738,1884.154,1521.412,2481.8,2807.95,1931.29
-2021,Jul,6209.4951978164,6599.962,6998.88,5216.286,2546.611,2557.114,2037.16,1867.521,1896.556,1471.486,2185.83,2545.21,1707.64
-2021,Aug,6095.76801743991,6336.072,6319.491,5232.867,2366.689,2210.341,2193.508,1799.313,1739.3,1531.499,2170.07,2369.85,1507.86
+﻿Date,Geographical Region,Building Material Type,Other Building Material Type,Production/Deliveries/Stocks,Th.sq.m. of roof area covered
+01/4/2012,Great Britain,Other Building Materials,Concrete Roofing Tiles,Production,4235.899
+01/4/2012,Great Britain,Other Building Materials,Concrete Roofing Tiles,Deliveries,4099.52
+01/4/2012,Great Britain,Other Building Materials,Concrete Roofing Tiles,Stocks,4008.024
+01/7/2012,Great Britain,Other Building Materials,Concrete Roofing Tiles,Production,4095.217
+01/7/2012,Great Britain,Other Building Materials,Concrete Roofing Tiles,Deliveries,5004.166
+01/7/2012,Great Britain,Other Building Materials,Concrete Roofing Tiles,Stocks,3136.466
+01/10/2012,Great Britain,Other Building Materials,Concrete Roofing Tiles,Production,4471.265
+01/10/2012,Great Britain,Other Building Materials,Concrete Roofing Tiles,Deliveries,4546.735
+01/10/2012,Great Britain,Other Building Materials,Concrete Roofing Tiles,Stocks,3060.996
+01/1/2013,Great Britain,Other Building Materials,Concrete Roofing Tiles,Production,4514.385
+01/1/2013,Great Britain,Other Building Materials,Concrete Roofing Tiles,Deliveries,4055.18
+01/1/2013,Great Britain,Other Building Materials,Concrete Roofing Tiles,Stocks,3520.201
+01/4/2013,Great Britain,Other Building Materials,Concrete Roofing Tiles,Production,4208.966
+01/4/2013,Great Britain,Other Building Materials,Concrete Roofing Tiles,Deliveries,4597.731
+01/4/2013,Great Britain,Other Building Materials,Concrete Roofing Tiles,Stocks,3131.436
+01/7/2013,Great Britain,Other Building Materials,Concrete Roofing Tiles,Production,4550.463
+01/7/2013,Great Britain,Other Building Materials,Concrete Roofing Tiles,Deliveries,5467.966
+01/7/2013,Great Britain,Other Building Materials,Concrete Roofing Tiles,Stocks,2213.933
+01/10/2013,Great Britain,Other Building Materials,Concrete Roofing Tiles,Production,5470.75
+01/10/2013,Great Britain,Other Building Materials,Concrete Roofing Tiles,Deliveries,5459.412
+01/10/2013,Great Britain,Other Building Materials,Concrete Roofing Tiles,Stocks,2214.339
+01/1/2014,Great Britain,Other Building Materials,Concrete Roofing Tiles,Production,6150.771
+01/1/2014,Great Britain,Other Building Materials,Concrete Roofing Tiles,Deliveries,5413.645
+01/1/2014,Great Britain,Other Building Materials,Concrete Roofing Tiles,Stocks,2931.758
+01/4/2014,Great Britain,Other Building Materials,Concrete Roofing Tiles,Production,6194.998
+01/4/2014,Great Britain,Other Building Materials,Concrete Roofing Tiles,Deliveries,5491.496
+01/4/2014,Great Britain,Other Building Materials,Concrete Roofing Tiles,Stocks,3687.197
+01/7/2014,Great Britain,Other Building Materials,Concrete Roofing Tiles,Production,5815.308
+01/7/2014,Great Britain,Other Building Materials,Concrete Roofing Tiles,Deliveries,6237.918
+01/7/2014,Great Britain,Other Building Materials,Concrete Roofing Tiles,Stocks,3260.905
+01/10/2014,Great Britain,Other Building Materials,Concrete Roofing Tiles,Production,5925.074
+01/10/2014,Great Britain,Other Building Materials,Concrete Roofing Tiles,Deliveries,5914.981
+01/10/2014,Great Britain,Other Building Materials,Concrete Roofing Tiles,Stocks,3274.68
+01/1/2015,Great Britain,Other Building Materials,Concrete Roofing Tiles,Production,6547.313
+01/1/2015,Great Britain,Other Building Materials,Concrete Roofing Tiles,Deliveries,5399.887
+01/1/2015,Great Britain,Other Building Materials,Concrete Roofing Tiles,Stocks,4422.106
+01/4/2015,Great Britain,Other Building Materials,Concrete Roofing Tiles,Production,6296.391
+01/4/2015,Great Britain,Other Building Materials,Concrete Roofing Tiles,Deliveries,5843.296
+01/4/2015,Great Britain,Other Building Materials,Concrete Roofing Tiles,Stocks,4875.201
+01/7/2015,Great Britain,Other Building Materials,Concrete Roofing Tiles,Production,5696.54
+01/7/2015,Great Britain,Other Building Materials,Concrete Roofing Tiles,Deliveries,6419.925
+01/7/2015,Great Britain,Other Building Materials,Concrete Roofing Tiles,Stocks,4151.816
+01/10/2015,Great Britain,Other Building Materials,Concrete Roofing Tiles,Production,6564.897
+01/10/2015,Great Britain,Other Building Materials,Concrete Roofing Tiles,Deliveries,6812.32
+01/10/2015,Great Britain,Other Building Materials,Concrete Roofing Tiles,Stocks,3904.393
+01/1/2016,Great Britain,Other Building Materials,Concrete Roofing Tiles,Production,6323.44
+01/1/2016,Great Britain,Other Building Materials,Concrete Roofing Tiles,Deliveries,5836.536
+01/1/2016,Great Britain,Other Building Materials,Concrete Roofing Tiles,Stocks,4391.296
+01/4/2016,Great Britain,Other Building Materials,Concrete Roofing Tiles,Production,6082.018
+01/4/2016,Great Britain,Other Building Materials,Concrete Roofing Tiles,Deliveries,6291.621
+01/4/2016,Great Britain,Other Building Materials,Concrete Roofing Tiles,Stocks,4184.694
+01/7/2016,Great Britain,Other Building Materials,Concrete Roofing Tiles,Production,5857.045
+01/7/2016,Great Britain,Other Building Materials,Concrete Roofing Tiles,Deliveries,6912.414
+01/7/2016,Great Britain,Other Building Materials,Concrete Roofing Tiles,Stocks,3129.325
+01/10/2016,Great Britain,Other Building Materials,Concrete Roofing Tiles,Production,6352.22
+01/10/2016,Great Britain,Other Building Materials,Concrete Roofing Tiles,Deliveries,6792.152
+01/10/2016,Great Britain,Other Building Materials,Concrete Roofing Tiles,Stocks,2689.393
+01/1/2017,Great Britain,Other Building Materials,Concrete Roofing Tiles,Production,7050.329
+01/1/2017,Great Britain,Other Building Materials,Concrete Roofing Tiles,Deliveries,6771.708
+01/1/2017,Great Britain,Other Building Materials,Concrete Roofing Tiles,Stocks,2967.948
+01/4/2017,Great Britain,Other Building Materials,Concrete Roofing Tiles,Production,6753.629
+01/4/2017,Great Britain,Other Building Materials,Concrete Roofing Tiles,Deliveries,6862.075
+01/4/2017,Great Britain,Other Building Materials,Concrete Roofing Tiles,Stocks,2859.502
+01/7/2017,Great Britain,Other Building Materials,Concrete Roofing Tiles,Production,6546.219
+01/7/2017,Great Britain,Other Building Materials,Concrete Roofing Tiles,Deliveries,6665.461
+01/7/2017,Great Britain,Other Building Materials,Concrete Roofing Tiles,Stocks,2740.26
+01/10/2017,Great Britain,Other Building Materials,Concrete Roofing Tiles,Production,5760.661
+01/10/2017,Great Britain,Other Building Materials,Concrete Roofing Tiles,Deliveries,5441.867
+01/10/2017,Great Britain,Other Building Materials,Concrete Roofing Tiles,Stocks,2492.339
+01/1/2018,Great Britain,Other Building Materials,Concrete Roofing Tiles,Production,7816.79
+01/1/2018,Great Britain,Other Building Materials,Concrete Roofing Tiles,Deliveries,5741.954
+01/1/2018,Great Britain,Other Building Materials,Concrete Roofing Tiles,Stocks,5143.458
+01/4/2018,Great Britain,Other Building Materials,Concrete Roofing Tiles,Production,4827.778
+01/4/2018,Great Britain,Other Building Materials,Concrete Roofing Tiles,Deliveries,6221.409
+01/4/2018,Great Britain,Other Building Materials,Concrete Roofing Tiles,Stocks,4444.426
+01/7/2018,Great Britain,Other Building Materials,Concrete Roofing Tiles,Production,6884.454
+01/7/2018,Great Britain,Other Building Materials,Concrete Roofing Tiles,Deliveries,7279.994
+01/7/2018,Great Britain,Other Building Materials,Concrete Roofing Tiles,Stocks,5366.891
+01/10/2018,Great Britain,Other Building Materials,Concrete Roofing Tiles,Production,7401.712
+01/10/2018,Great Britain,Other Building Materials,Concrete Roofing Tiles,Deliveries,6865.555
+01/10/2018,Great Britain,Other Building Materials,Concrete Roofing Tiles,Stocks,5903.048
+01/1/2019,Great Britain,Other Building Materials,Concrete Roofing Tiles,Production,6963.015
+01/1/2019,Great Britain,Other Building Materials,Concrete Roofing Tiles,Deliveries,6960.969
+01/1/2019,Great Britain,Other Building Materials,Concrete Roofing Tiles,Stocks,5905.094
+01/4/2019,Great Britain,Other Building Materials,Concrete Roofing Tiles,Production,5363.859
+01/4/2019,Great Britain,Other Building Materials,Concrete Roofing Tiles,Deliveries,5511.739
+01/4/2019,Great Britain,Other Building Materials,Concrete Roofing Tiles,Stocks,4239.145
+01/7/2019,Great Britain,Other Building Materials,Concrete Roofing Tiles,Production,5999.983
+01/7/2019,Great Britain,Other Building Materials,Concrete Roofing Tiles,Deliveries,7843.534
+01/7/2019,Great Britain,Other Building Materials,Concrete Roofing Tiles,Stocks,3913.663
+01/10/2019,Great Britain,Other Building Materials,Concrete Roofing Tiles,Production,7600.508
+01/10/2019,Great Britain,Other Building Materials,Concrete Roofing Tiles,Deliveries,7515.655
+01/10/2019,Great Britain,Other Building Materials,Concrete Roofing Tiles,Stocks,3998.515
+01/1/2020,Great Britain,Other Building Materials,Concrete Roofing Tiles,Production,4023.898
+01/1/2020,Great Britain,Other Building Materials,Concrete Roofing Tiles,Deliveries,3636.801
+01/1/2020,Great Britain,Other Building Materials,Concrete Roofing Tiles,Stocks,2674.925
+01/4/2020,Great Britain,Other Building Materials,Concrete Roofing Tiles,Production,2240.032
+01/4/2020,Great Britain,Other Building Materials,Concrete Roofing Tiles,Deliveries,3382.187
+01/4/2020,Great Britain,Other Building Materials,Concrete Roofing Tiles,Stocks,2685.77
+01/7/2020,Great Britain,Other Building Materials,Concrete Roofing Tiles,Production,5211.941
+01/7/2020,Great Britain,Other Building Materials,Concrete Roofing Tiles,Deliveries,5398.7
+01/7/2020,Great Britain,Other Building Materials,Concrete Roofing Tiles,Stocks,2498.711
+01/10/2020,Great Britain,Other Building Materials,Concrete Roofing Tiles,Production,4756.394
+01/10/2020,Great Britain,Other Building Materials,Concrete Roofing Tiles,Deliveries,5414.405
+01/10/2020,Great Britain,Other Building Materials,Concrete Roofing Tiles,Stocks,1840.7
+01/1/2021,Great Britain,Other Building Materials,Concrete Roofing Tiles,Production,6080.321
+01/1/2021,Great Britain,Other Building Materials,Concrete Roofing Tiles,Deliveries,5917.631
+01/1/2021,Great Britain,Other Building Materials,Concrete Roofing Tiles,Stocks,2003.39
+01/4/2021,Great Britain,Other Building Materials,Concrete Roofing Tiles,Production,3930.05
+01/4/2021,Great Britain,Other Building Materials,Concrete Roofing Tiles,Deliveries,3990.325
+01/4/2021,Great Britain,Other Building Materials,Concrete Roofing Tiles,Stocks,1657.545
