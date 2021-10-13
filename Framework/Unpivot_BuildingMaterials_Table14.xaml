@@ -7,7 +7,7 @@
   <this:UnpivotSequence.arr_PivotColumns>
     <InArgument x:TypeArguments="s:String[]" />
   </this:UnpivotSequence.arr_PivotColumns>
-  <sap:VirtualizedContainerService.HintSize>777.6,1991.2</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>692,1725.6</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="28">
@@ -67,10 +67,9 @@
       <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
       <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
       <AssemblyReference>System.Data.Entity</AssemblyReference>
-      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="INSTRUCTIONS FOR FUTURE USE: &#xA;&#xA;NB!: The Add new row items are unique to each table and need to be updated if this code is reused. The rest should work as-is if the arguments are properly used. &#xA;&#xA;" DisplayName="Unpivot Sequence" sap:VirtualizedContainerService.HintSize="702.4,1926.4" sap2010:WorkflowViewState.IdRef="Sequence_33">
+  <Sequence sap2010:Annotation.AnnotationText="INSTRUCTIONS FOR FUTURE USE: &#xA;&#xA;NB!: The Add new row items are unique to each table and need to be updated if this code is reused. The rest should work as-is if the arguments are properly used. &#xA;&#xA;" DisplayName="Unpivot Sequence" sap:VirtualizedContainerService.HintSize="702.4,1660.8" sap2010:WorkflowViewState.IdRef="Sequence_33">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:Int32" Default="0" Name="Counter" />
       <Variable x:TypeArguments="sd:DataTable" Name="dt_Unpivoted" />
@@ -81,7 +80,6 @@
         <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="660.8,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Sarted Unpivot Process.&quot;]" />
     <ui:BuildDataTable DataTable="[dt_Unpivoted]" DisplayName="Build Data Table" sap:VirtualizedContainerService.HintSize="660.8,60" sap2010:WorkflowViewState.IdRef="BuildDataTable_3" TableInfo="&lt;NewDataSet&gt;&#xA;  &lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&#xA;    &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:MainDataTable=&quot;TableName&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&#xA;      &lt;xs:complexType&gt;&#xA;        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xA;          &lt;xs:element name=&quot;TableName&quot;&gt;&#xA;            &lt;xs:complexType&gt;&#xA;            &lt;/xs:complexType&gt;&#xA;          &lt;/xs:element&gt;&#xA;        &lt;/xs:choice&gt;&#xA;      &lt;/xs:complexType&gt;&#xA;    &lt;/xs:element&gt;&#xA;  &lt;/xs:schema&gt;&#xA;&lt;/NewDataSet&gt;" />
     <ui:ForEach x:TypeArguments="x:Object" CurrentIndex="{x:Null}" sap2010:Annotation.AnnotationText="Create tthe Pivot Columns" DisplayName="For Each" sap:VirtualizedContainerService.HintSize="660.8,84" sap2010:WorkflowViewState.IdRef="ForEach`1_1" Values="[arr_PivotColumns]">
       <ui:ForEach.Body>
@@ -175,7 +173,7 @@
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
-                      <ui:AddDataRow DataRow="{x:Null}" sap2010:Annotation.AnnotationText="Needs to be edited each time. " ArrayRow="[{row.item(arr_PivotColumns(0).ToString).ToString,&#xD;&#xA;row.item(arr_PivotColumns(1).ToString).ToString,&#xD;&#xA;row.item(arr_PivotColumns(2).ToString).ToString,&#xD;&#xA;dt_TransformedOutput.Columns(Counter).ColumnName.ToString , &#xD;&#xA;row.Item(Counter).ToString }]" DataTable="[dt_Unpivoted]" DisplayName="Add Data Row" sap:VirtualizedContainerService.HintSize="200,66.4" sap2010:WorkflowViewState.IdRef="AddDataRow_5">
+                      <ui:AddDataRow DataRow="{x:Null}" sap2010:Annotation.AnnotationText="Needs to be edited each time. " ArrayRow="[{row.item(arr_PivotColumns(0).ToString).ToString,&#xA;row.item(arr_PivotColumns(1).ToString).ToString,&#xA;row.item(arr_PivotColumns(2).ToString).ToString,&#xA;dt_TransformedOutput.Columns(Counter).ColumnName.ToString , &#xA;row.Item(Counter).ToString }]" DataTable="[dt_Unpivoted]" DisplayName="Add Data Row" sap:VirtualizedContainerService.HintSize="200,66.4" sap2010:WorkflowViewState.IdRef="AddDataRow_5">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
@@ -213,6 +211,5 @@
         <InArgument x:TypeArguments="sd:DataTable">[dt_Unpivoted.Copy]</InArgument>
       </Assign.Value>
     </Assign>
-    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="660.8,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;Completed Unpivot Process.&quot;]" />
   </Sequence>
 </Activity>
