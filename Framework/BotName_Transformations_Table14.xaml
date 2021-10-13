@@ -13,7 +13,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>777.6,953.6</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>623.2,953.6</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ONSConstructionByRegion_Transformations_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="74">
@@ -83,7 +83,6 @@
       <AssemblyReference>UiPath.Azure</AssemblyReference>
       <AssemblyReference>UiPath.Azure.Activities</AssemblyReference>
       <AssemblyReference>System.Data.Entity</AssemblyReference>
-      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
   <Flowchart sap2010:Annotation.AnnotationText="------- AUTOMATION SUBPROCESS-----------------------------------------------------------------------&#xA;&#xA;Name: &#xA;Bot Reference: RIBA Bot ##&#xA;&#xA;Description: Transformation of imported datatable. &#xA;&#xA;Input: &#xA;- dt_WorkingImport&#xA;&#xA;Output:&#xA;- dt_TransformedOutput&#xA;&#xA;Developer: &#xA;Date: " DisplayName="Transformation Flow" sap:VirtualizedContainerService.HintSize="633.6,888.8" sap2010:WorkflowViewState.IdRef="Flowchart_1">
@@ -106,7 +105,7 @@
           <av:Size x:Key="ShapeSize">200,68.8</av:Size>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Sequence DisplayName="Transform Data" sap:VirtualizedContainerService.HintSize="398.4,2797.6" sap2010:WorkflowViewState.IdRef="Sequence_10">
+      <Sequence DisplayName="Transform Data" sap:VirtualizedContainerService.HintSize="398.4,2602.4" sap2010:WorkflowViewState.IdRef="Sequence_10">
         <Sequence.Variables>
           <Variable x:TypeArguments="x:Int32" Name="int_RowCounter" />
           <Variable x:TypeArguments="sd:DataTable" Name="dt_RegionList" />
@@ -430,25 +429,11 @@
         <ui:ReadCsvFile Encoding="{x:Null}" DataTable="[dt_TransformedOutput]" Delimitator="Comma" DisplayName="Read CSV" FilePath="Data\Output\Transformed Output Data\temp.csv" sap:VirtualizedContainerService.HintSize="356.8,155.2" sap2010:WorkflowViewState.IdRef="ReadCsvFile_4" />
         <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke Unpivot_BuildingMaterials_Table14 workflow" sap:VirtualizedContainerService.HintSize="356.8,88" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Framework\Unpivot_BuildingMaterials_Table14.xaml">
           <ui:InvokeWorkflowFile.Arguments>
-            <InOutArgument x:TypeArguments="sd:DataTable" x:Key="dt_TransformedOutput">
-              <mva:VisualBasicReference x:TypeArguments="sd:DataTable" ExpressionText="dt_TransformedOutput" />
-            </InOutArgument>
-            <InArgument x:TypeArguments="s:String[]" x:Key="arr_PivotColumns">
-              <mva:VisualBasicValue x:TypeArguments="s:String[]" ExpressionText="{}{&quot;Building Materials &amp; Components Type&quot;,&quot;Materials &amp; Components Sub-Type&quot;,&quot;Imports/Exports&quot;}" />
-            </InArgument>
-            <InArgument x:TypeArguments="s:String[]" x:Key="arr_UnpivotColumns">
-              <mva:VisualBasicValue x:TypeArguments="s:String[]" ExpressionText="{}{&quot;Year&quot;,&quot;Current Prices (£'000)&quot;}" />
-            </InArgument>
+            <InOutArgument x:TypeArguments="sd:DataTable" x:Key="dt_TransformedOutput">[dt_TransformedOutput]</InOutArgument>
+            <InArgument x:TypeArguments="s:String[]" x:Key="arr_PivotColumns">[{"Building Materials &amp; Components Type","Materials &amp; Components Sub-Type","Imports/Exports"}]</InArgument>
+            <InArgument x:TypeArguments="s:String[]" x:Key="arr_UnpivotColumns">[{"Year","Current Prices (£'000)"}]</InArgument>
           </ui:InvokeWorkflowFile.Arguments>
         </ui:InvokeWorkflowFile>
-        <ui:WriteCsvFile Encoding="{x:Null}" AddHeaders="True" DataTable="[dt_TransformedOutput]" Delimitator="Comma" DisplayName="Write CSV" FilePath="Data\Output\Transformed Output Data\temp2.csv" sap:VirtualizedContainerService.HintSize="356.8,155.2" sap2010:WorkflowViewState.IdRef="WriteCsvFile_13">
-          <sap:WorkflowViewStateService.ViewState>
-            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-              <x:Boolean x:Key="IsPinned">False</x:Boolean>
-            </scg:Dictionary>
-          </sap:WorkflowViewStateService.ViewState>
-        </ui:WriteCsvFile>
         <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="356.8,52.8" sap2010:WorkflowViewState.IdRef="CommentOut_9">
           <ui:CommentOut.Body>
             <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="475.2,145.6" sap2010:WorkflowViewState.IdRef="Sequence_71">
