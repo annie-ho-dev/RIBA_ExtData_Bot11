@@ -13,7 +13,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>623.2,953.6</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>753.6,953.6</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ONSConstructionByRegion_Transformations_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="74">
@@ -83,6 +83,7 @@
       <AssemblyReference>UiPath.Azure</AssemblyReference>
       <AssemblyReference>UiPath.Azure.Activities</AssemblyReference>
       <AssemblyReference>System.Data.Entity</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
   <Flowchart sap2010:Annotation.AnnotationText="------- AUTOMATION SUBPROCESS-----------------------------------------------------------------------&#xA;&#xA;Name: &#xA;Bot Reference: RIBA Bot ##&#xA;&#xA;Description: Transformation of imported datatable. &#xA;&#xA;Input: &#xA;- dt_WorkingImport&#xA;&#xA;Output:&#xA;- dt_TransformedOutput&#xA;&#xA;Developer: &#xA;Date: " DisplayName="Transformation Flow" sap:VirtualizedContainerService.HintSize="633.6,888.8" sap2010:WorkflowViewState.IdRef="Flowchart_1">
@@ -105,7 +106,7 @@
           <av:Size x:Key="ShapeSize">200,68.8</av:Size>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Sequence DisplayName="Transform Data" sap:VirtualizedContainerService.HintSize="398.4,2602.4" sap2010:WorkflowViewState.IdRef="Sequence_10">
+      <Sequence DisplayName="Transform Data" sap:VirtualizedContainerService.HintSize="398.4,2702.4" sap2010:WorkflowViewState.IdRef="Sequence_10">
         <Sequence.Variables>
           <Variable x:TypeArguments="x:Int32" Name="int_RowCounter" />
           <Variable x:TypeArguments="sd:DataTable" Name="dt_RegionList" />
@@ -601,6 +602,25 @@
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
         </ui:ForEachRow>
+        <ui:FilterDataTable DataTable="[dt_TransformedOutput]" DisplayName="Filter Data Table" sap:VirtualizedContainerService.HintSize="356.8,60" sap2010:WorkflowViewState.IdRef="FilterDataTable_9" OutputDataTable="[dt_TransformedOutput]" SelectColumnsMode="Keep">
+          <ui:FilterDataTable.Filters>
+            <scg:List x:TypeArguments="ui:FilterOperationArgument" Capacity="4">
+              <ui:FilterOperationArgument Column="{x:Null}" Operand="{x:Null}" BooleanOperator="And" Operator="LT" />
+            </scg:List>
+          </ui:FilterDataTable.Filters>
+          <ui:FilterDataTable.SelectColumns>
+            <scg:List x:TypeArguments="InArgument" Capacity="8">
+              <InArgument x:TypeArguments="x:String">["Date"]</InArgument>
+              <InArgument x:TypeArguments="x:String">["Building Materials &amp; Components Type"]</InArgument>
+              <InArgument x:TypeArguments="x:String">["Materials &amp; Components Sub-Type"]</InArgument>
+              <InArgument x:TypeArguments="x:String">["Imports/Exports"]</InArgument>
+              <InArgument x:TypeArguments="x:String">["Current Prices (£'000)"]</InArgument>
+              <InArgument x:TypeArguments="x:String">["Geographical Region"]</InArgument>
+              <InArgument x:TypeArguments="x:String">["Type"]</InArgument>
+              <InArgument x:TypeArguments="x:String">["Unique_Key"]</InArgument>
+            </scg:List>
+          </ui:FilterDataTable.SelectColumns>
+        </ui:FilterDataTable>
       </Sequence>
     </FlowStep>
   </Flowchart>

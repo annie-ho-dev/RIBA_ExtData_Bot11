@@ -1,0 +1,215 @@
+﻿Building Materials & Components Type,Materials & Components Sub-Type,Imports/Exports,2015,2016,2017,2018,2019,2020
+" Raw Materials",Sand for construction,Imports,13281,15437,13603,15559,15346,13087
+" Raw Materials",Sand for construction,Exports,8629,11342,7767,9248,13748,7305
+" Raw Materials",Crushed Rock : uncoated,Imports,25110,34361,35912,30735,32078,28005
+" Raw Materials",Crushed Rock : uncoated,Exports,47093,50281,57082,61076,64402,60288
+" Raw Materials",Crushed Rock : coated,Imports,9,2,12,105,89,1005
+" Raw Materials",Crushed Rock : coated,Exports,2977,4451,4919,6150,4539,7123
+" Raw Materials",Building Stone : unprocessed,Imports,149903,151816,176711,180697,184172,198744
+" Raw Materials",Building Stone : unprocessed,Exports,1690,1976,3128,4094,4409,1918
+" Raw Materials",Slate : unprocessed,Imports,10699,13574,19851,15487,23247,24214
+" Raw Materials",Slate : unprocessed,Exports,1921,1286,1367,2490,2205,521
+" Raw Materials",Gypsum & Anhydrite,Imports,9810,20822,21173,20958,30185,26193
+" Raw Materials",Gypsum & Anhydrite,Exports,1649,1467,2110,2672,2235,2359
+" Raw Materials",Bituminous Shale,Imports,4937,4345,6310,4620,5427,1534
+" Raw Materials",Bituminous Shale,Exports,2412,1892,2176,2630,3633,2350
+" Semi-Manufactures",Clinker,Imports,49491,49305,51769,65055,39541,20880
+" Semi-Manufactures",Clinker,Exports,1368,3303,1646,1016,774,966
+" Semi-Manufactures",Sawn Wood > 6mm thick,Imports,783597,838098,859243,883365,798895,832663
+" Semi-Manufactures",Sawn Wood > 6mm thick,Exports,18626,20373,26705,32062,27762,30980
+" Semi-Manufactures",Densified Wood,Imports,1748,1507,1400,1662,1742,2905
+" Semi-Manufactures",Densified Wood,Exports,498,588,807,680,821,731
+" Semi-Manufactures",Particle Board,Imports,44053,52261,60441,65575,56980,39228
+" Semi-Manufactures",Particle Board,Exports,5084,6476,9815,7151,8663,8029
+" Semi-Manufactures",Laminated Wood,Imports,148777,283492,359909,360362,356181,302791
+" Semi-Manufactures",Laminated Wood,Exports,10474,17098,21840,24447,27670,24709
+" Semi-Manufactures",Fibreboard,Imports,65275,74385,90128,103904,127511,100821
+" Semi-Manufactures",Fibreboard,Exports,6261,6954,8230,8883,8380,8727
+" Semi-Manufactures",Steel for Fabrication,Imports,313745,312919,378863,434401,413562,238691
+" Semi-Manufactures",Steel for Fabrication,Exports,174995,187788,191432,214804,179575,198936
+" Semi-Manufactures",Aluminium for Fabrication,Imports,494514,498713,581060,578279,489297,336260
+" Semi-Manufactures",Aluminium for Fabrication,Exports,155775,167325,190146,208494,182048,133360
+" Semi-Manufactures",Profiles of  Vinyl Chloride,Imports,29998,36600,35921,38240,37069,45021
+" Semi-Manufactures",Profiles of  Vinyl Chloride,Exports,22642,21331,24666,27777,27552,30613
+" Semi-Manufactures",Slag for Construction,Imports,8330,20782,37847,33776,39019,15023
+" Semi-Manufactures",Slag for Construction,Exports,2179,1202,1463,950,1222,1262
+" Semi-Manufactures",Tar & Bituminous Mixtures,Imports,18665,22105,19661,34211,30075,18428
+" Semi-Manufactures",Tar & Bituminous Mixtures,Exports,17210,22778,20914,25029,24690,18472
+" Semi-Manufactures",Lime,Imports,2026,1402,1992,1931,2141,1831
+" Semi-Manufactures",Lime,Exports,23847,24451,27403,22906,24514,19710
+" Semi-Manufactures",Lime,,2015,2016,2017,2018,2019,2020
+" Products & Components",Wood sleepers (rail & tram),Imports,9920,11493,24023,27715,23639,34095
+" Products & Components",Wood sleepers (rail & tram),Exports,86,406,437,564,332,1232
+" Products & Components",Building Stone : processed,Imports,189561,202159,227589,214407,238954,189267
+" Products & Components",Building Stone : processed,Exports,22639,8911,10738,10152,14148,12136
+" Products & Components",Slate Roofing Tiles*,Imports,"              :","              :","              :","              :","              :","              :"
+" Products & Components",Slate Roofing Tiles*,Exports,"              :","              :","              :","              :","              :","              :"
+" Products & Components",Other Slate Products*,Imports,"              :","              :","              :","              :","              :","              :"
+" Products & Components",Other Slate Products*,Exports,"              :","              :","              :","              :","              :","              :"
+" Products & Components",Slate Products*,Imports,72171,82174,90155,98277,102115,100085
+" Products & Components",Slate Products*,Exports,8189,8507,7531,7272,6472,5802
+" Products & Components",Portland Cement,Imports,86241,101182,103551,103451,113464,112042
+" Products & Components",Portland Cement,Exports,6321,7226,10963,13776,13390,9616
+" Products & Components",Other Cements,Imports,60734,61573,62630,71723,87441,78881
+" Products & Components",Other Cements,Exports,32071,33352,38927,42432,36701,31958
+" Products & Components",Steel Sheet Piling,Imports,77089,67072,68240,69611,69863,77109
+" Products & Components",Steel Sheet Piling,Exports,31643,33725,31848,40553,32828,31446
+" Products & Components",Ready-Mixed Concrete,Imports,160,5,23,28,38,62
+" Products & Components",Ready-Mixed Concrete,Exports,1752,2281,1750,2334,2694,2677
+" Products & Components",Concrete Reinforcing Bars,Imports,197838,157560,201187,268593,237789,177122
+" Products & Components",Concrete Reinforcing Bars,Exports,35785,24476,22390,32244,46668,47990
+" Products & Components",Mortars,Imports,10127,11812,9477,12901,11862,24649
+" Products & Components",Mortars,Exports,5725,8483,9301,10356,11454,9751
+" Products & Components",Clay Bricks,Imports,64468,66966,85248,116032,137431,106521
+" Products & Components",Clay Bricks,Exports,4537,7435,9037,9158,7421,8488
+" Products & Components",Clay Roofing Tiles,Imports,18852,25998,35085,35139,30592,35191
+" Products & Components",Clay Roofing Tiles,Exports,274,300,401,419,453,788
+" Products & Components",Clay Pipes,Imports,1044,1548,1579,1567,1886,743
+" Products & Components",Clay Pipes,Exports,3550,4485,3743,4356,5064,2467
+" Products & Components",Other Clay Products,Imports,7740,15961,15209,13453,7621,8814
+" Products & Components",Other Clay Products,Exports,2419,2897,2605,2236,2660,2183
+" Products & Components",Concrete Blocks & Bricks,Imports,12200,30327,31847,32542,29954,35571
+" Products & Components",Concrete Blocks & Bricks,Exports,5335,7474,7184,10273,9793,8849
+" Products & Components",Concrete Roofing Tiles*,Imports,"              :","              :","              :","              :","              :","              :"
+" Products & Components",Concrete Roofing Tiles*,Exports,"              :","              :","              :","              :","              :","              :"
+" Products & Components",Other Concrete Tiles & Paving*,Imports,"              :","              :","              :","              :","              :","              :"
+" Products & Components",Other Concrete Tiles & Paving*,Exports,"              :","              :","              :","              :","              :","              :"
+" Products & Components",Concrete Tiles and Pavings*,Imports,23726,29353,36770,47933,46713,32153
+" Products & Components",Concrete Tiles and Pavings*,Exports,9427,15311,36770,18185,19414,19606
+" Products & Components",Prefabricated Concrete Products,Imports,73013,138716,116266,106837,86939,60925
+" Products & Components",Prefabricated Concrete Products,Exports,1282,2239,4758,7393,9062,7766
+" Products & Components",Concrete Pipes,Imports,105963,124946,142585,147565,162552,110550
+" Products & Components",Concrete Pipes,Exports,38318,47342,46733,37531,30513,27285
+" Products & Components",Concrete Pipes,,2015,2016,2017,2018,2019,2020
+" Products & Components",Structural Units (steel),Imports,242664,314887,179194,784912,468356,430791
+" Products & Components",Structural Units (steel),Exports,187947,184667,192728,190175,247791,153455
+" Products & Components",Structural Units (aluminium),Imports,229463,355628,308660,412373,506197,437048
+" Products & Components",Structural Units (aluminium),Exports,72837,62573,76696,98808,77947,72532
+" Products & Components",Steel Tubes & Hollow Sections,Imports,127047,145661,182169,165142,167081,116711
+" Products & Components",Steel Tubes & Hollow Sections,Exports,94695,68814,88760,93565,102217,89886
+" Products & Components",Bituminous Roofing Felt*,Imports,"              :","              :","              :","              :","              :","              :"
+" Products & Components",Bituminous Roofing Felt*,Exports,"              :","              :","              :","              :","              :","              :"
+" Products & Components",Other Asphalt products*,Imports,"              :","              :","              :","              :","              :","              :"
+" Products & Components",Other Asphalt products*,Exports,"              :","              :","              :","              :","              :","              :"
+" Products & Components",Asphalt Products*,Imports,62171,64877,73520,77035,94287,90544
+" Products & Components",Asphalt Products*,Exports,11690,11516,9589,10359,13771,12262
+" Products & Components",Mineral Insulating Materials,Imports,99542,106547,124026,143407,135688,109779
+" Products & Components",Mineral Insulating Materials,Exports,151080,162242,190839,196774,211036,178989
+" Products & Components",Glass Fibre**,Imports,"              :","              :","              :","              :","              :","              :"
+" Products & Components",Glass Fibre**,Exports,"              :","              :","              :","              :","              :","              :"
+" Products & Components",Fibre Cement Products,Imports,64201,72723,83967,80024,86056,86423
+" Products & Components",Fibre Cement Products,Exports,6866,10836,11831,9282,11405,4819
+" Products & Components",Building Plasters1,Imports,"              :","              :","              :","              :","              :","              :"
+" Products & Components",Building Plasters1,Exports,"              :","              :","              :","              :","              :","              :"
+" Products & Components",Plasters1,Imports,9311,11498,24626,25268,20252,28101
+" Products & Components",Plasters1,Exports,7925,9345,12458,15254,15128,12046
+" Products & Components",Plasterboard,Imports,29038,33957,47639,47489,60433,52268
+" Products & Components",Plasterboard,Exports,10895,12884,15477,16789,21222,14377
+" Products & Components",Copper Pipes,Imports,232193,243618,303881,319449,329345,264305
+" Products & Components",Copper Pipes,Exports,98036,89153,128700,128890,103153,97577
+" Products & Components",Lead Pipes & Fittings**,Imports,"              :","              :","              :","              :","              :","              :"
+" Products & Components",Lead Pipes & Fittings**,Exports,"              :","              :","              :","              :","              :","              :"
+" Products & Components",Zinc Pipes & Fittings*,Imports,"              :","              :","              :","              :","              :","              :"
+" Products & Components",Zinc Pipes & Fittings*,Exports,"              :","              :","              :","              :","              :","              :"
+" Products & Components",Other Zinc Building Products*,Imports,"              :","              :","              :","              :","              :","              :"
+" Products & Components",Other Zinc Building Products*,Exports,"              :","              :","              :","              :","              :","              :"
+" Products & Components",Zinc Building Products*,Imports,17863,21071,23385,28284,20236,12149
+" Products & Components",Zinc Building Products*,Exports,33036,36537,43660,50190,20236,45064
+" Products & Components",Plastic Pipes,Imports,135611,135985,153533,180619,199580,205136
+" Products & Components",Plastic Pipes,Exports,149220,169877,179551,200815,208114,206508
+" Products & Components",Other Plastic Building Products,Imports,205501,236608,278267,281008,292647,296469
+" Products & Components",Other Plastic Building Products,Exports,124773,136731,158179,177535,183960,167035
+" Products & Components",Builders Ironmongery,Imports,371498,386506,451700,493945,529226,445034
+" Products & Components",Builders Ironmongery,Exports,138961,164424,225751,231937,264240,211737
+" Products & Components",Nails & Screws,Imports,68360,80506,86634,92634,94145,77724
+" Products & Components",Nails & Screws,Exports,8023,8752,10051,11408,10566,11278
+" Products & Components","Mastics, Putty",Imports,180937,210808,222507,246691,235684,220029
+" Products & Components","Mastics, Putty",Exports,137914,161286,178310,202546,219136,211525
+" Products & Components",Paints & Varnishes,Imports,437542,477875,545870,539296,522156,490170
+" Products & Components",Paints & Varnishes,Exports,607263,608147,669195,716884,751684,687935
+" Products & Components",Paints & Varnishes,,2015,2016,2017,2018,2019,2020
+" Products & Components",Unglazed Ceramic Tiles,Imports,69862,76768,359291,328391,365387,339715
+" Products & Components",Unglazed Ceramic Tiles,Exports,3710,4726,22498,20862,15871,18722
+" Products & Components",Glazed Ceramic Tiles,Imports,203113,229910,"              :","              :","              :","              :"
+" Products & Components",Glazed Ceramic Tiles,Exports,15867,15967,"              :","              :","              :","              :"
+" Products & Components",Ceramic Sanitaryware,Imports,201395,211761,223463,215855,239905,188398
+" Products & Components",Ceramic Sanitaryware,Exports,29386,31926,36163,40118,41436,33416
+" Products & Components",Plastic Sanitaryware,Imports,137983,147671,163898,168461,173206,157997
+" Products & Components",Plastic Sanitaryware,Exports,47037,54262,61389,65988,66016,55157
+" Products & Components",Metal Sanitaryware,Imports,133225,144313,171007,157017,152477,129026
+" Products & Components",Metal Sanitaryware,Exports,38149,44020,45863,45732,41637,40933
+" Products & Components",Flat Glass,Imports,50804,69236,63909,71916,56990,48341
+" Products & Components",Flat Glass,Exports,25317,24907,30738,30631,27942,30322
+" Products & Components",Other Glass Products,Imports,82429,92256,106388,122532,134212,124397
+" Products & Components",Other Glass Products,Exports,27101,33141,37574,43421,52960,54145
+" Products & Components",Wood Veneers,Imports,29763,34648,26450,29312,20093,21538
+" Products & Components",Wood Veneers,Exports,4591,5783,4814,3581,3461,3067
+" Products & Components",Wood Mouldings,Imports,68027,67647,64155,64276,55240,53237
+" Products & Components",Wood Mouldings,Exports,9786,9545,12038,17062,17452,17210
+" Products & Components",Wood Block Flooring,Imports,177410,182219,220274,180494,193649,152672
+" Products & Components",Wood Block Flooring,Exports,7329,9981,10318,12675,10383,9975
+" Products & Components",Other Builder's Woodwork,Imports,118448,130673,153461,134493,152560,146653
+" Products & Components",Other Builder's Woodwork,Exports,13887,13128,17039,15782,16536,14418
+" Products & Components",Windows (wood),Imports,151026,176592,198835,204034,207409,187431
+" Products & Components",Windows (wood),Exports,12580,12168,12041,13075,10737,12005
+" Products & Components",Doors (wood),Imports,228777,253717,260881,260979,272113,237836
+" Products & Components",Doors (wood),Exports,17141,19948,20203,32963,30966,25958
+" Products & Components",Doors & Windows (steel),Imports,46899,54702,63021,66576,77091,67687
+" Products & Components",Doors & Windows (steel),Exports,29452,32971,34182,34326,38987,39516
+" Products & Components",Doors & Windows (aluminium),Imports,76900,92369,128564,155043,137473,134988
+" Products & Components",Doors & Windows (aluminium),Exports,21563,24770,31516,35900,40377,25743
+" Products & Components",Doors & Windows (plastic),Imports,63762,70187,79104,93544,104088,81994
+" Products & Components",Doors & Windows (plastic),Exports,38945,35657,37585,39599,41187,38342
+" Products & Components",Cork Tiles,Imports,1581,1061,1082,1111,1500,1213
+" Products & Components",Cork Tiles,Exports,2456,2075,2445,2099,2696,2135
+" Products & Components",Linoleum Floor Coverings,Imports,364202,405910,472668,485706,545328,560019
+" Products & Components",Linoleum Floor Coverings,Exports,221618,254686,298418,321021,317504,277659
+" Products & Components",Wallpaper,Imports,67081,65756,74965,84113,93189,91375
+" Products & Components",Wallpaper,Exports,74091,84422,81229,77000,85069,75252
+" Products & Components",Textile Wall Coverings,Imports,5133,6559,7728,6531,6123,4297
+" Products & Components",Textile Wall Coverings,Exports,785,984,1499,1474,3146,3952
+" Products & Components",Textile Wall Coverings,,2015,2016,2017,2018,2019,2020
+" Products & Components",Fitted Kitchens (assembled),Imports,75096,73920,86086,68062,76419,83002
+" Products & Components",Fitted Kitchens (assembled),Exports,22884,17903,30396,33435,25195,23303
+" Products & Components",Prefabricated Buildings (wood),Imports,64011,58783,43658,60042,59176,61971
+" Products & Components",Prefabricated Buildings (wood),Exports,5438,4403,7618,7712,10862,11324
+" Products & Components",Prefabricated Buildings (steel),Imports,59229,73410,66669,79487,55949,90745
+" Products & Components",Prefabricated Buildings (steel),Exports,38377,61390,62002,84749,58334,44655
+" Products & Components",Prefabricated Buildings (other),Imports,38773,47148,48805,74862,63104,91975
+" Products & Components",Prefabricated Buildings (other),Exports,26988,11994,21591,15448,23670,25049
+" Products & Components",Mobile Homes,Imports,288,1404,36497,3830,2107,1515
+" Products & Components",Mobile Homes,Exports,10784,10702,5658,10736,14017,10088
+" Products & Components",Taps & Valves,Imports,396977,410262,443229,425027,443400,367152
+" Products & Components",Taps & Valves,Exports,106337,106143,119412,104025,124395,102398
+" Products & Components",Pumps (circulating),Imports,38310,47261,38761,65214,76338,64092
+" Products & Components",Pumps (circulating),Exports,12767,10483,13573,8978,9494,4068
+" Products & Components",Central Heating Boilers,Imports,584030,624423,640815,664916,622362,550581
+" Products & Components",Central Heating Boilers,Exports,75463,110656,152292,180696,171280,159651
+" Products & Components",Radiators,Imports,184085,191200,210206,213025,240469,225483
+" Products & Components",Radiators,Exports,40929,45208,49243,50045,40377,33733
+" Products & Components",Water Heaters,Imports,127898,139385,148614,153555,182645,195521
+" Products & Components",Water Heaters,Exports,65808,65569,71045,73064,68379,70439
+" Products & Components",Space Heaters,Imports,130099,140966,150464,165358,166675,141695
+" Products & Components",Space Heaters,Exports,31490,32277,40711,47546,56996,57719
+" Products & Components",Fan Systems,Imports,245360,291210,205348,237937,273399,259549
+" Products & Components",Fan Systems,Exports,143119,129268,84271,106124,140893,129924
+" Products & Components",Air Conditioning Equipment,Imports,518087,585067,663142,659164,665685,551145
+" Products & Components",Air Conditioning Equipment,Exports,284946,340891,374499,412136,403255,330377
+" Products & Components",Air Purifying Equipment,Imports,78450,97383,104833,128375,159602,157560
+" Products & Components",Air Purifying Equipment,Exports,229591,280094,253924,277036,284424,260912
+" Products & Components",Hand Driers,Imports,12131,11919,12887,11929,14341,11707
+" Products & Components",Hand Driers,Exports,1990,2004,2106,1954,2086,1461
+" Products & Components",Meters,Imports,97599,170651,308905,224724,196336,143352
+" Products & Components",Meters,Exports,73939,68224,65336,41624,26543,29795
+" Products & Components",Plugs & Sockets,Imports,440962,500148,587447,618573,601923,455745
+" Products & Components",Plugs & Sockets,Exports,306814,360391,429684,455606,476377,355998
+" Products & Components",Electrical Wires,Imports,1555575,1722019,1927463,1902786,1936389,1862726
+" Products & Components",Electrical Wires,Exports,685189,711411,855361,866414,878601,930027
+" Products & Components",Electrical Insulators,Imports,37547,42682,50524,40384,44061,28801
+" Products & Components",Electrical Insulators,Exports,27498,25494,28415,32638,32033,33562
+" Products & Components",Lamps & Fittings,Imports,875583,972629,990825,912344,982957,871286
+" Products & Components",Lamps & Fittings,Exports,329238,364805,381091,386994,384563,325571
+" Products & Components",Fire & Security Alarms,Imports,243331,199177,214030,294986,307678,245628
+" Products & Components",Fire & Security Alarms,Exports,261334,259129,268974,248992,249645,192386
+" Products & Components",Lifts & Escalators,Imports,125768,139702,175643,173792,152111,160319
+" Products & Components",Lifts & Escalators,Exports,21193,25693,26868,26693,30718,40289
